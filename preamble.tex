@@ -1,0 +1,145 @@
+%%% Time-stamp: <2023-05-27 22:36:03 vladimir>
+%%% Copyright (C) 2019-2023 Vladimir G. Ivanović
+%%% Author: Vladimir G. Ivanović <vladimir@acm.org>
+%%% ORCID: https://orcid.org/0000-0002-7802-7970
+
+% !TEX TS-program = lualatex
+
+% \RequirePackage[l2tabu, orthodox]{nag}
+
+\documentclass[letterpaper,twoside,openright,article,12pt]{memoir} % SJSU EDD Guidelines Checklist #18
+
+\usepackage[pagewise]{lineno}
+\usepackage{adforn}
+\usepackage{array}
+\usepackage{authblk}
+\usepackage{booktabs}
+\usepackage{calc}
+\usepackage[labelfont=rm]{caption}
+\usepackage{csquotes}
+\usepackage{datetime2}
+\usepackage[shortlabels]{enumitem}
+% \usepackage[draft,inline,margin=false]{fixme}
+\usepackage{fontspec}
+\usepackage[ragged]{footmisc}
+\usepackage[left=1.5in, top=1.25in, bottom=1.25in, nomarginpar]{geometry}
+\usepackage{graphicx}
+\usepackage{imakeidx}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{mVersion}
+\usepackage{orcidlink}
+\usepackage{pgfplots}
+\pgfplotsset{compat/show suggested version=false}
+% \usepackage{subcaption}
+\usepackage{prettyref}
+\usepackage[normalem]{ulem}
+\usepackage{url}
+%\usepackage[nospace]{varioref}
+\usepackage{xcolor}
+\usepackage{hyperref}           % Should be last
+
+\usepackage{polyglossia}
+\setdefaultlanguage{american}
+\usepackage[style=apa,sortcites=false,sorting=nyt,backend=biber]{biblatex}
+\DeclareLanguageMapping{american}{american-apa}
+
+% \setVersion{1.0}                % Major.minor.build; Increment major and minor as appropriate
+\increaseBuild{}
+
+\setmainfont[Ligatures=TeX,Numbers=OldStyle]{Alegreya}
+\setsansfont[Ligatures=TeX,Numbers=OldStyle]{Alegreya Sans}
+\setmonofont[Scale=MatchLowercase]{Fira Mono}
+\setmathtt[Scale=MatchLowercase]{Fira Math}
+
+\pagestyle{plain}               % SJSU EDD Guidelines Checklist #10
+%\checkthelayout
+
+\raggedright%                    % SJSU EDD Guidelines Checklist #2, #4
+
+% % See memman.pdf p.52
+% % \clubpenalty=10000
+% % \widowpenalty=10000
+% \sloppybottom%
+
+\setlength{\footskip}{\onelineskip}
+\setlength{\footnotesep}{\onelineskip}
+
+\def\UrlFont{\footnotesize\texttt}
+\urlstyle{tt}
+
+\pgfplotsset{compat=default}
+
+\setlength{\parindent}{0.25in}  % SJSU EDD Guidelines Checklist #3
+
+\DoubleSpacing%
+
+\tightlists%
+\setlist[1]{labelindent=\parindent}
+\setlist[itemize]{leftmargin=*}
+\setlist[enumerate]{leftmargin=*}
+\setlist[description]{leftmargin=2\parindent}
+
+\setsecnumdepth{chapter}
+\maxsecnumdepth{chapter}
+\settocdepth{subsubsection}
+
+% % \citeauthor prints only the last name. This command prints the author(s) first and last name.
+% \newrobustcmd*{\citefirstlastauthor}{\AtNextCite{\DeclareNameAlias{labelname}{given-family}}\citeauthor}
+
+\makechapterstyle{sjsu}{%
+  \chapterstyle{article}
+  \setlength{\afterchapskip}{0in}
+  \renewcommand{\chapnamefont}{\normalfont\bfseries}
+  \renewcommand{\chapnumfont}{\normalfont\bfseries}
+  \renewcommand{\chaptitlefont}{\normalfont\bfseries}
+  \renewcommand{\printchaptername}{}
+  \renewcommand{\printchapternum}{}
+  \renewcommand{\printchaptertitle}[1]{%          % APA Level 1 Heading: centered, bold, title case
+    \SingleSpacing\centering\normalfont\bfseries\chaptitlefont{}##1}
+}
+\chapterstyle{sjsu}
+
+\makechapterstyle{appdx_sjsu}{%
+  \settocdepth{subsection}
+  \setlength{\afterchapskip}{0in}
+  \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chaptitlefont}{}
+  \renewcommand*{\printchaptername}{}
+  \renewcommand*{\printchapternum}{}
+  % \renewcommand*{\midchapskip}{-0.24in}
+  \renewcommand*{\printchaptertitle}[1]{%
+  \SingleSpacing\centering{\textbf\chaptitlefont{}##1}}}
+
+\indentafterchapter%
+
+\setsecheadstyle{\noindent\normalfont\bfseries\raggedright}% APA Level 2 Heading: flush left, bold, title case
+\setsubsecheadstyle{\noindent\normalfont\itshape\bfseries\raggedright}% APA Level 3 Heading: flush left, bold italic, title case
+\setsubsubsecheadstyle{\indent\normalfont\bfseries\raggedright}% APA Level 4 Heading: indented, bold, title case, end with '.'
+
+\setbeforesecskip{-\onelineskip}
+\setbeforesubsecskip{0pt}
+\setbeforesubsubsecskip{0pt}
+
+\setaftersecskip{0pt}
+\setaftersubsecskip{0pt}
+\setaftersubsubsecskip{0pt}
+
+\renewcommand{\cftchapterfont}{\normalfont\bfseries}
+\renewcommand{\cftsectionfont}{\normalfont}
+\renewcommand{\cftsubsectionfont}{\normalfont}
+\renewcommand{\cftsubsubsectionfont}{\normalfont}
+
+\renewcommand{\abstractnamefont}{\normalfont\centering}
+
+\captionsetup{singlelinecheck=false,justification=raggedright,labelfont={bf,footnotesize},labelsep=newline}
+
+%setlength{\bibitemsep}{\onelineskip}
+
+\indexsetup{level=\chapter,toclevel=chapter}
+\makeindex
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "Rocketship_Education-An_Exploratory_Public_Policy_Case_Study"
+%%% End:

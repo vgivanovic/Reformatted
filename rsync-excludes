@@ -1,0 +1,15 @@
+.#*
+*.aux
+*.bbl
+*.bcf
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.out
+*.run*.xml
+*.toc
+.git
+auto
+tmp

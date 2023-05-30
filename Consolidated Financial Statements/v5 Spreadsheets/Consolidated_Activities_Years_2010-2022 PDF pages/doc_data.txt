@@ -1,0 +1,35 @@
+InfoBegin
+InfoKey: Creator
+InfoValue: Calc
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20230119223131-08&apos;00&apos;
+InfoBegin
+InfoKey: Producer
+InfoValue: LibreOffice 7.4
+InfoBegin
+InfoKey: Author
+InfoValue: Vladimir Ivanovi&#263;
+PdfID0: d78cb8cefc7b783e651bf705ac7f6b85
+PdfID1: d78cb8cefc7b783e651bf705ac7f6b85
+NumberOfPages: 4
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 792 612
+PageMediaDimensions: 792 612
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 792 612
+PageMediaDimensions: 792 612
+PageMediaBegin
+PageMediaNumber: 3
+PageMediaRotation: 0
+PageMediaRect: 0 0 792 612
+PageMediaDimensions: 792 612
+PageMediaBegin
+PageMediaNumber: 4
+PageMediaRotation: 0
+PageMediaRect: 0 0 792 612
+PageMediaDimensions: 792 612
