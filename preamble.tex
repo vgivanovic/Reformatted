@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-05-27 22:36:03 vladimir>
+%%% Time-stamp: <2023-06-06 14:25:38 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -33,6 +33,8 @@
 \pgfplotsset{compat/show suggested version=false}
 % \usepackage{subcaption}
 \usepackage{prettyref}
+\newrefformat{fig}{Figure \ref{#1}, \textit{\titleref{#1}}}
+%\newrefformat{fig}{Figure \ref{#1}, \textit{\titleref{#1}}, on page \pageref{#1}}
 \usepackage[normalem]{ulem}
 \usepackage{url}
 %\usepackage[nospace]{varioref}

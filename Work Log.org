@@ -1,9 +1,7 @@
 ﻿#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-### Time-stamp: <2023-05-13 23:10:37 vladimir>
+### Time-stamp: <2023-06-06 21:48:56 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
-#+STARTUP: content
-#+SEQ_TODO: TODO ONGOING DONE
 #+title: Work Log
 
 * <2021-04-29 Thu> with Arnie
@@ -287,8 +285,32 @@ CLOCK: [2023-05-07 Sun 14:27]--[2023-05-07 Sun 17:40] =>  3:13
 :END:
 
 * <2023-05-08 Mon>
-** Gathering SB740 payments using CSFA data1<
+** Gathering SB740 payments using CSFA data
 :LOGBOOK:
-CLOCK: [2023-05-08 Mon 10:15]
 CLOCK: [2023-05-08 Mon 08:06]--[2023-05-08 Mon 09:36] =>  1:30
+:END:
+
+* <2023-06-01 Thu>
+** Performed maintenance on ~/Ed.D./Dissertation/Chapter_4 an ~/Dropbox/EDD/Dissertation/Chapter_4.
+:LOGBOOK:
+CLOCK: [2023-06-01 Thu 10:53]--[2023-06-01 Thu 11:33] =>  0:40
+:END:
+** Editing Introduction.tex and Methods.tex
+:LOGBOOK:
+CLOCK: [2023-06-01 Thu 14:16]--[2023-06-01 Thu 17:23] =>  3:07
+CLOCK: [2023-06-01 Thu 11:34]--[2023-06-01 Thu 12:44] =>  1:10
+:END:
+* <2023-06-02 Fri>
+** Editing Methods.tex
+:LOGBOOK:
+CLOCK: [2023-06-02 Fri 14:45]--[2023-06-02 Fri 17:02] =>  2:17
+CLOCK: [2023-06-02 Fri 13:13]--[2023-06-02 Fri 13:23] =>  0:10
+:END:
+* <2023-06-03 Sat>
+** Editing Methods.tex
+* <2023-06-06 Tue>
+** Editing Methods.tex
+:LOGBOOK:
+CLOCK: [2023-06-06 Tue 21:48]
+CLOCK: [2023-06-06 Tue 15:28]--[2023-06-06 Tue 15:48] =>  0:20
 :END:

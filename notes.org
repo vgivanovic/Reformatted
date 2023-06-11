@@ -1,10 +1,16 @@
-﻿#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-### Time-stamp: <2023-05-13 23:09:19 vladimir>
-### Copyright (C) 2019-2023 Vladimir G. Ivanović
-### Author: Vladimir G. Ivanović <vladimir@acm.org>
-#+STARTUP: overview
-#+SEQ_TODO: TODO ONGOING DONE
-#+title: Notes and To Dos
+# *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
+# Time-stamp: <2023-06-06 22:59:58 vladimir>
+# Copyright (C) 2019-2023 Vladimir G. Ivanović
+# Author: Vladimir G. Ivanović <vladimir@acm.org>
+#+itle: Notes and To Dos
+
+* Things to do whenever ending an editing session on mozart.
+1. Make sure everything builds.
+2. Check modified files into Git.
+3. Remove untracked files from the working tree.
+4. If 'lsyncd' isn't running, rsync into local Dropbox.
+5. Rsync into prokofiev/mozart.
+6. Make sure prokofiev/mozart builds.
 
 * TODO by section in dissertation
 ** TODO General
@@ -50,6 +56,19 @@
 *** Add New Markets Tax Credit explanation.
 *** Make sure citations are correct.
 
+
+* Four principles of high quality case studies
+1. First, your analysis should show that you attended to all the evidence. Your analytic strategies, including the development of rival hypotheses, must exhaustively cover your key research questions (you can now appreciate better the importance of defining sharp as opposed to vague questions). Your analysis should show how it sought to use as much evidence as was available, and your interpretations should account for all this evidence and leave no loose ends. Without achieving this standard, your analysis may be vulnerable to alternative interpretations based on the evidence that you had (inadvertently) ignored.
+2. Second, your analysis should investigate, if possible, all plausible rival interpretations. If someone else has an alternative interpretation for one or more of your findings, make this alternative into a rival. Is there evidence to address the rival? If so, what are the results? If not, should the rival be restated as a loose end to be investigated in future studies?
+3. Third, your analysis should address the most significant aspect of your case study. Whether it is a single- or multiple-case study, you will have demonstrated your best analytic skills if the analysis focuses on the most important issue (whether defined at the outset of the case study or by working with your data from the “ground up”). By avoiding excessive detours to lesser issues, your analysis will be less vulnerable to the accusation that you diverted attention away from the main issue because of potentially contrary findings.
+4. Fourth, you should demonstrate a familiarity with the prevailing thinking and discourse about the case study topic. If you know your subject matter as a result of your own previous research and publications, so much the better.
+* Case study evidence can be
+- documents,
+- archival records,
+- interviews,
+- direct observations,
+- participant-observation, and
+- physical artifacts.
 * Annual Financial Data (SACS forms and Alternative forms)
 https://www.cde.ca.gov/ds/fd/fd/
 * Grants to Rocketship for Replication and Expansion of High-Quality Charter Schools by Public Charter Schools Programs of U.S. Dept. of Education, 2009-2016
