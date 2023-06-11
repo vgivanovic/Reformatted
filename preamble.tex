@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-06-06 14:25:38 vladimir>
+%%% Time-stamp: <2023-06-11 15:46:34 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -33,7 +33,11 @@
 \pgfplotsset{compat/show suggested version=false}
 % \usepackage{subcaption}
 \usepackage{prettyref}
-\newrefformat{fig}{Figure \ref{#1}, \textit{\titleref{#1}}}
+\newrefformat{ch}{Chapter \ref{#1}, \textit{\titleref{#1}}}
+\newrefformat{sec}{Section \ref{#1}, \textit{\titleref{#1}}}
+\newrefformat{tab}{Table\ \ref{#1}, \textit{\titleref{#1}}}
+\newrefformat{fig}{Figure \ref{#1}, \textit{\titleref{#1}}}
+\newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
 %\newrefformat{fig}{Figure \ref{#1}, \textit{\titleref{#1}}, on page \pageref{#1}}
 \usepackage[normalem]{ulem}
 \usepackage{url}
@@ -82,8 +86,8 @@
 \setlist[enumerate]{leftmargin=*}
 \setlist[description]{leftmargin=2\parindent}
 
-\setsecnumdepth{chapter}
-\maxsecnumdepth{chapter}
+\setsecnumdepth{subsubsection}
+\maxsecnumdepth{subsubsection}
 \settocdepth{subsubsection}
 
 % % \citeauthor prints only the last name. This command prints the author(s) first and last name.

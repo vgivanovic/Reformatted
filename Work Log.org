@@ -1,7 +1,8 @@
 ﻿#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-### Time-stamp: <2023-06-06 21:48:56 vladimir>
+### Time-stamp: <2023-06-11 14:58:25 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
+#+startup: overview
 #+title: Work Log
 
 * <2021-04-29 Thu> with Arnie
@@ -311,6 +312,15 @@ CLOCK: [2023-06-02 Fri 13:13]--[2023-06-02 Fri 13:23] =>  0:10
 * <2023-06-06 Tue>
 ** Editing Methods.tex
 :LOGBOOK:
-CLOCK: [2023-06-06 Tue 21:48]
+CLOCK: [2023-06-06 Tue 21:48]--[2023-06-06 Tue 22:18] =>  0:30
 CLOCK: [2023-06-06 Tue 15:28]--[2023-06-06 Tue 15:48] =>  0:20
+:END:
+* <2023-06-11 Sun>
+** Restoring Chapter 3 from backups
+:LOGBOOK:
+CLOCK: [2023-06-11 Sun 10:26]--[2023-06-11 Sun 13:28] =>  3:02
+:END:
+** Back to work on Methods.tex starting with the last preserved edit after Section 3.2.1 State and Federal Filings (new p. 62)
+:LOGBOOK:
+CLOCK: [2023-06-11 Sun 14:44]
 :END:
