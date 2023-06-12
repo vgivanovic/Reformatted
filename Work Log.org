@@ -1,5 +1,5 @@
 ﻿#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-### Time-stamp: <2023-06-11 14:58:25 vladimir>
+### Time-stamp: <2023-06-11 20:05:54 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -322,5 +322,9 @@ CLOCK: [2023-06-11 Sun 10:26]--[2023-06-11 Sun 13:28] =>  3:02
 :END:
 ** Back to work on Methods.tex starting with the last preserved edit after Section 3.2.1 State and Federal Filings (new p. 62)
 :LOGBOOK:
-CLOCK: [2023-06-11 Sun 14:44]
+CLOCK: [2023-06-11 Sun 13:20]--[2023-06-11 Sun 18:10] =>  4:50
+:END:
+** Methods.tex, starting on p.66 and going through p.
+:LOGBOOK:
+CLOCK: [2023-06-11 Sun 19:37]
 :END:
