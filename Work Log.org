@@ -1,5 +1,5 @@
-﻿#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-### Time-stamp: <2023-06-11 20:05:54 vladimir>
+#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
+### Time-stamp: <2023-06-12 17:26:51 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -316,15 +316,22 @@ CLOCK: [2023-06-06 Tue 21:48]--[2023-06-06 Tue 22:18] =>  0:30
 CLOCK: [2023-06-06 Tue 15:28]--[2023-06-06 Tue 15:48] =>  0:20
 :END:
 * <2023-06-11 Sun>
-** Restoring Chapter 3 from backups
+* ** Restoring Chapter 3 from backups
 :LOGBOOK:
 CLOCK: [2023-06-11 Sun 10:26]--[2023-06-11 Sun 13:28] =>  3:02
 :END:
-** Back to work on Methods.tex starting with the last preserved edit after Section 3.2.1 State and Federal Filings (new p. 62)
+** Back to work on Methods.4tex starting with the last preserved edit after Section 3.2.1 State and Federal Filings (new p. 62)
 :LOGBOOK:
 CLOCK: [2023-06-11 Sun 13:20]--[2023-06-11 Sun 18:10] =>  4:50
 :END:
-** Methods.tex, starting on p.66 and going through p.
+** Methods.tex, ending on p. {old/66, new/64}
 :LOGBOOK:
-CLOCK: [2023-06-11 Sun 19:37]
+CLOCK: [2023-06-11 Sun 19:37]—-[2023-06-11 Sun 22:09] => 2:32
 :END:
+* <2023-06-12 Mon>
+** Back to Methods.tex
+:LOGBOOK:
+CLOCK: [2023-06-12 Mon 12:12]--[2023-06-12 Mon 13:32] =>  1:20
+:END:
+* 
+* 
