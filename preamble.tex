@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-06-11 15:46:34 vladimir>
+%%% Time-stamp: <2023-06-13 11:55:55 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -22,6 +22,7 @@
 % \usepackage[draft,inline,margin=false]{fixme}
 \usepackage{fontspec}
 \usepackage[ragged]{footmisc}
+\usepackage[edges]{forest}
 \usepackage[left=1.5in, top=1.25in, bottom=1.25in, nomarginpar]{geometry}
 \usepackage{graphicx}
 \usepackage{imakeidx}
@@ -40,6 +41,9 @@
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
 %\newrefformat{fig}{Figure \ref{#1}, \textit{\titleref{#1}}, on page \pageref{#1}}
 \usepackage[normalem]{ulem}
+% \usepackage{tikz}
+% \usetikzlibrary{graphdrawing.trees}
+% \tikzstyle{every node}=[draw=black,thick,rectangle]
 \usepackage{url}
 %\usepackage[nospace]{varioref}
 \usepackage{xcolor}
@@ -144,6 +148,8 @@
 
 \indexsetup{level=\chapter,toclevel=chapter}
 \makeindex
+
+
 
 %%% Local Variables:
 %%% mode: latex

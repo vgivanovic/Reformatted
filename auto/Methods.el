@@ -20,6 +20,7 @@
     "sec:real-estate"
     "tab:charter-facilities-options"
     "sec:leasing"
+    "sec:co-locating"
     "sec:gaps-anomalies"
     "sec:triangulation"
     "serious-problems"
