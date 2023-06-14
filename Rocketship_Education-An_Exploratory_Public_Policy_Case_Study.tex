@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-06-13 12:54:39 vladimir>
+%%% Time-stamp: <2023-06-13 17:44:04 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -8,35 +8,44 @@
 
 \addbibresource{References.bib}
 
-\pretitle{\begin{center}}
-  \title{ROCKETSHIP EDUCATION:\\
-    AN EXPLORATORY PUBLIC POLICY CASE STUDY} % SJSU EDD Guidelines Checklist #17
-\posttitle{\end{center}}
 
-\predate{} \date{} \postdate{}
+\pretitle{\begin{center}\normalfont}
+\title{%
+  ROCKETSHIP EDUCATION:\\
+  AN EXPLORATORY PUBLIC POLICY CASE STUDY
+} % SJSU EDD Guidelines Checklist #17
+\posttitle{\end{center}} 
+
+\date{}
 
 \preauthor{%\
   \begin{center}
-  \normalfont%
-  \bigskip\bigskip\bigskip\bigskip\bigskip
-  A Dissertation Presented to\\
-  The Faculty of the Connie L. Lurie College of Education\\
-  San José State University\\
-  \bigskip\bigskip\bigskip\bigskip\bigskip
-  In Partial Fulfillment of the Requirements for the Degree\\
-  Doctor of Education\\
-  \bigskip\bigskip\bigskip\bigskip\bigskip}
+    \normalfont%
+    \bigskip\bigskip\bigskip\bigskip\bigskip
+    A Dissertation Presented to\\
+    The Faculty of the Connie L. Lurie College of Education\\
+    San José State University\\
+    \bigskip\bigskip\bigskip\bigskip\bigskip
+    In Partial Fulfillment of the Requirements for the Degree\\
+    Doctor of Education\\
+  \end{center}
+}
 
-\author{by
-  
-  Vladimir Gresham Ivanović \protect\orcidlink{0000–0002–7802–7970}\\\bigskip\bigskip}
+\author{%
+  \begin{center}
+    by\\
+    Vladimir Gresham Ivanović \protect\orcidlink{0000–0002–7802–7970}\\\bigskip\bigskip
+  \end{center}
+}
 
-\postauthor{December 2023
-  \vfill Version \version{} created on \DTMnow%
-\end{center}}
+\postauthor{%
+  \begin{center}
+    December 2023 \vfill Version \version{} created on \DTMnow
+  \end{center}
+}
 
-\forestset{
-  direction switch/.style={
+\forestset{%
+  direction switch/.style={%
     for tree={edge+=thick, font=\sffamily},
     where level>=1{folder, grow'=0}{for children=forked edge},
     where level=2{}{draw},
@@ -48,9 +57,9 @@
     Title={Rocketship Education: An Exploratory Public Policy Case Study},
     Author={Vladimir Gresham Ivanović},
     Language={en-US},
-   Subject={An Ed.D. dissertation that examines the finances of Rocketship Education, a charter school management organization, using a public policy lens.},
-   Keywords={Rocketship Education, charter management organization, CMO, charter finances, education public policy},
-   Version=\version%
+    Subject={An Ed.D. dissertation that examines the finances of Rocketship Education, a charter school management organization, using a public policy lens.},
+    Keywords={Rocketship Education, charter management organization, CMO, charter finances, education public policy},
+    Version={\version}
   }
 }
 
@@ -58,6 +67,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \frontmatter{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \maketitle
 
 \thispagestyle{empty}           % for title page
@@ -66,7 +76,8 @@
 \newpage\input{Copyright}
 \newpage\input{Signature}\clearpage
 \mbox{}                         % Force an empty page
-\cleardoublepage\input{Abstract}
+\cleardoublepage
+\input{Abstract}
 
 \pagestyle{plain}               % start displaying folios, but using Roman numerals until the main matter.
 
@@ -114,7 +125,7 @@
 \backmatter{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearforchapter{\small\printindex}
-\linenumbers%
+% \linenumbers%
 \clearforchapter\input{Colophon}
 
 \end{document}
