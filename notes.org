@@ -1,16 +1,17 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-06-06 22:59:58 vladimir>
+# Time-stamp: <2023-06-14 14:48:34 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+itle: Notes and To Dos
 
 * Things to do whenever ending an editing session on mozart.
-1. Make sure everything builds.
-2. Check modified files into Git.
-3. Remove untracked files from the working tree.
-4. If 'lsyncd' isn't running, rsync into local Dropbox.
-5. Rsync into prokofiev/mozart.
-6. Make sure prokofiev/mozart builds.
+1. [ ] Make sure everything builds.
+2. [ ] Check modified files into Git.
+3. [ ] Remove untracked files from the working tree.
+4. [ ] If 'lsyncd' isn't running, rsync into local Dropbox.
+5. [ ] Rsync into prokofiev/mozart from mozart/prokofiev.
+6. [ ] Make sure both prokofiev and mozart build.
+7. [ ] Check out of Work Log.log
 
 * TODO by section in dissertation
 ** TODO General

@@ -1,5 +1,5 @@
 ﻿#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-### Time-stamp: <2023-06-14 11:09:25 vladimir>
+### Time-stamp: <2023-06-15 09:17:57 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -316,7 +316,7 @@ CLOCK: [2023-06-06 Tue 21:48]--[2023-06-06 Tue 22:18] =>  0:30
 CLOCK: [2023-06-06 Tue 15:28]--[2023-06-06 Tue 15:48] =>  0:20
 :END:
 * <2023-06-11 Sun>
-** Restoring Chapter 3 from backups
+* ** Restoring Chapter 3 from backups
 :LOGBOOK:
 CLOCK: [2023-06-11 Sun 10:26]--[2023-06-11 Sun 13:28] =>  3:02
 :END:
