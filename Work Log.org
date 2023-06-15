@@ -316,7 +316,7 @@ CLOCK: [2023-06-06 Tue 21:48]--[2023-06-06 Tue 22:18] =>  0:30
 CLOCK: [2023-06-06 Tue 15:28]--[2023-06-06 Tue 15:48] =>  0:20
 :END:
 * <2023-06-11 Sun>
-* ** Restoring Chapter 3 from backups
+** Restoring Chapter 3 from backups
 :LOGBOOK:
 CLOCK: [2023-06-11 Sun 10:26]--[2023-06-11 Sun 13:28] =>  3:02
 :END:
@@ -340,4 +340,14 @@ CLOCK: [2023-06-13 Tue 17:05]--[2023-06-13 Tue 17:48] =>  0:43
 CLOCK: [2023-06-13 Tue 13:55]--[2023-06-13 Tue 16:51] =>  2:56
 CLOCK: [2023-06-13 Tue 09:16]--[2023-06-13 Tue 13:08] =>  3:52
 :END:
-* 
+* <2023-06-14 Wed>
+** Working on Rocketship Corporate Structure
+:LOGBOOK:
+CLOCK: [2023-06-14 Thu 09:11]--[2023-06-14 Wed 11:08] =>  1:57
+CLOCK: [2023-06-14 Wed 13:00]--[2023-06-14 Wed 16:08] =>  2:08
+:END:
+* <2023-06-15 Thu>
+** Still working on Methods.tex
+:LOGBOOK:
+CLOCK: [2023-06-15 Thu 09:11]
+:END:
