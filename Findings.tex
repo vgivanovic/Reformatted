@@ -1,4 +1,4 @@
-% %%% Time-stamp: <2023-06-15 09:51:27 vladimir>
+% %%% Time-stamp: <2023-06-15 12:10:04 vladimir>
 % %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 % %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 % %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -20,69 +20,22 @@ This chapter discusses the result of exploring answers to my research question: 
 
 \subsection{Rocketship's Corporate Structure}\label{sec:rocketship-corp-struct}\indent
 
+Rocketship's corporate structure was designed from the start to separate schools and their operation from facilities and their construction and maintenance. Rocketship Education is the parent company, a 501(3)(c) non-profit. It owns all the schools, themselves non-profits, plus Launchpad Development Company, another non-profit. Launchpad Development's role is to own all the facilities, one non-profit LLC per location. This structure is diagrammed in \prettyref{fig:RSED-corporate-structure}.
 
 \begin{figure}[ht]
   \centering
   \caption{\normalfont\emph{The Corporate Structure of Rocketship's Santa Clara County Schools}}\label{fig:RSED-corporate-structure}
-
-%   \mbox{}\begin{forest}
-%   for tree={
-%     % style of nodes
-%     draw = black, semithick,
-%     font = \sffamily,
-%     text width = 18mm, text badly centered, % <-- "align=center" doesn't work
-%     inner sep = 3mm,
-%     % style of tree (edges, distances, direction)
-%     parent anchor = south,
-%     parent anchor = south,
-%             grow' = south,
-%              edge = teal!50,
-%     forked edge,            % for forked edge
-%             s sep = 4mm,    % sibling distance
-%             l sep = 8mm,    % level distance
-%          fork sep = 4mm,    % distance from parent to branching point
-%          tier/.option=level,
-%        }
-%        [ Rocketship Education,
-%       [ Rocketship Support Network (RSN) ]
-%       [ Rocketship Mateo Sheedy Elementary (RSM) ]
-%       [ Rocketship Sí-Se-Puede Academy (RSSP) ]
-%       [ Rocketship Los Sueños Academy (RLS) ]
-%       [ Rocketship Mosaic Elementary (ROMO) ]
-%       [ Launchpad Development Company
-%         [ Launchpad (LP) ]
-%         [ Launchpad Development One LLC (LLC1) ]
-%         [ Launchpad Development Two LLC (LLC2) ]
-%         [ Launchpad Development One LLC (LLC3) ]
-%         [ Launchpad Development One LLC (LLC4) ]n
-%       ]]
-%     ]
-% \end{forest}
-    % \begin{forest}
-    % for tree={grow'=0,folder,draw,align=left}
-    % [root
-    %   [A
-    %     [one line]
-    %     [one line]
-    %     [two\\ lines,text width=25ex]
-    %     ]
-    %     [B
-    %     [one line]
-    %     [another line]
-    %     ]
-    %   ]
-    % \end{forest}
-    \scriptsize
-    \sffamily
+  \scriptsize
+  \sffamily
   \begin{forest}
     for tree={grow'=east, folder, draw, align=left}
     [ \textbf{Rocketship Education}, baseline
       [ Launchpad Development Company
-        [ Launchpad (LP) ]
-        [ Launchpad Development One LLC (LLC1) ]
-        [ Launchpad Development Two LLC (LLC2) ]
-        [ Launchpad Development Threee LLC (LLC3) ]
-        [ Launchpad Development Four LLC (LLC4) ]]
+        [ \textit{Launchpad (LP)}, xshift=4em ]
+        [ \textit{Launchpad Development One LLC (LLC1)}, xshift=4em ]
+        [ \textit{Launchpad Development Two LLC (LLC2)}, xshift=4em ]
+        [ \textit{Launchpad Development Threee LLC (LLC3)}, xshift=4em ]
+        [ \textit{Launchpad Development Four LLC (LLC4)}, xshift=4em ]]
       [ Rocketship Support Network (RSN) ]
       [ Rocketship Mateo Sheedy Elementary (RSM) ]
       [ Rocketship Sí-Se-Puede Academy (RSSP) ]

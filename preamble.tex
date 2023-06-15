@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-06-14 11:52:58 vladimir>
+%%% Time-stamp: <2023-06-15 11:39:40 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -6,6 +6,7 @@
 % !TEX TS-program = lualatex
 
 % \RequirePackage[l2tabu, orthodox]{nag}
+
 
 \documentclass[letterpaper,twoside,openright,article,12pt]{memoir} % SJSU EDD Guidelines Checklist #18
 
@@ -31,7 +32,7 @@
 \usepackage{mVersion}
 \usepackage{orcidlink}
 \usepackage{pgfplots}
-\pgfplotsset{compat/show suggested version=false}
+%\pgfplotsset{compat/show suggested version=false}
 % \usepackage{subcaption}
 \usepackage{prettyref}
 \newrefformat{ch}{Chapter \ref{#1},    \textit{\titleref{#1}}}
@@ -40,7 +41,7 @@
 \newrefformat{fig}{Figure \ref{#1},    \textit{\titleref{#1}}}
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
 \usepackage[normalem]{ulem}
-% \usepackage{tikz}
+\usepackage{tikz}
 % \usetikzlibrary{graphdrawing.trees}
 % \tikzstyle{every node}=[draw=black,thick,rectangle]
 \usepackage{url}
