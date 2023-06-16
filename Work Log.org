@@ -1,5 +1,5 @@
-﻿#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-### Time-stamp: <2023-06-15 09:17:57 vladimir>
+#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
+### Time-stamp: <2023-06-15 14:49:56 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -347,7 +347,11 @@ CLOCK: [2023-06-14 Thu 09:11]--[2023-06-14 Wed 11:08] =>  1:57
 CLOCK: [2023-06-14 Wed 13:00]--[2023-06-14 Wed 16:08] =>  2:08
 :END:
 * <2023-06-15 Thu>
-** Still working on Methods.tex
+** Working on the corporate structure diagram. Finished, I think.
 :LOGBOOK:
-CLOCK: [2023-06-15 Thu 09:11]
+CLOCK: [2023-06-15 Thu 09:11]--[2023-06-15 Thu 11:55] ==>  2:44
+:END:
+** Back to Methods.tex for real!
+:LOGBOOK:
+CLOCK: [2023-06-15 Thu 14:49]
 :END:
