@@ -1,9 +1,13 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-06-14 14:48:34 vladimir>
+# Time-stamp: <2023-06-16 13:37:37 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+itle: Notes and To Dos
 
+* SBa740 Conflicts of Interest regulations
+- CCR Title 4, Division 15, Article 1.5 Charter School Facility Grant Program
+- 10170.14. Conflicts of Interest.
+- https://www.treasurer.ca.gov/csfa/csfgp/sb740/permanent-regulations.pdf
 * Things to do whenever ending an editing session on mozart.
 1. [ ] Make sure everything builds.
 2. [ ] Check modified files into Git.

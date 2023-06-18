@@ -1,5 +1,5 @@
 #-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-### Time-stamp: <2023-06-15 14:49:56 vladimir>
+### Time-stamp: <2023-06-17 11:16:38 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -353,5 +353,10 @@ CLOCK: [2023-06-15 Thu 09:11]--[2023-06-15 Thu 11:55] ==>  2:44
 :END:
 ** Back to Methods.tex for real!
 :LOGBOOK:
-CLOCK: [2023-06-15 Thu 14:49]
+CLOCK: [2023-06-15 Thu 14:49]--[2023-06-15 Thu 16:29] =>  1:40
+
+* <2023-06-17 Sat>
+** Methods.tex again
+:LOGBOOK:
+CLOCK: [2023-06-17 Sat 11:16]
 :END:
