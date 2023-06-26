@@ -14,6 +14,7 @@
     "ch:results"
     "sec:rocketship-corp-struct"
     "fig:RSED-corporate-structure"
+    "figp:RSED-corporate-structure"
     "tab:RocketshipLocations"))
  :latex)
 
