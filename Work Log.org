@@ -1,6 +1,6 @@
-#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
+﻿#-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
 <<<<<<< HEAD
-### Time-stamp: <2023-06-17 19:21:15 vladimir>
+### Time-stamp: <2023-06-25 19:25:28 vladimir>
 =======
 ### Time-stamp: <2023-06-25 17:51:49 vladimir>
 >>>>>>> 5414dbb82270456430ffd3fb19a99474c0a26f3b
@@ -378,7 +378,7 @@ CLOCK: [2023-06-22 Thu 10:38]--[2023-06-22 Thu 11:39] =>  1:01
 * <2023-06-25 Sun>
 ** Editing Methods.tex
 :LOGBOOK:
-CLOCK: [2023-06-25 Sun 17:51]
+CLOCK: [2023-06-25 Sun 19:25]
 CLOCK: [2023-06-25 Sun 14:54]--[2023-06-25 Sun 16:45] =>  1:51
 CLOCK: [2023-06-25 Sun 12:26]--[2023-06-25 Sun 14:53] =>  2:27
 :END:
