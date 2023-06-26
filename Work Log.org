@@ -1,5 +1,9 @@
 #-*- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
+<<<<<<< HEAD
 ### Time-stamp: <2023-06-17 19:21:15 vladimir>
+=======
+### Time-stamp: <2023-06-25 17:51:49 vladimir>
+>>>>>>> 5414dbb82270456430ffd3fb19a99474c0a26f3b
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -165,7 +169,7 @@ CLOCK: [2023-03-13 Mon 11:12]--[2023-03-13 Mon 13:26] =>  2:14
 :LOGBOOK:
 CLOCK: [2023-03-13 Mon 13:26]--[2023-03-13 Mon 13:55] =>  0:29
 :END:
-
+                                                                
 * <2023-03-20 Mon>
 ** Task #2a
 :LOGBOOK:
@@ -360,3 +364,23 @@ CLOCK: [2023-06-15 Thu 14:49]--[2023-06-15 Thu 16:29] =>  1:40
 :LOGBOOK:
 CLOCK: [2023-06-17 Sat 11:16]--[2023-06-17 Sat 13:16] =>  2:00
 :END:
+* <2023-06-21 Wed>
+** Editing Methods.tex
+:LOGBOOK:
+CLOCK: [2023-06-21 Wed 13:00]--[2023-06-21 Wed 15:00 =>  2:00
+:END:
+
+* <2023-06-22 Thu>
+** Editing Methods.tex
+:LOGBOOK:
+CLOCK: [2023-06-22 Thu 10:38]--[2023-06-22 Thu 11:39] =>  1:01
+:END:
+* <2023-06-25 Sun>
+** Editing Methods.tex
+:LOGBOOK:
+CLOCK: [2023-06-25 Sun 17:51]
+CLOCK: [2023-06-25 Sun 14:54]--[2023-06-25 Sun 16:45] =>  1:51
+CLOCK: [2023-06-25 Sun 12:26]--[2023-06-25 Sun 14:53] =>  2:27
+:END:
+
+
