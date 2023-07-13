@@ -11,6 +11,7 @@
 *.lot
 *.lox
 *.out
+*.synctex.gz
 *.toc
 *.xml
 *.zip

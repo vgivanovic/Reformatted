@@ -1,0 +1,12 @@
+### -*- mode:org; -*-
+### Time-stamp: <2023-07-09 16:16:30 vladimir>
+### Copyright (C) 2019-2023 Vladimir G. Ivanović
+### Author: Vladimir G. Ivanović <vladimir@acm.org>
+#+STARTUP: fold
+#+SEQ_TODO: TODO ONGOING DONE
+#+OPTIONS: toc:nil
+
+* TODO Update Figure 1, /California 2019-20 K-12 Funding by Source/ to 2023-24.
+* TODO Elaborate/expand Table 3, /Charter School Financial Documents/
+* TODO §3.3.2: Turn the list of datasets into a table
+* TODO Check to see if a footnote is supposed to appear before or after a comma, for instance. See §3.3.2.1 State and Federal Filings

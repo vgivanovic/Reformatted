@@ -3,12 +3,12 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:methods"
@@ -21,8 +21,11 @@
     "sec:charter-school-financing"
     "sec:charter-financial-docs"
     "tab:charter-fin-docs"
+    "fig:opresflows"
     "sec:petitions-renewals"
-    "sec:lcaps-interim-reports"
+    "sec:staff-reports"
+    "sec:budgets-etc"
+    "sec:bond-prospectuses"
     "sec:other-data"
     "sec:state-federal-filings"
     "sec:board-committee-packets"
@@ -32,6 +35,7 @@
     "sec:leasing"
     "sec:owning"
     "sec:example_analysis_II_flows"
-    "fig:opresflows"))
+    "sec:gaps-anomalies"
+    "sec:triangulation"))
  :latex)
 
