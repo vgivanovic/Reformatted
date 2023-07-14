@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-06-25 22:59:10 vladimir>
+%%% Time-stamp: <2023-07-14 11:35:52 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -45,14 +45,6 @@
     December 2023 \vfill Version \version{} created on \DTMnow%
   \end{center}
 }
-
-% \forestset{%
-%   direction switch/.style={%
-%     for tree={edge+=thick, font=\sffamily},
-%     where level>=1{folder, grow'=0}{for children=forked edge},
-%     where level=2{}{draw},
-%   },
-% }
 
 \hypersetup{%
   pdfinfo={%
@@ -127,10 +119,20 @@
 \backmatter{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \clearforchapter{\small\printindex}
-% \linenumbers%
+\linenumbers%
 \clearforchapter\input{Colophon}
 
 \end{document}
+
+\bye
+% \forestset{%
+%   direction switch/.style={%
+%     for tree={edge+=thick, font=\sffamily},
+%     where level>=1{folder, grow'=0}{for children=forked edge},
+%     where level=2{}{draw},
+%   },
+% }
+
 
 %%% Local Variables:
 %%% mode: latex

@@ -1,5 +1,5 @@
 #-*- Mode:org; -*-
-### Time-stamp: <2023-07-12 09:31:54 vladimir>
+### Time-stamp: <2023-07-14 16:00:06 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -416,6 +416,18 @@ CLOCK: [2023-07-09 Sun 12:54]--[2023-07-09 Sun 14:54] =>  2:00
 :LOGBOOK:
 CLOCK: [2023-07-11 Tue 13:28]--[2023-07-11 Tue 15:19] =>  1:51
 :END:
-
+* <2023-07-13 Thu>
+** Findings.tex & compilation errors
+ :LOGBOOK:
+CLOCK: [2023-07-13 Thu 12:23]--[2023-07-13 Thu 15:20] =>  2:57
+:END:
+* <2023-07-14 Fri>
+** Work on Findings.tex
+:LOGBOOK:
+CLOCK: [2023-07-14 Fri 15:41]--[2023-07-14 Fri 16:00] =>  0:19
+CLOCK: [2023-07-14 Fri 11:34]--[2023-07-14 Fri 11:54] =>  0:20
+:END:
+* 
+* 
 * 
 * 

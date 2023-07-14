@@ -3,12 +3,12 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:methods"
@@ -25,16 +25,21 @@
     "sec:petitions-renewals"
     "sec:staff-reports"
     "sec:budgets-etc"
-    "sec:bond-prospectuses"
-    "sec:other-data"
-    "sec:state-federal-filings"
     "sec:board-committee-packets"
     "sec:real-estate"
     "tab:charter-facilities-options"
     "sec:co-locating"
     "sec:leasing"
     "sec:owning"
-    "sec:example_analysis_II_flows"
+    "tab:paying-for-facilities"
+    "sec:tax-credits"
+    "sec:venture-funds"
+    "sec:other-data"
+    "sec:bond-prospectuses"
+    "sec:vent-fund-found"
+    "sec:tax-credit-applications"
+    "sec:datasets"
+    "sec:state-federal-filings"
     "sec:gaps-anomalies"
     "sec:triangulation"))
  :latex)

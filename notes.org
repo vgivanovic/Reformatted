@@ -1,5 +1,5 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-07-13 10:16:32 vladimir>
+# Time-stamp: <2023-07-13 14:45:52 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+itle: Notes and To Dos
@@ -125,7 +125,7 @@ https://nces.ed.gov/ccd/aboutccd.asp
 \subsection{Demographic Data}
 When searching for anomalous data, Rocketship schools, individually and collectively, need to be compared to traditional public schools and districts, but only after making any needed adjustments to account for the demographic contexts in which the schools operate. It makes no sense to compare the finances of, say, Rocketship Mateo Sheedy in San José with the finances of the Westside Union Elementary School in Los Baños, less than 65 miles away. One is a medium-sized charter school in a large urban school district, the other is a much larger public school in a rural public district. This means that demographic data must be used along with financial data to obtain valid and useful comparisons.
 
-Raw demographic data is hard to use and impossible to visualize. In 1983, Edward Tufte self-published \citetitle{Tufte1983}, which revolutionized how we present data, especially quantitative data. Since then, not only have there been five other Tufte books, but there has been an explosion of high quality books on data visualization. Currently, the most useful guide to presenting data is \citeauthor{Schwabish2021}'s \citetitle{Schwabish2021}.  In it he offers more than 50 different kinds of charts and graphs, all with the goal of helping the reader make sense of the raw data. The chapters \textit{\titleref{ch:results}} and \textit{\titleref{ch:discussion}} will make extensive use of these data visualization tools. The data demographic data itself will come from the following datasets that specialize in education:
+Raw demographic data is hard to use and impossible to visualize. In 1983, Edward Tufte self-published \citetitle{Tufte1983}, which revolutionized how we present data, especially quantitative data. Since then, not only have there been five other Tufte books, but there has been an explosion of high quality books on data visualization. Currently, the most useful guide to presenting data is \citeauthor{Schwabish2021}'s \citetitle{Schwabish2021}.  In it he offers more than 50 different kinds of charts and graphs, all with the goal of helping the reader make sense of the raw data. The chapters \textit{\titleref{ch:findings}} and \textit{\titleref{ch:discussion}} will make extensive use of these data visualization tools. The data demographic data itself will come from the following datasets that specialize in education:
 
 \begin{itemize}
   \item Data from the United States Department of Education, primarily the National Center for Education Statistics (NCES). These datasets (~500) are searchable online using the Open Data Platform \url{http://nces.ed.gov/}. Of particular interest is the massive Digest of Education Statistics, produced annually from 1990 onwards. The Digest for 2019 runs to 651 pages.
