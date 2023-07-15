@@ -3,12 +3,12 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:methods"
@@ -32,12 +32,9 @@
     "sec:leasing"
     "sec:owning"
     "tab:paying-for-facilities"
-    "sec:tax-credits"
     "sec:venture-funds"
-    "sec:other-data"
+    "sec:tax-credits"
     "sec:bond-prospectuses"
-    "sec:vent-fund-found"
-    "sec:tax-credit-applications"
     "sec:datasets"
     "sec:state-federal-filings"
     "sec:gaps-anomalies"
