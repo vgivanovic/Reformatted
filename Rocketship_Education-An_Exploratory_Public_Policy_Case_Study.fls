@@ -442,9 +442,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
 INPUT ./Methods.tex
 INPUT ./2019-20_K-12_Funding_by_Source.pdf
 INPUT ./2019-20_K-12_Funding_by_Source.pdf
-INPUT ./Operating_Resource_Flows.pdf
-INPUT ./Operating_Resource_Flows.pdf
 INPUT ./Findings.tex
+INPUT ./Operating_Resource_Flows.pdf
+INPUT ./Operating_Resource_Flows.pdf
 INPUT ./Discussion.tex
 INPUT ./School_Financing.tex
 INPUT ./LASD_2019-20_All_Funds_Summary.pdf
@@ -503,23 +503,7 @@ INPUT ./Assessor-Info/rising-stars-plat-map-494-01.png
 INPUT ./Satellite-Photos/rising-stars-sat-photo.png
 INPUT ./Satellite-Photos/rising-stars-sat-photo.png
 INPUT ./Consolidated_Financial_Position_Years_2010-2022.tex
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Financial_Position_Years_2010-2022 PDF pages/.pg_0001.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Financial_Position_Years_2010-2022 PDF pages/.pg_0001.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Financial_Position_Years_2010-2022 PDF pages/.pg_0002.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Financial_Position_Years_2010-2022 PDF pages/.pg_0002.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Financial_Position_Years_2010-2022 PDF pages/.pg_0003.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Financial_Position_Years_2010-2022 PDF pages/.pg_0003.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Financial_Position_Years_2010-2022 PDF pages/.pg_0004.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Financial_Position_Years_2010-2022 PDF pages/.pg_0004.pdf
 INPUT ./Consolidated_Activities_Years_2010-2022.tex
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Activities_Years_2010-2022 PDF pages/.pg_0003.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Activities_Years_2010-2022 PDF pages/.pg_0003.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Activities_Years_2010-2022 PDF pages/.pg_0004.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Activities_Years_2010-2022 PDF pages/.pg_0004.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Activities_Years_2010-2022 PDF pages/.pg_0001.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Activities_Years_2010-2022 PDF pages/.pg_0001.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Activities_Years_2010-2022 PDF pages/.pg_0002.pdf
-INPUT ./Consolidated Financial Statements/v5 Spreadsheets/Consolidated_Activities_Years_2010-2022 PDF pages/.pg_0002.pdf
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.ind
 INPUT ./Colophon.tex
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/arkandis/adforn/OrnementsADF.tfm
