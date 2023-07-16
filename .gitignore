@@ -20,5 +20,6 @@
 /#*#
 Unused_PDFs_to_be_deleted
 \#.*
+*Case\ Conflict*
 arara.log
 tmp
