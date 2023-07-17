@@ -1,5 +1,5 @@
 #-*- Mode:org; -*-
-### Time-stamp: <2023-07-16 16:07:35 vladimir>
+### Time-stamp: <2023-07-17 14:32:54 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -440,7 +440,11 @@ CLOCK: [2023-07-16 Sun 12:17]--[2023-07-16 Sun 13:28] =>  1:11
 :END:
 ** Starting on Findings.tex
 :LOGBOOK:
-CLOCK: [2023-07-16 Sun 16:07]
+CLOCK: [2023-07-16 Sun 16:07]--[2023-07-17 Mon 14:32] => 22:25
 :END:
-* 
+* <2023-07-17 Mon>
+** Final LaTeX fixups to Methods.tex
+:LOGBOOK:
+CLOCK: [2023-07-17 Mon 14:32]
+:END:
 * 

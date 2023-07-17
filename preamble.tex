@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-07-13 14:24:13 vladimir>
+%%% Time-stamp: <2023-07-17 15:08:21 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -12,10 +12,14 @@
 \documentclass[letterpaper,twoside,openright,article,12pt]{memoir} % SJSU EDD Guidelines Checklist #18
 
 % \tracinglostchars=3
-\usepackage[pagewise]{lineno}
 \usepackage{adforn}
 \usepackage{array}
 \usepackage{authblk}
+% \usepackage{polyglossia}        % Must be loaded before biblatex
+% \setdefaultlanguage{american}
+% \DeclareLanguageMapping{american}{american-apa}
+\usepackage[USenglish]{babel}
+\usepackage[style=apa,sortcites=false,sorting=nyt,backend=biber]{biblatex}
 \usepackage{booktabs}
 \usepackage{calc}
 \usepackage[labelfont=rm]{caption}
@@ -29,12 +33,13 @@
 \usepackage[left=1.5in, top=1.25in, bottom=1.25in, nomarginpar]{geometry}
 \usepackage{graphicx}
 \usepackage{imakeidx}
+\usepackage[pagewise]{lineno}
 \usepackage{makecell}
 \usepackage{multirow}
 \usepackage{mVersion}
 \usepackage{orcidlink}
 \usepackage{pgfplots}
-%\pgfplotsset{compat/show suggested version=false}
+\pgfplotsset{compat/show suggested version=false}
 % \usepackage{subcaption}
 \usepackage{prettyref}
 \newrefformat{figp}{Figure \ref{#1},   \textit{\titleref{#1}} on p.\pageref{#1}}
@@ -50,12 +55,8 @@
 \usepackage{url}
 %\usepackage[nospace]{varioref}
 \usepackage{xcolor}
-\usepackage{hyperref}           % Should be last
 
-\usepackage{polyglossia}
-\setdefaultlanguage{american}
-\usepackage[style=apa,sortcites=false,sorting=nyt,backend=biber]{biblatex}
-\DeclareLanguageMapping{american}{american-apa}
+\usepackage{hyperref}           % Should be last
 
 % \setVersion{1.0}                % Major.minor.build; Increment major and minor as appropriate
 \increaseBuild{}
