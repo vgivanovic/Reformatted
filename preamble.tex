@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-07-17 15:08:21 vladimir>
+%%% Time-stamp: <2023-07-20 17:50:28 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -6,7 +6,7 @@
 % !TEX TS-program = lualatex
 
 \DocumentMetadata{pdfversion=2.0}
-\nonstopmode\synctex=1
+\nonstopmode\synctex=0
 %\RequirePackage[l2tabu, orthodox]{nag}
 
 \documentclass[letterpaper,twoside,openright,article,12pt]{memoir} % SJSU EDD Guidelines Checklist #18
@@ -15,9 +15,6 @@
 \usepackage{adforn}
 \usepackage{array}
 \usepackage{authblk}
-% \usepackage{polyglossia}        % Must be loaded before biblatex
-% \setdefaultlanguage{american}
-% \DeclareLanguageMapping{american}{american-apa}
 \usepackage[USenglish]{babel}
 \usepackage[style=apa,sortcites=false,sorting=nyt,backend=biber]{biblatex}
 \usepackage{booktabs}
@@ -30,7 +27,7 @@
 \usepackage{fontspec}
 \usepackage[ragged]{footmisc}
 \usepackage[edges]{forest}
-\usepackage[left=1.5in, top=1.25in, bottom=1.25in, nomarginpar]{geometry}
+\usepackage[left=1.5in, right=1in, top=1.25in, bottom=1.25in, nomarginpar]{geometry}
 \usepackage{graphicx}
 \usepackage{imakeidx}
 \usepackage[pagewise]{lineno}
@@ -40,7 +37,6 @@
 \usepackage{orcidlink}
 \usepackage{pgfplots}
 \pgfplotsset{compat/show suggested version=false}
-% \usepackage{subcaption}
 \usepackage{prettyref}
 \newrefformat{figp}{Figure \ref{#1},   \textit{\titleref{#1}} on p.\pageref{#1}}
 \newrefformat{ch}{Chapter \ref{#1},    \textit{\titleref{#1}}}
@@ -48,6 +44,7 @@
 \newrefformat{tab}{Table \ref{#1},     \textit{\titleref{#1}}}
 \newrefformat{fig}{Figure \ref{#1},    \textit{\titleref{#1}}}
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
+\usepackage[figureleft]{rotating}
 \usepackage[normalem]{ulem}
 \usepackage{tikz}
 % \usetikzlibrary{graphdrawing.trees}
