@@ -1,0 +1,35 @@
+InfoBegin
+InfoKey: Creator
+InfoValue: LibreOffice 7.4.4.2
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20230118155048-08&apos;00&apos;
+InfoBegin
+InfoKey: Producer
+InfoValue: LibreOffice 7.4.4.2
+InfoBegin
+InfoKey: Title
+InfoValue: Consolidated_Financial_Position_Years_2010-2022.xlsx
+PdfID0: e02d28ad14a1c6677716aa464722a56d
+PdfID1: e02d28ad14a1c6677716aa464722a56d
+NumberOfPages: 4
+PageMediaBegin
+PageMediaNumber: 1
+PageMediaRotation: 0
+PageMediaRect: 0 0 792 612
+PageMediaDimensions: 792 612
+PageMediaBegin
+PageMediaNumber: 2
+PageMediaRotation: 0
+PageMediaRect: 0 0 792 612
+PageMediaDimensions: 792 612
+PageMediaBegin
+PageMediaNumber: 3
+PageMediaRotation: 0
+PageMediaRect: 0 0 792 612
+PageMediaDimensions: 792 612
+PageMediaBegin
+PageMediaNumber: 4
+PageMediaRotation: 0
+PageMediaRect: 0 0 792 612
+PageMediaDimensions: 792 612

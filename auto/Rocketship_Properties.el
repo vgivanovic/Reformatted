@@ -3,12 +3,14 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:rocketship-property-info"
@@ -17,7 +19,7 @@
     "fig:mateo-sheedy-plat-map"
     "tab:mateo-sheedy-taxable-amount"
     "fig:mateo-sheedy-sat-photo"
-    "sec:śi-se-puede-plat-map"
+    "sec:śi-se-puede-info"
     "tab:sí-se-puede-prop-info"
     "fig:sí-se-puede"
     "tab:sí-se-puede-taxable-amount"

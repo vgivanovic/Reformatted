@@ -2,6 +2,7 @@
 *.bbl
 *.bcf
 *.blg
+*.fls.*
 *.idx
 *.ilg
 *.ind
@@ -19,6 +20,7 @@
 *~
 /#*#
 Unused_PDFs_to_be_deleted
+.\#.*
 \#.*
 *Case\ Conflict*
 arara.log
