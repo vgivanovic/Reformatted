@@ -1,4 +1,4 @@
-PWD /home/vladimir/EdD/Dissertation/Chapter_3
+PWD /home/vladimir/EdD/Dissertation/Chapter_4
 INPUT /usr/local/texlive/2023/texmf-var/web2c/luahbtex/lualatex.fmt
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.tex
 OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.log
@@ -517,12 +517,9 @@ INPUT ./Consolidated_Financial_Statements/Consolidated_Financial_Position_Years_
 INPUT ./Consolidated_Financial_Statements/Consolidated_Activities_Years_2010-2022-2up.pdf
 INPUT ./Consolidated_Financial_Statements/Consolidated_Activities_Years_2010-2022-2up.pdf
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.ind
-INPUT ./Colophon.tex
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/arkandis/adforn/OrnementsADF.tfm
 OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.toc
 OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.lot
 OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.lof
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.aux
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.run.xml
 OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.run.xml
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/type1/arkandis/adforn/OrnementsADF.pfb
