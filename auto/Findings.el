@@ -15,6 +15,7 @@
    (LaTeX-add-labels
     "ch:findings"
     "sec:history"
+    "tab:opposition"
     "sec:rocketship-corp-struct"
     "fig:corporate-structure"
     "sec:findings-charter-financing"
