@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-### Time-stamp: <2023-08-08 23:13:46 vladimir>
+### Time-stamp: <2023-08-10 20:59:49 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 
@@ -21,8 +21,10 @@ fi
 
 cd ~/Dropbox/EdD/Dissertation/Chapter_4
 git checkout dummy
+
 cd ~/EdD/Dissertation/Chapter_4
 git push origin main
+
 cd ~/Dropbox/EdD/Dissertation/Chapter_4
 git checkout main
 git push origin main
