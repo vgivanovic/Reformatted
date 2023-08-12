@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-### Time-stamp: <2023-08-08 23:13:46 vladimir>
+### Time-stamp: <2023-08-10 23:11:39 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 
@@ -14,18 +14,24 @@ exit_hook() {
     jobs -p | xargs kill
 }
 
-if [[ hostname != "mozart" ]]; then
+if [[ "$(hostname)" != "mozart" ]]; then
   print "Must execute this script on host 'mozart'."
   exit 1
 fi
 
-cd ~/Dropbox/EdD/Dissertation/Chapter_4
-git checkout dummy
 cd ~/EdD/Dissertation/Chapter_4
+
+pushd ~/Dropbox/EdD/Dissertation/Chapter_4
+git checkout dummy
+
+popd
 git push origin main
-cd ~/Dropbox/EdD/Dissertation/Chapter_4
+
+pushd ~/Dropbox/EdD/Dissertation/Chapter_4
 git checkout main
 git push origin main
+
+popd
 
 ## ## On prokofiev:
 ## cd ~/Dropbox/EdD/Dissertation/Chapter_4
