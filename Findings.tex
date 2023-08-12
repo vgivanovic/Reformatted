@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-08-10 19:51:33 vladimir>
+%%% Time-stamp: <2023-08-11 22:47:07 vladimir>
 % %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 % %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 % %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -56,32 +56,105 @@ The most consequential opposition was a 2014 lawsuit brought by the Alum Rock, E
 
 Rocketship's corporate structure was designed from the start to separate schools and their operation from facilities and their construction and maintenance. Rocketship Education, Inc. is the parent company, a 501(3)(c) non-profit. It owns all the schools, themselves non-profits, plus Launchpad Development Company, another non-profit. Launchpad Development's role is to own all the facilities, one non-profit LLC per location. This structure is diagrammed in \prettyref{fig:RSED-corporate-structure}.
 
-\begin{figure}[ht]
+\begin{figure}[h]
   \centering
   \caption{\normalfont\emph{Rocketship's Corporate Structure (Santa Clara County only)}}\label{fig:RSED-corporate-structure}
   \sffamily
   \begin{forest}
     for tree={grow'=east, folder, draw, align=left}
     [ \textbf{Rocketship Education}, baseline
-      [ Launchpad Development Company
-        [ \textit{Launchpad (LP)}, xshift=4em ]
-        [ \textit{Launchpad Development One LLC (LLC1)}, xshift=4em ]
-        [ \textit{Launchpad Development Two LLC (LLC2)}, xshift=4em ]
-        [ \textit{Launchpad Development Threee LLC (LLC3)}, xshift=4em ]
-        [ \textit{Launchpad Development Four LLC (LLC4)}, xshift=4em ]]
-      [ Rocketship Support Network (RSN) ]
-      [ Rocketship Mateo Sheedy Elementary (RSM) ]
-      [ Rocketship Sí-Se-Puede Academy (RSSP) ]
-      [ Rocketship Mosaic Elementary (ROMO) ]
-      [ Rocketship Discovery Prep (RDP) ]
-      [ Rocketship Brilliant Minds (RBM) ]
-      [ Rocketship Alma Academy (RSA) ]
-      [ Rocketship Spark Academy (RSK) ]
-      [ Rocketship Rising Stars (RRS) ]]
-    \end{forest}
-  \end{figure}
+    [ Launchpad Development Company
+    [ \textit{Launchpad (LP)}, xshift=4em ]
+    [ \textit{Launchpad Development One LLC (LLC1)}, xshift=4em ]
+    [ \textit{Launchpad Development Two LLC (LLC2)}, xshift=4em ]
+    [ \textit{Launchpad Development Threee LLC (LLC3)}, xshift=4em ]
+    [ \textit{Launchpad Development Four LLC (LLC4)}, xshift=4em ]]
+    [ Rocketship Support Network (RSN) ]
+    [ Rocketship Mateo Sheedy Elementary (RSM) ]
+    [ Rocketship Sí-Se-Puede Academy (RSSP) ]
+    [ Rocketship Mosaic Elementary (ROMO) ]
+    [ Rocketship Discovery Prep (RDP) ]
+    [ Rocketship Brilliant Minds (RBM) ]
+    [ Rocketship Alma Academy (RSA) ]
+    [ Rocketship Spark Academy (RSK) ]
+    [ Rocketship Rising Stars (RRS) ]]
+  \end{forest}
+\end{figure}
 
 \section{Charter School Financing}\label{sec:findings-charter-financing}\indent
+
+Financing charter schools in California is complex, complicated, and different from the financing of traditional public schools. \prettyref{tab:charter-financing-options} describes what financing options a charter school has compared to a traditional public school.
+
+\subsection{Charter School Financing Options}\indent\label{sec:charter-school-financing-options}
+
+\begin{table}[thb]
+  \caption[Charter School Financing Options]{\textit{Charter School Financing Options}}\label{tab:charter-financing-options}%
+  \SingleSpacing%
+  \begin{tabular}{lccl}
+    \toprule
+    Type                 & \multicolumn{2}{c}{Available to}  & Notes\\
+                         & TSPs & Charters                   & \\
+    \midrule
+    LCFF                 & Yes  & Yes                        & Minimum state guarantee, per ADA\\ 
+    Local property tax   & Yes  & Yes                        & Reduces LCFF amount\\
+     & & &\\ % Empty row as a divider
+    Categorical programs & Yes  & Yes                        & \multirow[t]{2}{3in}{All federal funding is categorical,\\
+                                                               as is all state funding outside of LCFF}\\
+    \\
+    Local parcel tax     & Yes  & No                         & Established by district election\\
+    Revenue bonds        & Yes  & Yes                        & \multirow[t]{2}{3in}{TSPs: district election\\
+                                                               Charters: private placement only}\\
+    \\
+    Construction loans   & Yes  & Yes                        & \multirow[t]{2}{3in}{Federal, state, \& private loans\\
+                                                               with widely varing terms}\\
+    \\
+    COVID-19 PPP loans   & N/A & Yes                         & Paycheck Protection Program loan → grant\\
+    Venture fund loans   & No  & Yes                         & Often using New Market Tax Credit program\\
+    Private grants       & Yes & Yes                         & Much more common with charters\\
+    Rent subsidies       & No  & Yes                         & SB740\\
+ \bottomrule
+  \end{tabular}
+\end{table}
+
+The first two sources of financing, i.e.~revenue, are always available to both public schools and to charter schools, although the amounts and timing of the distributions might vary. 
+
+\begin{description}[nosep]\OnehalfSpacing%
+  \medskip\item[LCFF] Local Control Funding Formula. A charter's home district passes through an amount based on a school's demographics and ADA (Average Daily Attendance). All schools have the same base grant adjusted for grade spans.  If a school has students who are low income (i.e.~they are eligible for free or reduced price meals (FRPM)), or they are English Learners (EL), or they are foster youth, the school receives a supplemental grant of 20\% of its adjusted base grant. If the qualifying population of students exceeds 55\% of the total, a school receives 65\% of the adjusted base grant for every student above the 55\% threshold.
+
+Since all Rocketship schools have at least 55\% of their students , the school qualifies for a LCFF concentration grant in addition to a LCFF supplemental grant. Each qualifying student over the 55\% threshold is entitled to an additional 65\% of the LCFF base grant. Each qualifying student is entitled to an additional 20\% over the base LCFF grant. 
+
+The most succinct summary of how the final LCFF amounts are calculated is give by the California Department of Education on its web site, ̆\url{https://www.cde.ca.gov/fg/aa/lc/lcfffaq.asp}.
+
+\begin{quotation}
+  \noindent{}``Funding entitlements under the LCFF consist of:\\
+  \begin{itemize}
+    \item Grade span-specific base grants based on ADA, that reflect adjustments for grades K–3 class sizes and grades 9–12 (school districts with qualifying schools may receive a necessary small school (NSS) allowance in lieu of the base grants);
+    \item Supplemental grants equal to 20 percent of the adjusted base grants multiplied by the LEA’s unduplicated percentage of English learners, income eligible for free or reduced-price meals, and foster youth pupils;
+    \item Concentration grants equal to 65 percent of the adjusted base grants multiplied by an LEA’s percentage of unduplicated pupils above 55 percent;
+    \item Two add-ons equal to the amounts school districts received in 2012–13 for the Targeted Instructional Improvement Block Grant and Home-to-School Transportation programs;
+    \item An Economic Recovery Target add-on; and
+    \item Beginning in 2022–23, an add-on for current year Transitional Kindergarten ADA.
+    \item Base, supplemental, and concentration grants, as well as necessary small school allowances, receive cost-of-living adjustments as provided through the annual budget. Beginning in 2023–24, transportation related add-ons and the Transitional Kindergarten add-on will also receive cost-of-living adjustments.''
+  \end{itemize}
+\end{quotation}
+
+The intricacies of LCFF funding are covered in Chapter 3 of Aguinaldo.etal (2022). %[pp. 35–58]
+  \medskip\item[Local property tax] Traditional public school districts are granted the right to tax themselves, using a non-ad valorem tax, by levying a tax per parcel, guaranteed by the value of the district property\footnote{A 2023 court decision allowed a tax based on square footage}.\\
+\end{description}
+
+The following sources of financing are optionally available to public school districts and/or charter schools.
+\begin{description}[nosep]\OnehalfSpacing%
+% \medskip\item[term] Description...
+  \medskip\item[LCFF] Local Control Funding Formula. A charter's home district passes through an amount based on a school's demographics and ADA (Average Daily Attendance).\\
+  \medskip\item[Local property tax] Traditional public school districts are granted the right to tax themselves, using a non-ad valorem tax, by levying a tax per parcel, guaranteed by the value of the district property\footnote{A 2023 court decision allowed a tax based on square footage}.\\
+  \medskip\item[Local parcel tax] Traditional public school district may assess a non-\textit{ad valorem} tax, usually a per parcel tax. Charter schools do not have taxing authority, so they may not assess parcel taxes.d \\
+  \medskip\item[Revenue bonds] Revenue bonds \\
+  \medskip\item[Construction loans] Construction loans \\
+  \medskip\item[COVID-19 PPP loans] COVID-19 PPP loans \\
+  \medskip\item[Venture fund loans] Venture fund loans \\
+  \medskip\item[Private grants] Private grants \\
+  \medskip\item[Rent subsidies] Rent subsidies \\
+d\end{description}
 
 \subsection{Charter School Financial Documents}\label{sec:findings-charter-financial-docs}\indent
 
@@ -101,7 +174,7 @@ The current number of pages of initial and renewal petitions runs to 7371 pages 
 
 \subsection{Rocketship Locations and Property Information}\label{sec:location-and-property-info}\indent
 
-\begin{table}[thb]
+\begin{table}[b]
   \caption[Rocketship Property Information]{\textit{Rocketship Property Information}}\label{tab:locations}\SingleSpacing%
   \begin{tabular}{lll}
     \toprule
