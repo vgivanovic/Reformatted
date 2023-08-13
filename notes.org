@@ -1,8 +1,13 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-08-08 18:53:25 vladimir>
+# Time-stamp: <2023-08-12 22:10:49 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+itle: Notes and To Dos
+
+* Zoom with Roxana, Monday, 14 August 2023
+** To talk about
+[] Mention tesseract and ocrmypdf. They are fantastic. They soak up a lot (A LOT) of CPU, but they have turned every PDF (image) I've asked them to into a real PDF (PDF/A, the archival PDF version). I even processed a 645 page petition (100% CPU for ~7 minutes).
+[] 
 
 *  San Jose Insider
 Judgment Day for Rocketship
@@ -483,10 +488,10 @@ e. Initial definitions for important terms and concepts likely to be used throug
 \end{comment}
 
 * A /free/ market is one where
-- Everyone is a price-taker
-- Transaction costs are zero
-- There are no barriers or costs to entry or exit
-- Everyone has the same information that might affect prices
+- Everyone is a price-taker.
+- Transaction costs are zero.
+- There are no barriers or costs to entry or exit.
+- Everyone has the same information (at the same time).
 and the (surprising) consequence is that profits are zero for everyone.
 * Charter School Plans
 - "The Great Public Schools Now Initiative, Broad Foundation, June 2015
