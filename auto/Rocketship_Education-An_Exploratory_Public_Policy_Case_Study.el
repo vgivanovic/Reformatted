@@ -26,7 +26,8 @@
     "Discussion"
     "School_Financing"
     "Rocketship_Properties"
-    "Consolidated_Financial_Summaries_Years_2010-2022")
+    "Consolidated_Financial_Summaries_Years_2010-2022"
+    "Debt_2006-2022")
    (LaTeX-add-bibliographies
     "References"))
  :latex)

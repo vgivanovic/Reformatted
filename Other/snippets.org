@@ -1,0 +1,30 @@
+# *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
+# Time-stamp: <2023-08-13 12:38:56 vladimir>
+# Copyright (C) 2019-2023 Vladimir G. Ivanović
+# Author: Vladimir G. Ivanović <vladimir@acm.org>
+#+title: Snippets
+
+* Findings.tex
+** % These oppositions to Rocketship schools in Santa Clara County are listed in \prettyref{tab:opposition}.
+% \begin{table}[thb]
+%   \caption[Rocketship Opposition]{\textit{Rocketship Opposition}}\label{tab:opposition}\SingleSpacing%
+%   \begin{tabular}{lll}
+%     \toprule
+%     School          & Sources of Opposition \\
+%     \midrule
+%     Mateo Sheedy    & San José Unified School District\\
+%     Sí Se Puede     & Alum Rock Unified School District\\
+%     Los Sueños      & \multirow[t]{3}{4.75in}{%
+%                       Alum Rock, Evergreen, Franklin-McKinley and Mount Pleasant school districts\\
+%                       San José/Silicon Valley NAACP \parencite{MooreII.Marachi2020}}\\
+%     \\
+%     Discovery Prep  & \\
+%     Mosaic          & \\
+%     Brilliant Minds & \\
+%     Alma Academy    & \\
+%     Spark Academy   & \\
+%     Fuerza          & \\
+%     Rising Stars    & Franklin-McKinley School District\\
+%     \bottomrule
+%   \end{tabular}
+% \end{table}
