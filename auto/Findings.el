@@ -14,7 +14,6 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:findings"
-    "sec:history"
     "sec:rocketship-corp-struct"
     "fig:RSED-corporate-structure"
     "sec:findings-charter-financing"
