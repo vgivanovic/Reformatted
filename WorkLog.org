@@ -1,5 +1,5 @@
 #-*- Mode:org; -*-
-### Time-stamp: <2023-08-20 10:40:08 vladimir>
+### Time-stamp: <2023-08-29 19:16:57 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -480,10 +480,14 @@ CLOCK: [2023-08-13 Sun 10:19]--[2023-08-13 Sun 12:20] =>  2:01
 :END:
 * <2023-08-20 Sun>
 :LOGBOOK:
-CLOCK: [2023-08-20 Sun 09:30]
+CLOCK: [2023-08-20 Sun 09:30]--[2023-08-20 Sun 14:54] =>  5:24
 :END:
-* 
-* 
+* <2023-08-29 Tue>
+** Findings
+:LOGBOOK:
+CLOCK: [2023-08-29 Tue 16:27]--[2023-08-29 Tue 19:16] =>  2:49
+CLOCK: [2023-08-29 Tue 09:59]--[2023-08-29 Tue 12:11] =>  2:12
+:END:
 * 
 * 
 * 

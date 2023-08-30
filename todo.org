@@ -1,13 +1,47 @@
 ### -*- mode:org; -*-
-### Time-stamp: <2023-07-14 11:35:17 vladimir>
+### Time-stamp: <2023-08-29 17:24:45 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+STARTUP: fold
 #+SEQ_TODO: TODO ONGOING DONE
 #+OPTIONS: toc:nil
 
-* TODO Update Figure 1, /California 2019-20 K-12 Funding by Source/ to 2023-24.
-* TODO Elaborate/expand Table 3, /Charter School Financial Documents/
-* TODO §3.3.2: Turn the list of datasets into a table
-* TODO Check to see if a footnote is supposed to appear before or after a comma, for instance. See §3.3.2.1 State and Federal Filings
-* 
+* ONGOING Complete my dissertation    
+:PROPERTIES:
+:ORDERED:  t
+:END:
+:LOGBOOK:
+CLOCK: [2023-08-29 Tue 11:11]--[2023-08-29 Tue 13:43] =>  2:32
+:END:
+- [ ] Finish /Chapter 4 Findings/
+  - [ ] Populate sections with data from my Data Dashboard spreadsheet
+  - [ ] Roll up cash flows into a single statement
+  - [ ] Find and record all bond prospectuses
+  - [ ] Cross-reference board meeting data with financial statements
+  - [ ] Find and research the types of bonds
+  - [ ] Cross-reference venture fund data with financial statements
+  - [ ] Incorporate research from StopRocketship, EduResearcher, and ScoopIt
+  - [ ] Incorporate HBS and GSB case studies
+  - [ ] Add graphs which show trends
+    - [ ] Position: over time and ???
+    - [ ] Activties: over time and ???
+    - [ ] Cash Flow: over time and ???
+    - [ ] Debt: over time vs # of students; new debt by year
+- [ ] Finish /Chapter 5 Discussion/
+- [ ] Clean up the entire dissertation
+- [ ] Add an index
+- [ ] Convert from by-hand glossary to the package 'acronym'
+- [ ] Review bibliography and correct
+- [ ] Final draft to advisor
+- [ ] Submit to committee
+- [ ] Defense rehearsal
+- [ ] Defend!
+- [ ] Declare victory
+
+
+* TODO Old TODOs
+** TODO Update Figure 1, /California 2019-20 K-12 Funding by Source/ to 2023-24.
+** TODO Elaborate/expand Table 3, /Charter School Financial Documents/
+** TODO §3.3.2: Turn the list of datasets into a table
+** TODO Check to see if a footnote is supposed to appear before or after a comma, for instance. See §3.3.2.1 State and Federal Filings
+
