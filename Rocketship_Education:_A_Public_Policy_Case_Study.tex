@@ -1,0 +1,103 @@
+%%% Time-stamp: <2022-08-11 22:26:29 vladimir>
+%%% Copyright (C) 2019-2022 Vladimir G. Ivanović
+%%% Author: Vladimir G. Ivanović <vladimir@acm.org>
+%%% ORCID: https://orcid.org/0000-0002-7802-7970
+
+% arara: lualatex: { synctex: yes }
+
+\input{preamble}
+
+\addbibresource{~/Ed.D./Bibliographies/My Library.bib}
+
+\pretitle{\begin{center}}% chktex 15
+\title{Rocketship Education: An Exploratory Case Study}
+
+\predate{} \date{} \postdate{}
+
+\preauthor{%\
+  \begin{center}
+  \normalfont%
+  \bigskip\bigskip\bigskip\bigskip\bigskip
+  A Dissertation Presented to\\
+  The Faculty of the College of Education\\
+  San José State University\\
+  \bigskip\bigskip\bigskip\bigskip\bigskip
+  In Partial Fulfillment of the Requirements for the Degree\\
+  Doctor of Education in Educational Leadership\\
+  \bigskip\bigskip\bigskip\bigskip\bigskip}
+
+\author{by
+  
+  Vladimir Gresham Ivanović \protect\orcidlink{0000–0002–7802–7970}\\\bigskip\bigskip}
+
+\postauthor{August 2022
+  \vfill Version \version{} created on \DTMnow%
+\end{center}}
+
+\hypersetup{%
+  pdfinfo={%
+    Title={Rocketship Education: An Exploratory Public Policy Case Study},
+    Author={Vladimir Gresham Ivanović},
+    Language={en-US},
+   Subject={An Ed.D. dissertation that examines the finances of Rocketship Education, a charter school management organization, using a public policy lens.},
+   Keywords={Rocketship Education, charter management organization, CMO, charter finances, education public policy},
+   Version=\version%
+  }
+}
+
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\maketitle
+\thispagestyle{empty}
+
+\OnehalfSpacing{}
+\clearforchapter{\tableofcontents*}
+\newpage\listoftables%
+\newpage\listoffigures%
+\DoubleSpacing{}
+\clearforchapter\input{Preface}
+\clearforchapter\input{Acknowledgments}
+\clearforchapter\input{Abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearforchapter\input{Introduction}                     % Chapter 1
+\clearforchapter\input{Literature_Review}                % Chapter 2
+\clearforchapter\input{Methods}                          % Chapter 3
+\clearforchapter\input{Results}                          % Chapter 4
+\clearforchapter\input{Discussion}                       % Chapter 5
+
+\appendix
+\clearforchapter\input{Abbreviations}                    % Appendix A
+\clearforchapter\input{Glossary}                         % Appendix B
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\backmatter{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\urlstyle{leo}
+\SingleSpacing%
+\def\UrlFont{\small\ttfamily}%
+
+\OnehalfSpacing%
+\setlength{\afterchapskip}{0.8\onelineskip}
+\clearforchapter\printbibliography{} %[heading=subbibliography]
+
+\clearforchapter{\small\printindex}
+
+\clearforchapter\input{Colophon}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
