@@ -3,13 +3,13 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
@@ -26,8 +26,10 @@
     "sec:rese-chart-scho"
     "sec:rocketship"
     "sec:founders-supporters"
-    "sec:rocketship-history"
+    "sec:history"
     "tab:RocketshipSchools"
+    "sec:rocketship-corp-struct"
+    "fig:RSED-corporate-structure"
     "sec:rocketship-finances"
     "sec:rocketship-expansion-funding"
     "sec:rocketship-expansion-difficulties"

@@ -1,17 +1,18 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-08-12 22:10:49 vladimir>
+# Time-stamp: <2023-08-16 17:05:10 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+itle: Notes and To Dos
 
-* Zoom with Roxana, Monday, 14 August 2023
+* Zoom with Roxana, Wednesday, 16 August 2023
 ** To talk about
+[] How was her keynote?
 [] Mention tesseract and ocrmypdf. They are fantastic. They soak up a lot (A LOT) of CPU, but they have turned every PDF (image) I've asked them to into a real PDF (PDF/A, the archival PDF version). I even processed a 645 page petition (100% CPU for ~7 minutes).
-[] 
+[] Example of hiccups: Took Data Dashboard -> extracted a piece -> saved as PDF -> burst the PDF -> incorporated into dissertation -> used pdftk to join two pages into one -> used 'pdfpages' in LaTex to do what I wanted. Still to do, add headers and get rid of the blank page.
 
 *  San Jose Insider
 Judgment Day for Rocketship
-By Joseph DiSalvo / December 13, 2011
+By Joseph DiSalvo / December 13, 20117Z.L7VAo\&A7-!eb
 
 There is a game-changing local story about to take place in a few days. A decision before the SCCOE Board of Education is whether or not to approve 20 Rocketship Charter Schools on a countywide benefit charter basis. Each new school approval is listed as a separate action item on the Board’s agenda. For each item, the county staff recommends approval insofar as the petition “meets the minimum requirements for countywide charter approval set forth in Educational Code section 47605.6.”
 
@@ -253,7 +254,7 @@ Password: 103895
 - CCR Title 4, Division 15, Article 1.5 Charter School Facility Grant Program
 - 10170.14. Conflicts of Interest.
 - https://www.treasurer.ca.gov/csfa/csfgp/sb740/permanent-regulations.pdf
-* Things to do whenever ending an editing session on mozart.
+* [Obsolete] Things to do whenever ending an editing session on mozart.
 1. [ ] Make sure everything builds.
 2. [ ] Check modified files into Git.
 3. [ ] Remove untracked files from the working tree.
