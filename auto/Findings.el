@@ -14,8 +14,13 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:findings"
+<<<<<<< HEAD
+    "sec:location-and-property-info"
+    "tab:locations"
+=======
     "sec:rocketship-corp-struct"
     "fig:RSED-corporate-structure"
+>>>>>>> a3393d24957fecd98461f0f8046ace2b61dfacb9
     "sec:findings-charter-financing"
     "sec:charter-school-financing-options"
     "tab:charter-financing-options"
@@ -26,9 +31,6 @@
     "sec:findings-budgets-etc"
     "sec:findings-lcaps"
     "sec:findings-board-material"
-    "sec:findings-charter-real-estate"
-    "sec:location-and-property-info"
-    "tab:locations"
     "sec:findings-facilities-options"
     "sec:findings-co-locating"
     "sec:findings-leasing"
