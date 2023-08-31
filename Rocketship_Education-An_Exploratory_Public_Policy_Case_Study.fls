@@ -373,6 +373,9 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplo
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.code.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/prettyref/prettyref.sty
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/graphics/rotating.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/todonotes/todonotes.sty
+INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
 INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/ulem/ulem.sty
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm
 OUTPUT version.dat
@@ -441,6 +444,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.tdo
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.lot
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.lof
 INPUT ./Abbreviations.tex
@@ -542,6 +546,7 @@ INPUT ./Consolidated_Financial_Statements/Consolidated_Activities_Years_2010-202
 INPUT ./Consolidated_Financial_Statements/Consolidated_Activities_Years_2010-2022-2up.pdf
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.ind
 OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.toc
+OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.tdo
 OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.lot
 OUTPUT Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.lof
 INPUT ./Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.aux
