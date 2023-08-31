@@ -3,24 +3,21 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (LaTeX-add-labels
     "ch:findings"
-<<<<<<< HEAD
     "sec:location-and-property-info"
     "tab:locations"
-=======
     "sec:rocketship-corp-struct"
     "fig:RSED-corporate-structure"
->>>>>>> a3393d24957fecd98461f0f8046ace2b61dfacb9
     "sec:findings-charter-financing"
     "sec:charter-school-financing-options"
     "tab:charter-financing-options"
