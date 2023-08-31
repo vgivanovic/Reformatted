@@ -1,9 +1,6 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-<<<<<<< HEAD
-# Time-stamp: <2023-08-16 17:05:10 vladimir>
-=======
+# Time-stamp: <2023-08-31 07:55:49 vladimir>
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
->>>>>>> a3393d24957fecd98461f0f8046ace2b61dfacb9
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
@@ -492,12 +489,17 @@ d. An explanation of the importance of conducting a study to help resolve that i
 e. Initial definitions for important terms and concepts likely to be used throughout the proposal
 \end{comment}
 
-* A /free/ market is one where
-- Everyone is a price-taker.
-- Transaction costs are zero.
-- There are no barriers or costs to entry or exit.
-- Everyone has the same information (at the same time).
+* <2022-03-04 Fri> with Roxana
+- Meet next Friday @ 10am
+- Clean draft due by early Wednesday AM
+
+* A /perfect/ market is one where
+- Everyone is a price-taker
+- Transaction costs are zero
+- There are no barriers or costs to entry or exit
+- Everyone has the same information, at the same time, that might affect prices
 and the (surprising) consequence is that profits are zero for everyone.
+
 * Charter School Plans
 - "The Great Public Schools Now Initiative, Broad Foundation, June 2015
 - "The Wave of the Future", Andrew Smarick, /Education Next/, v8 #1, Winter 2008
@@ -535,6 +537,24 @@ indexmeister & imbrowse
 - Peery Foundation
 - Charles and Helen Schwab Foundation
 - Tipping Point
+* For Roxana on <2021-09-07 Tue>:
+- I've taken the summer off.
+- I'm fully committed to finishing my dissertation by April 1st. That gives me 6 1/2 months. I think I can commit to 6 hours per weekday.
+- I think I'm halfway done for a draft of Chapter 3 good enough to use as a proposal. End of September (or earlier).
+- I still need help on crafting good research questions. What's my point?
+- What happened to the /Cashing in on Kids/ web site? Too much work for too few views?
+- I'm getting pretty discouraged by the steady stream of political setbacks:
+  - Texas: anti-abortion & voting rights
+  - Biden's ratings
+    - Are we supporting him as much as we should?
+  - Senators Manchin & Sinema
+  - the continued focus on a stolen election
+  - the continued absence of focus on the Jan 6th attempted coup
+  - the continued absence of focus on Facebook's role in spreading disinformation
+  - Jane Mayer's article in the /New Yorker/ on the funding of voter suppression
+  - Article on the success of anti-vaxxers in the NY Times 31-Aug-2021, "This is the Moment the Anti-Vaccine Movement Has Been Waiting For"
+  - What the hell is wrong with progressives? Why can't we win more often?
+  - Newsom & the recall & Reed Hastings & <one other billionaire whose name I forget>
 * From 2021-01-12 issue of the Cashing in on Kids newsletter:
 Which federal agency has funded more charter school facilities than any other? The U.S. Department of Agriculture. At least according to Chicago-based Wert-Berate,r LLC, the self-described “leading” company in facilitating the charter school industry’s lucrative real estate sector by providing “feasibility studies.”
 
@@ -623,7 +643,8 @@ Do public school districts have to comply? What happens if the district faciliti
 
   Sincerely,
   <Claudia Rossi>
-- why is my study interesting
+
+* Why is my study interesting
 - heated debates
 - many chains
 - will focus on Rocketship
@@ -642,3 +663,40 @@ Do public school districts have to comply? What happens if the district faciliti
 * Charter Fund
 – dba Charter School Growth Fund
 - EIN: 84-1049083
+* <2021-04-29 Thu> with Arnie
+** Purpose: Evaluate Rocketship
+** Purpose: A case study
+** Robert Stake, Robert Yin
+*** to what extent do RS policies serve all students? 
+** Send Arnie my research questions and what i want to do, and he'll suggest derived RQs.
+*** add IRB + "citi" to Chapt. 3 submission
+* <2021-04-29 Thu> With Roxana
+** KIPP not Rocketship is the largest CMO. "Is among" "is one of the largest"
+** Charles Schwab?
+** Caliber, avigator, KIPP
+** Move Jefferson & Gandhi to Introduction
+** "so little to lose" -> don't have a voice
+** RQ use "unduplicated students"
+** Latino ELL students do worse than ELL students in public schools even though RS claims to be closing the achievement gap
+** if you will
+** concision is important
+** check on CA's non-classroom based instruction moratorium expiring soon
+* <2021-05-19 Wed> With Roxana
+** Work hard, be hard
+Little work on
+answer with data that can be replicated
+** systematic study
+-  RQ: different factors influence relate to RS's
+how do  cmo structure, bl pedagogy, location 
+  affect RS's finances
+  what is the role?
+
+  examine various factors aspects profits from tax dollars
+
+- what are the ways that non-profit charter school chains derive profits from public funds
+- Does RS only invest in locations where LCFF funding gives unduplicated pupils extra $$$
+- sacklers invest in charter schools
+  - highlight benefits
+  - downplay difficulties
+  - Sackler – Rocketship???
+    "a walking conflict of interest" – description of Sackler
