@@ -1,0 +1,115 @@
+%%% Time-stamp: <2023-01-19 22:41:34 vladimir>
+%%% Copyright (C) 2019-2023 Vladimir G. Ivanović
+%%% Author: Vladimir G. Ivanović <vladimir@acm.org>
+%%% ORCID: https://orcid.org/0000-0002-7802-7970
+% arara: lualatex
+
+\input{preamble}
+
+\addbibresource{../References.bib}
+
+\pretitle{\begin{center}}
+  \title{ROCKETSHIP EDUCATION:\\
+    AN EXPLORATORY PUBLIC POLICY CASE STUDY} % SJSU EDD Guidelines Checklist #17
+\posttitle{\end{center}}
+
+\predate{} \date{} \postdate{}
+
+\preauthor{%\
+  \begin{center}
+  \normalfont%
+  \bigskip\bigskip\bigskip\bigskip\bigskip
+  A Dissertation Presented to\\
+  The Faculty of the Connie L. Lurie College of Education\\
+  San José State University\\
+  \bigskip\bigskip\bigskip\bigskip\bigskip
+  In Partial Fulfillment of the Requirements for the Degree\\
+  Doctor of Education\\
+  \bigskip\bigskip\bigskip\bigskip\bigskip}
+
+\author{by
+  
+  Vladimir Gresham Ivanović \protect\orcidlink{0000–0002–7802–7970}\\\bigskip\bigskip}
+
+\postauthor{August 2022
+  \vfill Version \version{} created on \DTMnow%
+\end{center}}
+
+\hypersetup{%
+  pdfinfo={%
+    Title={Rocketship Education: An Exploratory Public Policy Case Study},
+    Author={Vladimir Gresham Ivanović},
+    Language={en-US},
+   Subject={An Ed.D. dissertation that examines the finances of Rocketship Education, a charter school management organization, using a public policy lens.},
+   Keywords={Rocketship Education, charter management organization, CMO, charter finances, education public policy},
+   Version=\version%
+  }
+}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\frontmatter{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+
+\thispagestyle{empty}           % for title page
+\pagestyle{empty}               % for copyright, signature, & abstract pages
+
+\newpage\input{Copyright}
+\newpage\input{Signature}\clearpage
+\mbox{}                         % Force an empty page
+\cleardoublepage\input{Abstract}
+
+\pagestyle{plain}               % start displaying folios, but using Roman numerals until the main matter.
+
+% \newpage\input{Acknowledgments}
+\OnehalfSpacing%
+\newpage{\tableofcontents*}
+\newpage\listoftables%
+\newpage\listoffigures%
+\newpage\input{Abbreviations}
+\clearforchapter\input{Glossary}
+\DoubleSpacing%
+
+%\clearforchapter\input{Epigraph}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter{}
+%\linenumbers%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearforchapter\input{Introduction}                  % Chapter 1
+\clearforchapter\input{Literature_Review}             % Chapter 2
+\clearforchapter\input{Methods}                       % Chapter 3
+\clearforchapter\input{Results}                       % Chapter 4
+\clearforchapter\input{Discussion}                    % Chapter 5
+\newpage%
+
+\setlength{\afterchapskip}{0.8\onelineskip}
+
+\OnehalfSpacing%
+\setlength{\bibitemsep}{\onelineskip}
+\printbibliography{}
+\DoubleSpacing%
+\appendix%
+\begin{appendices}
+\chapterstyle{appdx_sjsu}
+\clearforchapter\input{School_Financing}
+\clearforchapter\input{Rocketship_Properties}
+\clearforchapter\input{Consolidated_Financial_Position_Years_2010-2022}
+\clearforchapter\input{Consolidated_Activities_Years_2010-2022}
+\end{appendices}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+\backmatter{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\clearforchapter{\small\printindex}
+\linenumbers%
+\clearforchapter\input{Colophon}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "Rocketship_Education:_An_Exploratory_Public_Policy_Case_Study"
+%%% End:

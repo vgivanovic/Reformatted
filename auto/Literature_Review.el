@@ -22,6 +22,7 @@
     "tab:school_attributes"
     "sec:us-charter-schools"
     "sec:charters-in-ca"
+    "sec:history"
     "sec:charter-surveys"
     "sec:rese-chart-scho"
     "sec:rocketship"

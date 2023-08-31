@@ -1,5 +1,9 @@
 #-*- Mode:org; -*-
+<<<<<<< HEAD
 ### Time-stamp: <2023-08-31 07:10:26 vladimir>
+=======
+### Time-stamp: <2023-08-20 10:40:08 vladimir>
+>>>>>>> a3393d24957fecd98461f0f8046ace2b61dfacb9
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -472,12 +476,26 @@ CLOCK: [2023-08-11 Fri 20:15]--[2023-08-11 Fri 23:20] =>  3:15
 CLOCK: [2023-08-12 Sat 20:57]--[2023-08-12 Sat 22:44] =>  1:47
 CLOCK: [2023-08-12 Sat 16:18]--[2023-08-12 Sat 18:32] =>  2:14
 :END:
+<<<<<<< HEAD
 * <2023-08-25 Fri>
 :LOGBOOK:
 CLOCK: [2023-08-25 Fri 16:12]--[2023-08-25 Fri 16:28] =>  0:16
 :END:
 * 
 *  
+=======
+* <2023-08-13 Sun>
+** Findings
+:LOGBOOK:
+CLOCK: [2023-08-13 Sun 15:22]--[2023-08-13 Sun 18:06] =>  2:44
+CLOCK: [2023-08-13 Sun 10:19]--[2023-08-13 Sun 12:20] =>  2:01
+:END:
+* <2023-08-20 Sun>
+:LOGBOOK:
+CLOCK: [2023-08-20 Sun 09:30]
+:END:
+* 
+>>>>>>> a3393d24957fecd98461f0f8046ace2b61dfacb9
 * 
 * 
 * 
