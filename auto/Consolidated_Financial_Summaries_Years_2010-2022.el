@@ -13,9 +13,7 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
-    "ch:consolidated_financial_summaries"
-    "fig:financial-statements-collected"
-    "fig:consolidated_financial_position_2010-2022"
-    "fig:consolidated_activities_2010-2022"))
+    "ch:consolidated_financial_position"
+    "fig:consolidated_financial_position_2010-2022"))
  :latex)
 

@@ -1,7 +1,14 @@
-#-*- Mode:org; -*-
-# Time-stamp: <2023-08-31 08:32:38 vladimir>
+<<<<<<< HEAD
+# -*- Mode:org; -*-
+# Time-stamp: <2023-09-01 13:22:09 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
+=======
+#-*- Mode:org; -*-
+### Time-stamp: <2023-07-18 09:42:27 vladimir>
+### Copyright (C) 2019-2023 Vladimir G. Ivanović
+### Author: Vladimir G. Ivanović <vladimir@acm.org>
+>>>>>>> 4685233 (Fixups to 'methods.tex'.)
 #+startup: overview
 #+title: Work Log
 
@@ -445,6 +452,7 @@ CLOCK: [2023-07-16 Sun 16:07]--[2023-07-17 Mon 14:32] => 22:25
 * <2023-07-17 Mon>
 ** Final LaTeX fixups to Methods.tex
 :LOGBOOK:
+<<<<<<< HEAD
 CLOCK: [2023-07-17 Mon 14:55]--[2023-07-17 Mon 15:30] =>  0:35
 :END:
 * <2023-07-18 Tue>
@@ -484,7 +492,6 @@ CLOCK: [2023-08-13 Sun 10:19]--[2023-08-13 Sun 12:20] =>  2:01
 :END:
 * <2023-08-20 Sun>
 :LOGBOOK:
-<<<<<<< HEAD
 CLOCK: [2023-08-20 Sun 09:30]--[2023-08-20 Sun 14:54] =>  5:24
 :END:
 * <2023-08-29 Tue>
@@ -498,10 +505,28 @@ CLOCK: [2023-08-20 Sun 09:30]--[2023-08-20 Sun 10:30] =>  1:00
 * <2023-08-31 Thu>
 ** Findings
 :LOGBOOK:
-CLOCK: [2023-08-31 Thu 07:54]
+CLOCK: [2023-08-31 Thu 07:54]--[2023-08-31 Thu 10:54] => 3:00
+:END:
+* <2023-09-01 Fri>
+** Fixing up tables in the Appendix
+:LOGBOOK:
+CLOCK: [2023-09-01 Fri 12:49]--[2023-09-01 Fri 13:22] =>  0:33
+CLOCK: [2023-09-01 Fri 10:53]--[2023-09-01 Fri 11:08] =>  0:15
+CLOCK: [2023-09-01 Fri 09:28]--[2023-09-01 Fri 09:45] =>  0:17
+CLOCK: [2023-09-01 Fri 04:20]--[2023-09-01 Fri 08:25] =>  4:05
+=======
+CLOCK: [2023-07-17 Mon 14:32]--[2023-07-17 Mon 17:30] =>  2:58
+:END:
+* <2023-07-18 Tue>
+** Still finishing up with Methods.tex
+:LOGBOOK:
+CLOCK: [2023-07-18 Tue 09:42]
+>>>>>>> 4685233 (Fixups to 'methods.tex'.)
 :END:
 * 
 * 
 * 
+<<<<<<< HEAD
 * 
-* 
+=======
+>>>>>>> 4685233 (Fixups to 'methods.tex'.)

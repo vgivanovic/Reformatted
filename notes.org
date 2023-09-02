@@ -1,10 +1,25 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-08-31 07:55:49 vladimir>
+# Time-stamp: <2023-08-31 18:11:10 vladimir>
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
 
+* What graphs/tables should I generate? And why.
+- # of student, # of sites vs time
+  This is a measure of their size and it also determines how much LCFF money they are going to receive.
+- Revenues, expenditures vs time
+  This measures their growth over time.
+- Revenues, expenditures/student over time
+  This measures how much they receive and spend per child over time.
+- Cash flow vs time
+  Cash is king.
+- Debt vs time
+  How much do they have to borrow to obtain the cash flow they want?
+- Debt/student vs time
+  Do they have economies of scale?
+- Rocketship Support Network revenue vs time
+  How much are their schools financing their growth?
 * Zoom with Roxana, Wednesday, 16 August 2023
 ** To talk about
 [] How was her keynote?
@@ -263,51 +278,6 @@ Password: 103895
 5. [ ] Rsync into prokofiev/mozart from mozart/prokofiev.
 6. [ ] Make sure both prokofiev and mozart build.
 7. [ ] Check out of Work Log.log
-
-* TODO by section in dissertation
-** TODO General
-*** TODO Review tax law changes that affect charter school operators to see which have the most effect.
-*** TODO Make sure the organization of my dissertation is crystal clear to readers.
-*** TODO Make sure the limitations of my study are spelled out.
-*** TODO Fix the capitalization of references.
-*** TODO Check & recheck all tiny URLs.
-** TODO preamble
-*** DONE Remove varioref and use prettyref instead
-*** TODO Format preamble (mylatexformat) to speed compilation.
-*** TODO Add "Chapter" and number to chapter headings.
-
-** TODO Abbreviations
-
-** TODO Glossary.tex
-*** Italize first use of glossary terms.
-*** Make description terms normal font.
-
-** TODO Introduction
-
-** TODO Literature Review
-
-** TODO Methods
-
-** TODO Findings & Results
-*** TODO Rocketship expansion criteria
-*** Rockethip has expanded into Redwood City, Antioch, and San Francisco
-*** Rocketship expanded into Wisconsin, Tennessee, and Washington, D.C., and they wanted to expand into Texas. Is there anything special about these locations that make them especially favorable? State law? State board of education? Demographic considerations? Influence of major charter school proponents and donors?
-*** Has Rocketship *not* expanded into some locations because of existing charter schools?
-*** TODO What's with joining the El Dorado County SELPA? 
-*** TODO What is a plausible exit strategy?
-*** TODO Keep track of people and cross-reference with LittleSis
-*** TODO Keep track of ways that Rocketship has cut costs using the data in petitions
-*** TODO Track down the origin of "held in trust" comment in the 2022 CSFA presentation
-**** Presentation: Charter School Facilities Program 2022 Filing Round: Informational Webinar, 01 Mar 2023
-***** See [p. 29] May 2 – June 3: California School Finance Authority: Program Overview
-***** What does this mean? Where is it specified?
-
-** TODO Appendices
-*** Fix fuzziness in tables.
-*** Add "Appendix" as chapter headings.
-*** Add New Markets Tax Credit explanation.
-*** Make sure citations are correct.
-
 
 * Four principles of high quality case studies
 1. First, your analysis should show that you attended to all the evidence. Your analytic strategies, including the development of rival hypotheses, must exhaustively cover your key research questions (you can now appreciate better the importance of defining sharp as opposed to vague questions). Your analysis should show how it sought to use as much evidence as was available, and your interpretations should account for all this evidence and leave no loose ends. Without achieving this standard, your analysis may be vulnerable to alternative interpretations based on the evidence that you had (inadvertently) ignored.
