@@ -30,7 +30,7 @@
     "Consolidated_Financial_Position_Years_2010-2022"
     "Consolidated_Activities_Years_2010-2022"
     "Consolidated_Cash_Flows_Years_2010-2022"
-    "Consolidated_Functional_Expenses_Years_2010-2022"
+    "Consolidated_Functional_Expenses_Years_2019-2022"
     "Debt_2008-2022")
    (LaTeX-add-bibliographies
     "References"))

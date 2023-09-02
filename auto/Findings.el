@@ -3,22 +3,14 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-<<<<<<< HEAD
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-=======
->>>>>>> 4685233 (Fixups to 'methods.tex'.)
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
-<<<<<<< HEAD
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
-   (LaTeX-add-labels
-    "ch:findings"
-=======
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:findings"
@@ -26,7 +18,6 @@
     "sec:RSED-corporate-structure"
     "fig:corporate-structure"
     "fig:financial-statements-collected"
->>>>>>> 4685233 (Fixups to 'methods.tex'.)
     "sec:location-and-property-info"
     "tab:locations"
     "sec:rocketship-corp-struct"
@@ -38,7 +29,6 @@
     "fig:rocketship-financial-docs"
     "sec:debt"
     "sec:petitions-renewals"
-<<<<<<< HEAD
     "sec:findings-authorizer-staff-reports"
     "sec:findings-budgets-etc"
     "sec:findings-lcaps"
@@ -51,6 +41,7 @@
     "sec:findings-private-funding"
     "sec:findings-venture-funds"
     "sec:findings-tax-credits"
+    "sec:tax-credit"
     "sec:findings-bonds"
     "sec:findings-other-data"
     "sec:findings-datasets"
@@ -58,11 +49,6 @@
     "sec:findings-curated-social-media"
     "sec:findings-gaps-anomolies"
     "sec:findings-triangulation"
-=======
-    "sec:staff-reports"
-    "sec:real-estate-data"
-    "sec:tax-credit"
->>>>>>> 4685233 (Fixups to 'methods.tex'.)
     "fig:opresflows"))
  :latex)
 
