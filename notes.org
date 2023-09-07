@@ -1,10 +1,21 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-09-02 10:36:59 vladimir>
+# Time-stamp: <2023-09-07 10:54:28 vladimir>
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
 
+* <2023-09-05 Tue> Doctoral Consultation Meeting with Roxana  
+- Generally, Tuesday @ 2pm.
+- RSEd -> RS Public Schools footnote exists? continue to be vialble in the face of criticism. Add to Discussion? Didn't do analysis of marketing. Tie in to real estate.
+- Send RM portrait version of consolidated activities
+- Send version of RQ to RM for comment.
+- More detailed plan to RM
+- Check dates
+- 12 Sep: Finish Findings
+- 19 Sep: draft Discussion
+- 10 Oct: (longer meeting) pulling it all together
+# ??? - biber
 * What graphs/tables should I generate? And why.
 - # of student, # of sites vs time
   This is a measure of their size and it also determines how much LCFF money they are going to receive.

@@ -10,11 +10,10 @@
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (LaTeX-add-labels
     "ch:findings"
-    "sec:history"
     "sec:RSED-corporate-structure"
     "fig:corporate-structure"
     "fig:financial-statements-collected"
