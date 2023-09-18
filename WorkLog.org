@@ -1,9 +1,5 @@
 # -*- Mode:org; -*-
-<<<<<<< HEAD
-# Time-stamp: <2023-09-18 05:37:23 vladimir>
-=======
-# Time-stamp: <2023-09-06 12:26:17 vladimir>
->>>>>>> be34f2be638b4d2d5619b2565e5db687b01650f9
+# Time-stamp: <2023-09-18 05:52:36 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+startup: overview
@@ -527,7 +523,6 @@ CLOCK: [2023-09-02 Sat 11:00]--[2023-09-02 Sat 12:04] =>  1:04
 CLOCK: [2023-09-06 Wed 11:15]--[2023-09-06 Wed 12:26] =>  1:11
 CLOCK: [2023-09-06 Wed 09:16]--[2023-09-06 Wed 10:40] =>  1:24
 :END:
-<<<<<<< HEAD
 * <2023-09-08 Fri>
 ** Creating Cash Flow PDFs
 :LOGBOOK:
@@ -573,8 +568,6 @@ CLOCK: [2023-09-18 Mon 05:05]
 
 
 * 
-=======
->>>>>>> be34f2be638b4d2d5619b2565e5db687b01650f9
 * 
 * 
 * 
