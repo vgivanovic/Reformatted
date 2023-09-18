@@ -1,10 +1,13 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-09-07 10:54:28 vladimir>
+# Time-stamp: <2023-09-14 14:09:01 vladimir>
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
 
+* <2023-09-14 Thu>
+- ¿Adopt the viewpoint "How has this affected the people of California, long-term?"
+  
 * <2023-09-05 Tue> Doctoral Consultation Meeting with Roxana  
 - Generally, Tuesday @ 2pm.
 - RSEd -> RS Public Schools footnote exists? continue to be vialble in the face of criticism. Add to Discussion? Didn't do analysis of marketing. Tie in to real estate.
