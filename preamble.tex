@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-09-02 12:00:04 vladimir>
+%%% Time-stamp: <2023-09-22 13:38:39 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -24,6 +24,7 @@
 \usepackage{datetime2}
 \usepackage[shortlabels]{enumitem}
 % \usepackage[draft,inline,margin=false]{fixme}
+\usepackage{flafter}
 \usepackage{fontspec}
 \usepackage[ragged]{footmisc}
 \usepackage[edges]{forest}
@@ -63,7 +64,7 @@
 
 \setmainfont[Ligatures=TeX,Numbers=OldStyle]{Alegreya}
 \setsansfont[Ligatures=TeX,Numbers=OldStyle]{Alegreya Sans}
-\setmonofont[Scale=MatchLowercase]{Fira Mono}
+\setmonofont[Scale=0.8]{Fira Mono}
 \setmathtt[Scale=MatchLowercase]{Fira Math}
 
 \pagestyle{plain}               % SJSU EDD Guidelines Checklist #10
@@ -89,10 +90,10 @@
 \DoubleSpacing%
 
 \tightlists%
-\setlist[1]{labelindent=\parindent}
-\setlist[itemize]{leftmargin=*}
-\setlist[enumerate]{leftmargin=*}
-\setlist[description]{leftmargin=2\parindent}
+% \setlist[1]{labelindent=\parindent}
+% \setlist[itemize]{leftmargin=*}
+% \setlist[enumerate]{leftmargin=*}
+% \setlist[description]{leftmargin=2\parindent}
 
 \setsecnumdepth{subsubsection}
 \maxsecnumdepth{subsubsection}
@@ -117,13 +118,13 @@
 \makechapterstyle{appdx_sjsu}{%
   \settocdepth{subsection}
   \setlength{\afterchapskip}{0in}
-  \renewcommand*{\chapterheadstart}{}
-  \renewcommand*{\chaptitlefont}{}
+  % \renewcommand*{\chapterheadstart}{}
+  \renewcommand*{\chapnamefont}{\normalfont\bfseries}
+  \renewcommand*{\chapnumfont}{\normalfont\bfseries}
+  \renewcommand*{\chaptitlefont}{\normalfont\bfseries}
   \renewcommand*{\printchaptername}{}
   \renewcommand*{\printchapternum}{}
-  % \renewcommand*{\midchapskip}{-0.24in}
-  \renewcommand*{\printchaptertitle}[1]{%
-  \SingleSpacing\centering{\textbf\chaptitlefont{}##1}}}
+  \renewcommand*{\printchaptertitle}[1]{\SingleSpacing\centering{\textbf\chaptitlefont{}##1}}}
 
 \indentafterchapter%
 

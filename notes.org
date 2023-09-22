@@ -1,9 +1,15 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-09-14 14:09:01 vladimir>
+# Time-stamp: <2023-09-22 14:47:44 vladimir>
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
+
+* <2023-09-22 Fri> Doctoral Consultation Meeting with Roxana
+- Explain the data tables to some extent. Elaborate.
+- Remove Figure 13 SCC charter schools
+- Check with GS to see how off the final draft wrt to formatting
+- 
 
 * <2023-09-14 Thu>
 - ¿Adopt the viewpoint "How has this affected the people of California, long-term?"
@@ -42,7 +48,7 @@
 
 *  San Jose Insider
 Judgment Day for Rocketship
-By Joseph DiSalvo / December 13, 20117Z.L7VAo\&A7-!eb
+By Joseph DiSalvo / December 13, 2011
 
 There is a game-changing local story about to take place in a few days. A decision before the SCCOE Board of Education is whether or not to approve 20 Rocketship Charter Schools on a countywide benefit charter basis. Each new school approval is listed as a separate action item on the Board’s agenda. For each item, the county staff recommends approval insofar as the petition “meets the minimum requirements for countywide charter approval set forth in Educational Code section 47605.6.”
 
