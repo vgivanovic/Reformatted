@@ -40,6 +40,7 @@
     "imakeidx"
     "lineno"
     "makecell"
+    "multicol"
     "multirow"
     "mVersion"
     "orcidlink"

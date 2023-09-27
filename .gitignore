@@ -16,6 +16,7 @@
 *.toc
 *.xml
 *.zip
+*.~lock.*
 *Case\ Conflict*
 *latexmk
 *onflict*
@@ -25,4 +26,6 @@
 Unused_PDFs_to_be_deleted
 \#.*
 arara.log
+test.*
 tmp
+tmp.*
