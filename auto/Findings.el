@@ -22,10 +22,7 @@
     "sec:charter-school-financing-options"
     "tab:charter-school-financing-options"
     "sec:rocketship-financial-docs"
-    "sec:financial_position"
-    "sec:activities"
-    "sec:cash_flows"
-    "sec:functional_expenses"
+    "tab:net_assets"
     "sec:debt"
     "tab:total_debt"
     "fig:total_debt"
@@ -39,6 +36,7 @@
     "sec:venture_funds"
     "sec:tax-credit"
     "sec:equality_equity"
-    "student_instruction_support"))
+    "student_instruction_support"
+    "sec:findings-gaps-anomolies"))
  :latex)
 
