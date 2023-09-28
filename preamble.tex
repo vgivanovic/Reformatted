@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-09-22 13:38:39 vladimir>
+%%% Time-stamp: <2023-09-26 20:57:31 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -28,22 +28,23 @@
 \usepackage{fontspec}
 \usepackage[ragged]{footmisc}
 \usepackage[edges]{forest}
-\usepackage[left=1.5in, right=1in, top=1.25in, bottom=1.25in, nomarginpar]{geometry}
+\usepackage[left=1.5in, right=1.0in, top=1.25in, bottom=1.25in]{geometry} % 72bp = 72.27pt = 1 inch
 \usepackage{graphicx}
 \usepackage{imakeidx}
 \usepackage[pagewise]{lineno}
 \usepackage{makecell}
+\usepackage{multicol}
 \usepackage{multirow}
 \usepackage{mVersion}
 \usepackage{orcidlink}
-\usepackage{pdfpages}
+\usepackage{pdflscape}
 \usepackage{pgfplots}
 \pgfplotsset{compat/show suggested version=false}
 \usepackage{prettyref}
 \newrefformat{ch}{Chapter \ref{#1},    \textit{\titleref{#1}}}
 \newrefformat{sec}{Section \ref{#1},   \textit{\titleref{#1}}}
 \newrefformat{tab}{Table \ref{#1},     \textit{\titleref{#1}}}
-\newrefformat{fig} {Figure \ref{#1},    \textit{\titleref{#1}}}
+\newrefformat{fig} {Figure \ref{#1},   \textit{\titleref{#1}}}
 \newrefformat{figp}{Figure \ref{#1},   \textit{\titleref{#1}} on p.\pageref{#1}}
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
 \usepackage[figureleft]{rotating}
@@ -64,11 +65,10 @@
 
 \setmainfont[Ligatures=TeX,Numbers=OldStyle]{Alegreya}
 \setsansfont[Ligatures=TeX,Numbers=OldStyle]{Alegreya Sans}
-\setmonofont[Scale=0.8]{Fira Mono}
+\setmonofont[Scale=MatchUppercase]{Fira Mono}
 \setmathtt[Scale=MatchLowercase]{Fira Math}
 
 \pagestyle{plain}               % SJSU EDD Guidelines Checklist #10
-%\checkthelayout
 
 \raggedright%                    % SJSU EDD Guidelines Checklist #2, #4
 
@@ -153,6 +153,9 @@
 
 \indexsetup{level=\chapter,toclevel=chapter}
 \makeindex
+
+% \settypeoutlayoutunit{in}
+% \checkandfixthelayout
 
 %%% Local Variables:
 %%% mode: latex
