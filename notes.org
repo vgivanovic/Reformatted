@@ -1,17 +1,28 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-09-22 14:47:44 vladimir>
+# Time-stamp: <2023-10-01 07:12:18 vladimir>
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
 
+* TODO Critically Important before publication
+- Make sure no financial PDFs have any "###" or "Ref #" entries, 
+- Make sure the PDFs, LibreOffice spreadsheets, and Google spreadsheets are saved and the same.
+
+* <2023-09-29 Fri> Doctoral Consultation Meeting with Roxana
+- Creating graphs is taking a lot of time. Should I skip creating them for now? Yes.
+- ? What to do about Form 990s? They could be just different accounting standards, on the other hand, they do diverge in significant was: net assets, expenses, ...
+  - Current analysis is limited; the data are limited to determine if there is funny business going on.
+- On-demand printed (not yet received) a PDF on school district finances. I'll read it in the evenings when I'm in Yosemite.
+- Discussion based on findings, and then go wild with speculation.
+  - teachers have sign-on bonuses, but no protection from layoffs; churn is huge.
+
 * <2023-09-22 Fri> Doctoral Consultation Meeting with Roxana
 - Explain the data tables to some extent. Elaborate.
 - Remove Figure 13 SCC charter schools
 - Check with GS to see how off the final draft wrt to formatting
-- 
 
-* <2023-09-14 Thu>
+* Viewpoint?
 - ¿Adopt the viewpoint "How has this affected the people of California, long-term?"
   
 * <2023-09-05 Tue> Doctoral Consultation Meeting with Roxana  
