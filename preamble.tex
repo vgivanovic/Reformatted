@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-09-29 12:33:08 vladimir>
+%%% Time-stamp: <2023-10-09 22:22:58 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -55,7 +55,8 @@
 % \usetikzlibrary{graphdrawing.trees}
 % \tikzstyle{every node}=[draw=black,thick,rectangle]
 \usepackage{url}
-%\usepackage[nospace]{varioref}
+% \def\UrlFont{\small\tt}
+% \usepackage[nospace]{varioref}
 \usepackage{xcolor}
 
 \usepackage{hyperref}           % Should be last
@@ -65,7 +66,7 @@
 
 \setmainfont[Ligatures=TeX,Numbers=OldStyle]{Alegreya}
 \setsansfont[Ligatures=TeX,Numbers=OldStyle]{Alegreya Sans}
-\setmonofont[Scale=MatchUppercase]{Fira Mono}
+\setmonofont[Scale=MatchLowercase]{Fira Mono}
 \setmathtt[Scale=MatchLowercase]{Fira Math}
 
 \pagestyle{plain}               % SJSU EDD Guidelines Checklist #10
@@ -73,9 +74,9 @@
 \raggedright%                    % SJSU EDD Guidelines Checklist #2, #4
 
 % % See memman.pdf p.52
-% % \clubpenalty=10000
-% % \widowpenalty=10000
-% \sloppybottom%
+\clubpenalty=10000
+\widowpenalty=10000
+\sloppybottom%
 
 \setlength{\footskip}{\onelineskip}
 \setlength{\footnotesep}{\onelineskip}
@@ -113,7 +114,6 @@
   \renewcommand{\printchaptertitle}[1]{%          % APA Level 1 Heading: centered, bold, title case
     \SingleSpacing\centering\normalfont\bfseries\chaptitlefont{}##1}
 }
-\chapterstyle{sjsu}
 
 \makechapterstyle{appdx_sjsu}{%
   \settocdepth{subsection}
@@ -122,10 +122,9 @@
   \renewcommand*{\chapnamefont}{\normalfont\bfseries}
   \renewcommand*{\chapnumfont}{\normalfont\bfseries}
   \renewcommand*{\chaptitlefont}{\normalfont\bfseries}
-  \renewcommand*{\printchaptername}{Appendix}
+  \renewcommand*{\printchaptername}{Appendix }
   \renewcommand*{\printchapternum}{}
   \renewcommand*{\printchaptertitle}[1]{\SingleSpacing\centering{\textbf\chaptitlefont{}##1}}
-  \renewcommand*{\cftappendixname}{Appendix}
 }
 
 \indentafterchapter%
