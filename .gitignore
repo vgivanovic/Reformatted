@@ -29,3 +29,4 @@ arara.log
 test.*
 tmp
 tmp.*
+*.rubbercache
