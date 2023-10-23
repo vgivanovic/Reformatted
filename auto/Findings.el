@@ -18,7 +18,7 @@
     "fig:corporate-structure"
     "sec:location-and-property-info"
     "tab:locations"
-    "sec:rocketship_finances"
+    "sec:rocketship_finance"
     "sec:charter-school-financing-options"
     "tab:charter-school-financing-options"
     "sec:lcff"

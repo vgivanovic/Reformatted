@@ -1,9 +1,12 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-10-13 17:21:14 vladimir>
+# Time-stamp: <2023-10-22 09:49:10 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
-# Copyright (C) 2019-2023 Vladimir G. Ivanović
+# Copyright (C) 2019-2023 Vladimir G. Ivanović121000358
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
+
+* <2023-10-20 Fri> Doctoral Consultation Meeting with Roxana
+- Keep in mind that my dissertation is also a transparency report on Rocketship.
 
 * <2023-10-13 Fri> Doctoral Consultation Meeting with Roxana
 - Text Roxana on Monday, 2021-10-16 with status.
