@@ -1,9 +1,29 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-10-22 09:49:10 vladimir> 325056577123
+# Time-stamp: <2023-10-23 22:21:16 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović121000358
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
+
+* Things to do whenever creating a release
+** On a work machine (curretly only 'prokofiev' and 'mozart'0 do the following when making a release or ending a day's work.
+1. [ ] Make sure everything builds on the current system without errors or warnings.
+2. [ ] Run 'git clean -ffdx' (or use the Emacs menu item "Commands:Clean All") to remove all files not needed to build or build and release.
+3. [ ] Copy the dissertation PDF to "Versioned PDFs/Rocketship....pdf\" using
+   #+begin_src  bash
+   cp Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.pdf Versioned\ PDFs/Rocketship_Education-An_Exploratory_Public_Policy_Case_Study-$(cat version.dat| tr ';' '.').pdf
+   #+end_src
+4. [ ] Archive and move the versioned PDF to "/zbackups/tarfiles" using
+   #+begin_src bash
+   tar -cvI'zstd -8 --rsyncable' -f /zbackups/tarfiles/Chapter_4-${HOST}-`cat version.dat | tr ';' '.'.tar.zstd` .
+   #+end_src
+5. [ ] Check all files into Git with a useful commit message.
+6. [ ] Push using git to parent repository (~/Dropbox/EdD/Dissertation/Chapter_4) [git is already on branch dummy]
+7. [ ] Changed directory to parent repository & checkout with git to branch main.
+8. [ ] Push using git to parent repository (https://github.com/vgivanovic/Chapter_4.git).
+9. [ ] Checkout to branch dummy.
+10. [ ] In Google Sheets, increment the version number of the "Data Dashboard" and save in the folder "Copies (backups)". Then save the "Data Dashboard-##" and any other modified spreadsheet to the folder "Dissertation > Latest spreadsheets". 
+** Do all steps except #3, and #4, and possibly omit #10 at the end of a work session. 
 
 * <2023-10-20 Fri> Doctoral Consultation Meeting with Roxana
 - Keep in mind that my dissertation is also a transparency report on Rocketship.
@@ -30,8 +50,8 @@
 - Remove Figure 13 SCC charter schools
 - Check with GS to see how off the final draft wrt to formatting
 
-* Viewpoint?
-- ¿Adopt the viewpoint "How has this affected the people of California, long-term?"
+* Viewpoint to tak in Discussion?
+- ¿Adopt the viewpoint "How will this affected the people of California, long-term?"
   
 * <2023-09-05 Tue> Doctoral Consultation Meeting with Roxana  
 - Generally, Tuesday @ 2pm.
@@ -309,14 +329,6 @@ Password: 103895
 - CCR Title 4, Division 15, Article 1.5 Charter School Facility Grant Program
 - 10170.14. Conflicts of Interest.
 - https://www.treasurer.ca.gov/csfa/csfgp/sb740/permanent-regulations.pdf
-* [Obsolete] Things to do whenever ending an editing session on mozart.
-1. [ ] Make sure everything builds.
-2. [ ] Check modified files into Git.
-3. [ ] Remove untracked files from the working tree.
-4. [ ] If 'lsyncd' isn't running, rsync into local Dropbox.
-5. [ ] Rsync into prokofiev/mozart from mozart/prokofiev.
-6. [ ] Make sure both prokofiev and mozart build.
-7. [ ] Check out of Work Log.log
 
 * Four principles of high quality case studies
 1. First, your analysis should show that you attended to all the evidence. Your analytic strategies, including the development of rival hypotheses, must exhaustively cover your key research questions (you can now appreciate better the importance of defining sharp as opposed to vague questions). Your analysis should show how it sought to use as much evidence as was available, and your interpretations should account for all this evidence and leave no loose ends. Without achieving this standard, your analysis may be vulnerable to alternative interpretations based on the evidence that you had (inadvertently) ignored.
