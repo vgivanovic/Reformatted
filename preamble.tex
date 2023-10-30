@@ -1,4 +1,4 @@
-%%% Time-stamp: <2023-10-26 18:07:47 vladimir>
+%%% Time-stamp: <2023-10-29 20:47:23 vladimir>
 %%% Copyright (C) 2019-2023 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -101,8 +101,8 @@
 \maxsecnumdepth{subsubsection}
 \settocdepth{subsubsection}
 
-% % \citeauthor prints only the last name. This command prints the author(s) first and last name.
-% \newrobustcmd*{\citefirstlastauthor}{\AtNextCite{\DeclareNameAlias{labelname}{given-family}}\citeauthor}
+% \citeauthor prints only the last name. This command prints the author(s) first and last name.
+\newrobustcmd*{\citefirstlastauthor}{\AtNextCite{\DeclareNameAlias{labelname}{given-family}}\citeauthor}
 
 \makechapterstyle{sjsu}{%
   \chapterstyle{article}
