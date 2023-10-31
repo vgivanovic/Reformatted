@@ -48,7 +48,6 @@
     "pgfplots"
     "prettyref"
     "rotating"
-    "todonotes"
     "ulem"
     "tikz"
     "url"
