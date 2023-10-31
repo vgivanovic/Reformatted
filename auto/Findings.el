@@ -28,7 +28,7 @@
     "tab:rocketship_bonds"
     "sec:private-grants"
     "sec:venture-fund-loans"
-    "tab:venture_captial_investing"
+    "tab:venture_captial_loans"
     "sec:rent-subsidies"
     "sec:rocketship-financial-docs"
     "tab:net_assets_annual_change"
