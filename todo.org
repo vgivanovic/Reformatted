@@ -1,5 +1,5 @@
 ### -*- mode:org; -*-
-### Time-stamp: <2023-08-29 17:24:45 vladimir>
+### Time-stamp: <2023-11-08 10:02:52 vladimir>
 ### Copyright (C) 2019-2023 Vladimir G. Ivanović
 ### Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+STARTUP: fold
@@ -7,41 +7,40 @@
 #+OPTIONS: toc:nil
 
 * ONGOING Complete my dissertation    
-:PROPERTIES:
-:ORDERED:  t
-:END:
-:LOGBOOK:
-CLOCK: [2023-08-29 Tue 11:11]--[2023-08-29 Tue 13:43] =>  2:32
-:END:
-- [ ] Finish /Chapter 4 Findings/
-  - [ ] Populate sections with data from my Data Dashboard spreadsheet
-  - [ ] Roll up cash flows into a single statement
+- [ ] Chapter 3: Methods
+  - [ ] Create a table of datasets (including maps) that were consulted
+- [-] Chapter 4: Findings
+  - [X] Populate sections with data from my Data Dashboard spreadsheet
+  - [X] Roll up cash flows into a single statement
   - [ ] Find and record all bond prospectuses
-  - [ ] Cross-reference board meeting data with financial statements
-  - [ ] Find and research the types of bonds
   - [ ] Cross-reference venture fund data with financial statements
-  - [ ] Incorporate research from StopRocketship, EduResearcher, and ScoopIt
   - [ ] Incorporate HBS and GSB case studies
-  - [ ] Add graphs which show trends
-    - [ ] Position: over time and ???
-    - [ ] Activties: over time and ???
-    - [ ] Cash Flow: over time and ???
-    - [ ] Debt: over time vs # of students; new debt by year
-- [ ] Finish /Chapter 5 Discussion/
+  - [ ] Chapter 5: Discussion
 - [ ] Clean up the entire dissertation
-- [ ] Add an index
-- [ ] Convert from by-hand glossary to the package 'acronym'
-- [ ] Review bibliography and correct
+  - [ ] Make sure all links work
+  - [ ] Make sure page breaks don't occur just after a section heading
+  - [ ] Try to put two small tables on a page
+  - [ ] Make sure footnotes are correctly position vs punctuation
+  - [ ] Make sure all acronyms
+    - [ ] are expanded at first use within a chapter
+    - [ ] have glossary entries
+  - [ ] Review & correct bibliography
+    - [ ] Correct References.bib errors
+    - [ ] APA-ize references
+  - Create index entries for
+    - [ ] Chapter 1
+    - [ ] Chapter 2
+    - [ ] Chapter 3
+    - [ ] Chapter 4
+    - [ ] Chapter 5
+  - [ ] Add a note on sources
+- [ ] Complete 591C
+  - [ ] Complete CITI course
+  - [ ] Submit to IRB
+  - [ ] Submit dissertation for comments
 - [ ] Final draft to advisor
 - [ ] Submit to committee
+- [ ] Create defense presentation
 - [ ] Defense rehearsal
 - [ ] Defend!
 - [ ] Declare victory
-
-
-* TODO Old TODOs
-** TODO Update Figure 1, /California 2019-20 K-12 Funding by Source/ to 2023-24.
-** TODO Elaborate/expand Table 3, /Charter School Financial Documents/
-** TODO §3.3.2: Turn the list of datasets into a table
-** TODO Check to see if a footnote is supposed to appear before or after a comma, for instance. See §3.3.2.1 State and Federal Filings
-
