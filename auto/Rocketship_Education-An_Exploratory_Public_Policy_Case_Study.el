@@ -30,8 +30,7 @@
     "Consolidated_Financial_Position_2010-2022"
     "Consolidated_Activities_2010-2022"
     "Consolidated_Cash_Flows_2006-2022"
-    "Consolidated_Functional_Expenses_2019-2022"
-    "Debt_2008-2022")
+    "Consolidated_Functional_Expenses_2019-2022")
    (LaTeX-add-bibliographies
     "References"))
  :latex)
