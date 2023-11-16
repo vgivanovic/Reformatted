@@ -22,6 +22,8 @@
     "fig:toulmin-arg"
     "sec:answ-rese-quest"
     "sec:publ-policy-chang"
+    "sec:fraud"
+    "sec:real-estate-conv"
     "sec:issu-future-rese"
     "sec:conclusion"))
  :latex)
