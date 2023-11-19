@@ -24,7 +24,7 @@
     "sec:publ-policy-chang"
     "sec:fraud"
     "sec:real-estate-conv"
-    "sec:issu-future-rese"
+    "sec:areas-future-rese"
     "sec:conclusion"))
  :latex)
 

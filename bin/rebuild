@@ -1,0 +1,25 @@
+#!/bin/sh
+
+while [ "$#" -gt 0 ]; do
+    case "$1" in
+        -c|--clean)
+	    git clean -ffdx
+	    echo
+            shift 1
+            ;;
+        -b|--biber)
+            biber Rocketship_Education-An_Exploratory_Public_Policy_Case_Study
+	    echo
+            shift 1
+            ;;
+        -l|--lualatex)
+	    echo
+            lualatex Rocketship_Education-An_Exploratory_Public_Policy_Case_Study
+            shift 1
+            ;;
+        *)
+            echo "Unknown option: $1"
+            shift 1
+            ;;
+    esac
+done

@@ -18,13 +18,26 @@
 \begin{document}
 
 \noindent{}
-\begin{tikzpicture}[node distance=10mm]
+\begin{tikzpicture}[node distance=20mm]
                    
-  \node (claim)   [terminal,text width=6cm]                  {\textsc{\textbf{Claim}} The statement or conclusion to be verified.};
-  \node (grounds) [terminal,right=of claim,text width=6cm]   {\textsc{\textbf{Grounds}} The evidence that provides the basis for making the claim};
-\node (warrant)     [terminal,below=3cm] {\textsc{\textbf{Warrants}} Connect the claims to the evidence.} ;
+\node (claim)   [terminal,text width=6cm]
+                {\textsc{\textbf{Claim}}\\ The statement or conclusion to be verified.};
+\node (grounds) [terminal, right=of claim, text width=6cm]
+                {\textsc{\textbf{Ground}}\\ The evidence that provides the basis for making the claim};
+\node (warrant) [terminal, below=of claim, text width=6cm]
+                {\textsc{\textbf{Warrant}}\\ Connect the claims to the evidence.};
+\node (qualifier) [terminal,right=of warrant, text width=6cm]
+                  {\textsc{\textbf{Qualifier}}\\ The degree of certainty about the claim.};
+\node (backing) [terminal, below=of warrant, text width=6cm]
+                {\textsc{\textbf{Backing}}\\ Buttresses the warrant.};
+\node (rebuttal) [terminal, right=of backing, text width=6cm]
+                {\textsc{\textbf{Rebuttal}}\\ Counter-arguments to objections.};
 
-\draw [->] (claim) -- (grounds);
+\draw (claim.east) edge[-latex] node[font=\tiny,above]{supported by}    (grounds.west);
+
+\draw [-latex]  (warrant.north)   -- (claim.south);
+\draw (warrant.north) edge[-latex] node[font=\tiny,above]{connected by}  (backing.north);
+\draw [-latex] (warrant)   -- (rebuttal);
 
 \end{tikzpicture}
 
