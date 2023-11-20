@@ -23,6 +23,7 @@
     "sec:answ-rese-quest"
     "sec:publ-policy-chang"
     "sec:fraud"
+    "fig:fraud-tree"
     "sec:real-estate-conv"
     "sec:areas-future-rese"
     "sec:conclusion"))
