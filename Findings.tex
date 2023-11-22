@@ -1,4 +1,4 @@
-% Time-stamp: <2023-11-20 20:19:58 vladimir>
+% Time-stamp: <2023-11-21 22:11:25 vladimir>
 % Copyright (C) 2019-2023 Vladimir G. Ivanović
 % Author: Vladimir G. Ivanović <vladimir@acm.org>
 % ORCID: https://orcid.org/0000-0002-7802-7970
@@ -145,8 +145,9 @@ To illustrate the variety of financing options that may be used, Rocketship stat
 Launchpad successfully financed four of the nine Bay Area Rocketship projects with New Market Tax Credits, four projects by issuing long term tax exempt bonds, and one project through short term private financing. \sourceatright{\parencite[161]{Alexander2015a}}
 \end{quotation}
 
-Rocketship also prepared a detailed financial model, \textit{Current RSED Financial Model 061909} \parencite{RSED2009a}, that extrapolates some data to 2045. Listing the sheet names gives an indication of the depth of the analysis that Rocketship put into creating this financial model. 
+Rocketship also prepared a detailed spreadsheet of their financial model, \textit{Current RSED Financial Model 061909} \parencite{RSED2009a}, that extrapolates some data to 2045. Listing the names of the sheets in the speadsheet gives an indication of the depth of the analysis that Rocketship put into creating this financial model. 
 \begin{table}[ht]
+  \caption{Sheet Names in \textcite{RSED2009a}}\label{tab:fin-model}
     \begin{tabular}{lll}
       Summary & RSED National & National Systems Costs \\
       All Schools Roll-up & All Facilities Roll-up & Balance Sheets-v1\\
@@ -173,9 +174,9 @@ Also revealing of Rocketship's early financial thinking is \citetitle{FinNarr201
   \item Rocketship expects each school to receive \$1.1M total in grants in its early years.
 \end{itemize}
 
-In addition to the annual consolidated financial statements, Rocketship Education and Launchpad Development must file an IRS Form 990 that is required of all tax-exempt entities. These forms are public information. They provide a different point of view than annual financial statements because they concentrate on \textit{what} a nonprofit is doing rather than \textit{how much} money is made and spent.
+In addition to the annual consolidated financial statements, Rocketship Education and Launchpad Development must file an IRS Form 990, a form that tax-exempt entities must file annually. These forms are public information. They provide a different point of view than annual financial statements because they concentrate (mostly) on what a nonprofit did rather than accounting for revenues and expenses.
 
-Form 990, according to \citefirstlastauthor{Fishman2022} in \citetitle{Fishman2022} is intended to ``\ldots{} provide a complete picture of your nonprofit—including its activities, finances, governance, compensation, and tax compliance.'' [p.84] In addition to Form 990 itself (12 pages) there are potentially 16 additional schedules for a total of 80 pages. Instructions run 300 pages. Rocketship Education and Launchpad Development Company Form 990s are available at \url{https://apps.irs.gov/app/eos/} and on the GuideStar web site.
+Form 990, according to \citefirstlastauthor{Fishman2022} in \citetitle{Fishman2022} is intended to ``\ldots{} provide a complete picture of your nonprofit—including its activities, finances, governance, compensation, and tax compliance.'' \parencite[84]{Fishman2022} In addition to Form 990 itself (12 pages) there are potentially 16 additional schedules for a total of 80 pages. Instructions run 300 pages. Rocketship Education and Launchpad Development Company Form 990s are available at \url{https://apps.irs.gov/app/eos/} and on the GuideStar web site.
 
 \subsection{Financing of Charter Schools}%
 \label{sec:financing_charter_schools}\indent%
@@ -183,38 +184,37 @@ Form 990, according to \citefirstlastauthor{Fishman2022} in \citetitle{Fishman20
 In addition to needing revenue to finance operations, charter schools will likely need money to finance the purchase or lease of facilities if they don't avail themselves of district facilities via Prop. 39. \prettyref{tab:charter-school-financing} below lists the major sources of revenue that fund both operations and facilities.
 
 \begin{table}[ht]
-  \caption[Charter School Financing]{\textit{Charter School Financing}}%
-  \label{tab:charter-school-financing}%
-  \SingleSpacing%
-  \begin{tabular}{lccl}
-    \toprule
-    \textbf{Type}        & \multicolumn{2}{c}{\textbf{Available to}}  & \textbf{Notes}\\
-                         & \textbf{TSPs} & \textbf{Charters}          & \\
+    \OnehalfSpacing%
+    \caption[Charter School Financing]{\textit{Charter School Financing}}\label{tab:charter-school-financing}%
+    \begin{tabularx}{\textwidth}{llccl}
+      \toprule
+      \textbf{Type}        & \multicolumn{2}{c}{\textbf{Available to}}  & \textbf{Notes}\\
+                           & \textbf{TSPs} & \textbf{Charters}          & \\
     \midrule
-    \multicolumn{4}{l}{\textit{State funding}}  \\
+    \multicolumn{5}{l}{\textit{State funding}}  \\
     \midrule
-    LCFF                 & Yes  & Yes                        & State minimum guarantee: ADA + adjustments\\ 
-    Local property tax   & Yes  & Yes                        & Reduces LCFF amount\\
-    Categorical programs & Yes  & Yes                        & \multirow[t]{2}{3in}{All state funding outside of LCFF is\\
+      \ding{51} & LCFF                 & Yes  & Yes                        & State minimum guarantee\\ 
+      \ding{51} & Local property tax   & Yes  & Yes                        & Reduces LCFF amount\\
+                & Categorical programs & Yes  & Yes                        & \multirow[t]{2}{2.5in}{All state funding outside of LCFF is\\
     categorical. Some federal programs exist.} \\
     \\
-    \multicolumn{4}{l}{\textit{Local funding}}\\
+    \multicolumn{5}{l}{\textit{Local funding}}\\
     \midrule
-    Local parcel tax     & Yes  & No                         & Established by district-wide election\\
-    Bonds                & Yes  & Yes                        & \multirow[t]{2}{3in}{Public schools: district election \\
+      \ding{51} & Local parcel tax     & Yes  & No                         & district-wide election\\
+      \ding{51} & Bonds                & Yes  & Yes                        & \multirow[t]{2}{3in}{Public schools: district election \\
     Charters: private or gov't sponsored}\\
     \\
-    \multicolumn{4}{l}{\textit{Federal, state, or private funding}}\\
+    \multicolumn{5}{l}{\textit{Federal, state, or private funding}}\\
     \midrule
-    Private grants       & Yes & Yes                         & Much more common with charters\\
-    Venture fund loans   & No  & Yes                         & Often using New Market Tax Credit program\\
-    Rent subsidies       & No  & Yes                         & By the state (SB740)\\
-    COVID-19 PPP loans   & No  & Yes                         & Paycheck Protection Program loan becomes a grant\\
+    \ding{51} & Private grants       & Yes & Yes                         & Much more common with charters\\
+    \ding{51} & Venture fund loans   & No  & Yes                         & May use New Market Tax Credits\\
+    \ding{51} & Rent subsidies       & No  & Yes                         & By the state (SB740)\\
+    & COVID-19 PPP loans   & No  & Yes                         & Paycheck Protection Program\\
     \bottomrule
-  \end{tabular}
+  \end{tabularx}
 \end{table}
 
-The first four sources of financing listed in \prettyref{tab:charter-school-financing} are considered ordinary revenue which are available to both public and charter schools, although the amounts and timing of the distributions vary. The remaining four are not necessarily present for a given charter school or public school district and typically are not used to fund operations.
+The first four sources of financing listed in \prettyref{tab:charter-school-financing} are considered ordinary revenue which are available to both public and charter schools, although the amounts and timing of the distributions vary. The remaining four are not necessarily present for a given charter school or public school district and typically are not used to fund operations. Entries with a checkmark are explained 
 
 \subsubsection{LCFF}%
 \label{sec:lcff}\indent%
@@ -224,7 +224,7 @@ pass through an amount to charter schools in their district, also calculated usi
 
 All schools have the same base grant which varies by grade span. If a school, charter or public, has students who are in one or more of the following categories (1) eligible for free or reduced price meals (FRPM), (2) are English Learners (EL), or (3) are foster youth, the school receives a supplemental grant of 20\% of its base grant for each such student. If the qualifying population of students\footnote{These are unartfully called ``unduplicated pupils'' because schools do not get extra money for students in more than one category, as perhaps they should.} exceeds 55\% of the total number of students, a school receives a concentration grant of 65\% of the base grant for every student above the 55\% threshold. All Rocketship schools are located in high-poverty areas and all have more than 55\% of their students in at least one of the three categories that qualify for concentration grants. In sum, Rocketship gets LCFF base grants, supplemental grants, and concentration grants as part of it total LCFF funding.
 
-Rocketship reports LCFF money as ``LCFF State Aid \& Property Tax Revenue'' or ``Apportionment revenue'' in its Consolidated Statement of Activities for the years 2010-2022 in this dissertation's Data Dashboard.\footnote{\url{https://docs.google.com/spreadsheets/d/1bnBIUkx7EPZU2UEUxi5M4BwkSgVjmKYVaZTnBZgIq8I} in the ``Consolidated Activities'' sheet.} Note that the definitions that Rocketship uses for these two categories of state revenue must have changed for the 2013-2014 school year because no LCFF state aid is listed prior to that year.
+Rocketship reports LCFF money as ``LCFF State Aid \& Property Tax Revenue'' or ``Apportionment revenue'' in its Consolidated Statement of Activities for the years 2010-2022 in this dissertation's Data Dashboard.\footnote{\url{https://docs.google.com/spreadsheets/d/1bnBIUkx7EPZU2UEUxi5M4BwkSgVjmKYVaZTnBZgIq8I} in the ``Consolidated Activities'' sheet.} Note that the definitions that Rocketship uses for these two categories of state revenue  are not comparable because California changed funding models from the Revenue Limit system (1973–1974 to 2012–2013) to LCFF (2013–2014 to the present).
 
 \subsubsection{Local Property Taxes}%
 \label{sec:property-taxes}\indent%
@@ -234,7 +234,7 @@ In California, commercial and privately owned properties are taxed, unless exemp
 \subsubsection{Local Parcel Taxes}%
 \label{sec:parcel-taxes}\indent%
 
-Traditional public school district may assess a non-\textit{ad valorem} tax, usually a per parcel tax\footnote{A 2023 court decision allowed a tax based on square footage because it is also a non-\textit{ad valorem} tax.} if voters approve. Charter schools do not have taxing authority, so they may not assess parcel taxes. Public school districts may agree to share some portion of their parcel tax revenue with charter schools within their boundaries, but are not required to do so. Rocketship has no parcel tax revenue.
+Traditional public school district may assess a non-\textit{ad valorem} tax, usually a per parcel tax\footnote{A 2023 court decision allowed a tax based on square footage because it is also a non-\textit{ad valorem} tax.} if voters approve. Charter schools do not have taxing authority, so they may not assess parcel taxes. However, Public school districts may agree to share some portion of their parcel tax revenue with charter schools within their boundaries, but are not required to do so. Rocketship has no parcel tax revenue.
 
 \subsubsection{Bonds}%
 \label{sec:bonds}\indent%
@@ -246,17 +246,20 @@ Bonds, as far as educational institutions are concerned, come in just a few form
 
   Unlike public school districts that can pass a bond measure based on the value of the entire district's assessed property, charter schools have either no real property (if they are leasing) or a very small amount (if they own their facilities), so even if they were allowed to put a bond measure to the voters, the GO debt limit of 1¼\% of their facility's assessed value would provide very limited funds. For example, an \$80M valuation would be required to be able to issue a \$1M bond. 
 
-  \item Tax and Revenue Anticipation Notes (TRANs) and Revenue Anticipation Notes (RANs) are backed by specific forms of revenue.
+  \item Tax and Revenue Anticipation Notes (TRANs) and Revenue Anticipation Notes (RANs) are backed by specific forms of revenue. These bonds are normally issued to smooth out state and local revenue streams and are of short duration.
   
-  \item Conduit Revenue Bonds are issued by and are an obligation of a government agency (the conduit lender) that is neither the borrower nor the purchaser. The government entity or agency functions as a conduit between a borrower and the purchaser of the bond (i.e. the lender). Typically, the conduit is a state agency that administers an offering by loaning to the borrower money it has received from another government agency, typically the Federal government. The borrower's payments to the conduit are sized to meet the payments needed to repay the purchaser of the debt.
+  \item Conduit Revenue Bonds are issued by and are an obligation of a government agency (the conduit lender) that is neither the borrower nor the purchaser. The government entity or agency functions as a conduit between a borrower and the purchaser of the bond (i.e. the lender). The conduit is a state agency that administers an offering by loaning to the borrower money it has received from another government agency. The borrower's payments to the conduit are sized to meet the payments needed to repay the purchaser of the debt.
+
+\begin{comment}
+  For example, in 2014, the California Municipal Finance Authority issued bonds (2014A:tax-exempt and 2014B:taxable) for \$32,915,000. These bonds were bought by Approved Institutional Buyers, and the proceeds were loaned to Launchpad Development Company which used them for public benefit. The borrower is Launchpad Development Company, and the conduit borrower is the California Municipal Finance Authority.
+\end{comment}
 \end{itemize}
 
 This dissertation's Data Dashboard shows that Rocketship floated bonds totaling over \$200M from 2011 to 2022. In the years ending 2008 through 2011, Rocketship borrowed at least fifteen times before actually floating a bond. \prettyref{tab:rocketship_bonds} on p.\pageref{tab:rocketship_bonds} lists all the bonds floated by Rocketship from 2011 through 2022.
 
 \begin{table}[ht]
   \SingleSpacing
-  \caption{Rocketship Bonds}%
-  \label{tab:rocketship_bonds}
+  \caption{Rocketship Bonds}\label{tab:rocketship_bonds}%
   \begin{tabular}{llll}
     \toprule
     Name             & Amount    & Interest Rate  & Due Date           \\
@@ -304,7 +307,7 @@ Lines 64-86 of this dissertation's Data Dashboard (\url{https://docs.google.com/
 \subsubsection{Private Grants}%
 \label{sec:private-grants}\indent%
 
-Rocketship lists a total of \$78,387,835 as ``Contributions'' from 2010 through 2022 (see line 11 of \prettyref{tab:consolidated_activities} in Appended E on p.\pageref{tab:consolidated_activities}). Unfortunately, the details of what those contributions actually comprise are mostly not available. It is difficult to tease out what is an unrestricted grant, what is a restricted grant, what is a forgiven loan, and what has been rolled over or consolidated given what data is publicly available. But, what is known is that Reed Hastings and the Walton Family Foundation each promised \$250K per school for schools two through seven, plus \$600K, again per school, of federal funding through Title V. This brings the total to \$6.6M.
+Rocketship lists a total of \$78,387,835 as ``Contributions'' from 2010 through 2022 (see line 11 of \prettyref{tab:consolidated_activities} in Appended E on p.\pageref{tab:consolidated_activities}). Unfortunately, the details of what those contributions actually consist of are mostly not available. It is difficult to tease out what is an unrestricted grant, what is a restricted grant, what is a forgiven loan, and what has been rolled over or consolidated given what data is publicly available. But, what is known is that Reed Hastings and the Walton Family Foundation each promised \$250K per school for schools two through seven, plus \$600K, again per school, of federal funding through Title V. Each school thus gets \$1.1M in startup grants.
 
 \subsubsection{Venture Capital Funding}%
 \label{sec:venture-capital_funding}\indent%
