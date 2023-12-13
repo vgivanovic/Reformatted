@@ -1,0 +1,2 @@
+#! /usr/bin/bash
+tar -cvI'zstd -8 --rsyncable' -f /zbackups/tarfiles/$(basename "${PWD}")-${HOST}-$(cat version.dat| tr ';' '.').tar.zstd .
