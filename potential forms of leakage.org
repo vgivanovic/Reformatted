@@ -1,0 +1,29 @@
+﻿# -*- Mode:org; flyspell-mode: t -*-
+# Time-stamp: <2023-12-13 10:07:29 vladimir>
+# Copyright (C) 2019-2023 Vladimir G. Ivanović
+# Author: Vladimir G. Ivanović <vladimir@acm.org>
+#+STARTUP: overview
+#+SEQ_TODO: TODO ONGOING DONE
+#+OPTIONS: toc:nil
+
+
++----------------+----------+---------+
+|Form of Leakage | Legality | Notes |
++------------—-+----+------+----------+
+|Excessive   |     No     |Listed in Form|
+|salary      |            |990 and       |
+|            |            |monitored by  |
+|            |            |the IRS.      |
++------------+------------+--------------+
+|Sale of     |     No     |Required      |
+|asset to a  |            |prohibition in|
+|private     |            |Articles of   |
+|entity or to|            |Incorporation;|
+|a for-profit|            |See CA        |
+|corporation |            |Government    |
+|            |            |Code §        |
+|            |            |              |
++------------+------------+--------------+
+|            |            |              |
++------------+------------+--------------+
+
