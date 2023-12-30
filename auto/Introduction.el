@@ -3,13 +3,13 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
@@ -37,13 +37,13 @@
     "charter management organization"
     "CMO|see {charter management organization}"
     "dissertation!goal of"
-    "charter schools!finances of"
+    "charter schools!finances"
     "Rocketship Public Schools (fn)"
     "Launchpad LLCs (fn)"
-    "model!Rocketship!adopted by Caliber Public Schools (fn)"
-    "model!Rocketship!adopted by Navigator Schools (fn)"
-    "model!Rocketship|("
-    "model!Rocketship|)"
+    "Rocketship!as a model!adopted by Caliber Public Schools (fn)"
+    "Rocketship!as a model!adopted by Navigator Schools (fn)"
+    "Rocketship!as a model|("
+    "Rocketship!as a model|)"
     "research question"
     "charter schools!finances!study of|("
     "charter schools!finances!study of|)"

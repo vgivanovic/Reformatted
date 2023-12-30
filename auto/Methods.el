@@ -45,6 +45,32 @@
     "sec:state-federal-filings"
     "sec:curated-social-media"
     "sec:gaps-anomalies"
-    "sec:triangulation"))
+    "sec:triangulation")
+   (LaTeX-add-index-entries
+    "dissertation!design of|("
+    "dissertation!design of|)"
+    "dissertation!finance|("
+    "dissertation!finance|)"
+    "school funding!example of|("
+    "school funding!example of|)"
+    "dissertation!process used by|("
+    "dissertation!process used by|)"
+    "budgets|("
+    "budgets|)"
+    "budget cycle|("
+    "budget cycle|)"
+    "LCFF|("
+    "LCFF|)"
+    "Proposition 98|("
+    "Proposition 98|)"
+    "basic aid"
+    "comunity funded"
+    "K-12 funding!comprehensive description of (fn)"
+    "budgets!annual"
+    "budgets!interim reports"
+    "budgets, audited"
+    "LCAP|("
+    "Local Control Accountability Plan (LCAP)"
+    "LCAP|)"))
  :latex)
 
