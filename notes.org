@@ -1,5 +1,5 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-10-23 22:21:16 vladimir> 325056577123
+# Time-stamp: <2023-12-31 09:43:22 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2023 Vladimir G. Ivanović121000358
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
@@ -31,11 +31,15 @@
 * <2023-10-13 Fri> Doctoral Consultation Meeting with Roxana
 - Text Roxana on Monday, 2021-10-16 with status.
 
-* TODO Critically Important before publication
+* TODO Critically important before publication
 - Make sure no financial PDFs have any "###" or "Ref #" entries, 
 - Make sure the PDFs, LibreOffice spreadsheets, and Google spreadsheets are saved and are the same.
-* TODO Less Important, but still to do before publication.
-- Make sure all quote have page numbers.
+- Make sure the target of all URLs exist and are correct.
+- Review compliance with "Four principles of high quality case studies" (see below).
+
+* TODO Less important, but needed before publication.
+- Make sure all quotes have page numbers.
+- Make sure abbreviations are spelled out in full the first time they are used, are not spelled out later, and a definition for each are in the Glossary.
 
 * <2023-09-29 Fri> Doctoral Consultation Meeting with Roxana
 - Creating graphs is taking a lot of time. Should I skip creating them for now? Yes.
@@ -64,6 +68,7 @@
 - 19 Sep: draft Discussion
 - 10 Oct: (longer meeting) pulling it all together
 # ??? - biber
+
 * What graphs/tables should I generate? And why.
 - # of student, # of sites vs time
   This is a measure of their size and it also determines how much LCFF money they are going to receive.
@@ -79,6 +84,7 @@
   Do they have economies of scale?
 - Rocketship Support Network revenue vs time
   How much are their schools financing their growth?
+
 * Zoom with Roxana, Wednesday, 16 August 2023
 ** To talk about
 [] How was her keynote?
@@ -297,6 +303,7 @@ San Jose Inside | A look inside San Jose politics and culture
 
 Copyright © 2023 San Jose Inside. All rights reserved. | About Us | Comments Policy | Advertising & Partnerships | Contact Us | Facebook | Twitter
 
+
 * Links to Rocketship-related court proceedings
 - Post on withdrawal of 13 of the 20 charters in Santa Clara County:
   http://www.stoprocketship.com/rocketships-lawsuit-settlement-will-big-impacts-neighboring-districts/
@@ -320,10 +327,12 @@ Copyright © 2023 San Jose Inside. All rights reserved. | About Us | Comments Po
 - State supreme court denies appeal, and ruling becomes final:
   http://www.stoprocketship.com/wp-content/uploads/2019/03/H041088-rmi.pdf
  
+
 * Roxana Zoom url
 https://sjsu.zoom.us/j/81143517371?pwd=Qi9UM1IrY29EbEJaZ3VIaVBoU1VVdz09 
 Meeting ID: 811 4351 7371 
 Password: 103895
+
 
 * SB740 Conflicts of Interest regulations
 - CCR Title 4, Division 15, Article 1.5 Charter School Facility Grant Program
@@ -335,6 +344,7 @@ Password: 103895
 2. Second, your analysis should investigate, if possible, all plausible rival interpretations. If someone else has an alternative interpretation for one or more of your findings, make this alternative into a rival. Is there evidence to address the rival? If so, what are the results? If not, should the rival be restated as a loose end to be investigated in future studies?
 3. Third, your analysis should address the most significant aspect of your case study. Whether it is a single- or multiple-case study, you will have demonstrated your best analytic skills if the analysis focuses on the most important issue (whether defined at the outset of the case study or by working with your data from the “ground up”). By avoiding excessive detours to lesser issues, your analysis will be less vulnerable to the accusation that you diverted attention away from the main issue because of potentially contrary findings.
 4. Fourth, you should demonstrate a familiarity with the prevailing thinking and discourse about the case study topic. If you know your subject matter as a result of your own previous research and publications, so much the better.
+
 * Case study evidence can be
 - documents,
 - archival records,
@@ -342,8 +352,10 @@ Password: 103895
 - direct observations,
 - participant-observation, and
 - physical artifacts.
+
 * Annual Financial Data (SACS forms and Alternative forms)
 https://www.cde.ca.gov/ds/fd/fd/
+
 * Grants to Rocketship for Replication and Expansion of High-Quality Charter Schools by Public Charter Schools Programs of U.S. Dept. of Education, 2009-2016
 
 |    Year | Grantee              | Project Title        | Duration | Year 1     | Total Expected | City         | State |
@@ -353,7 +365,9 @@ https://www.cde.ca.gov/ds/fd/fd/
 |    2017 | Rocketship Education | Rocketship Education |        5 | $5,090,134 | $12,582,678    | Redwood      | CA    |
 |         |                      | CSP Replication      |          |            |                |              |       |
 
+
 * Are there any CSFA restrictions on the amount of rent that  an entity can charge?
+
 * What are the effects of RSEd on their district?
 - financial
 - academic
@@ -363,25 +377,32 @@ https://www.cde.ca.gov/ds/fd/fd/
 ** District revenue or expenses
 ** District demographics
 - Compare change in district vs surrounding districts before and after a Rocketship school opens
+
 * Are any ratios (revenue:debt) of interest?
+
 * Consider adding a "systematic literature search " process flowchart
 - See p.64 of (OleksandraSkrypnyk.etal,2017)
 
 * Don't forget to ...
 ** include property taxes not paid when calculating the value of an investment, especially the New Market Tax Credit.
 ** see if the initial or renewal petitions include bond principal and interest payments.
+
 * Rephrase my research question to emphasize that
 - The potential for making money is in real estate (by an order of magnitude)
 - Other people have written about creaming, pushing out, teaching to the test, using non-unionized teachers, etc., but no one so far has written about making money through real estate.
+
 * Questions for the  Assessor's Office
 1. Plat Map 477-34-088: What's with the area immediately to the right labeled circle(15)? Is anyone paying taxes on that common area?
 2. What does P.M. 845-M-39 mean?
 3. Is there a Plat Map guide somewhere?
+
 * Non-fiscal State Coordinators' Contact Information from 
 California: California Department of Education
 Thomas Bjorkman: tbjorkman@cde.ca.gov, 916-327-0193
+
 * Common Core of Data (IES:NCES:CCD)
 https://nces.ed.gov/ccd/aboutccd.asp
+
 * Snippets
 ** Comparisons
 \section{How Does Rocketship Compare?}\label{sec:comparisons}
@@ -533,6 +554,7 @@ The (surprising, at least for me) consequence is that profits in a perfect marke
 * Caliber, Success Academy & Navigator are modeled on Rocketship
 - RS is an early chain & is rapidly expanding
 - Complex intersection of charter school and construction/facilities company
+
 * How to create an importable-into-LaTeX graphic from a PDF
 - In Windows, use Adobe Acrobat Pro DC to edit the PDF.
 - Select the image and copy it.
@@ -545,8 +567,10 @@ The (surprising, at least for me) consequence is that profits in a perfect marke
   $ pdftocairo -eps file.pdf file.eps
 
 - Use includegraphics to get it into the LaTeX PDF output
+
 * Semi-automatic index generation
 indexmeister & imbrowse
+
 * [[https://www.cbinsights.com/company/rocketship-education/financials][Investors in $14M Rocketship Education Funding, Valuation, and Revenue]]
 - Kleiner Perkins Caufield & Byers
 - Menlo Ventures
@@ -562,6 +586,7 @@ indexmeister & imbrowse
 - Peery Foundation
 - Charles and Helen Schwab Foundation
 - Tipping Point
+
 * For Roxana on <2021-09-07 Tue>:
 - I've taken the summer off.
 - I'm fully committed to finishing my dissertation by April 1st. That gives me 6 1/2 months. I think I can commit to 6 hours per weekday.
@@ -580,6 +605,7 @@ indexmeister & imbrowse
   - Article on the success of anti-vaxxers in the NY Times 31-Aug-2021, "This is the Moment the Anti-Vaccine Movement Has Been Waiting For"
   - What the hell is wrong with progressives? Why can't we win more often?
   - Newsom & the recall & Reed Hastings & <one other billionaire whose name I forget>
+
 * From 2021-01-12 issue of the Cashing in on Kids newsletter:
 Which federal agency has funded more charter school facilities than any other? The U.S. Department of Agriculture. At least according to Chicago-based Wert-Berate,r LLC, the self-described “leading” company in facilitating the charter school industry’s lucrative real estate sector by providing “feasibility studies.”
 
@@ -609,6 +635,7 @@ From /The Dissertation Journey: A Practical and Comprehensive Guide to Planning,
 - Chapter 4 Case studies
 - Chapter 5 Analysis of themes
 - Chapter 6 Conclusions, implications, and recommendations
+
 * The charter school industry /modus operandi/
 1. Paint a bleak picture of public failure school failure
    - PISA scores suck & have sucked for a long time.
@@ -637,9 +664,12 @@ From /The Dissertation Journey: A Practical and Comprehensive Guide to Planning,
   - Ask schools to address & correct failures over which they have no or little control, like closing the achievement gap or eliminating segregation and discrimination. This, the key mandate of NCLB, is impossible for schools to meet.
 - Hold schools accountable for meeting these impossible mandates, and closing those which fail.
 - Ignore all issues involving race, diversity, or culture.
+
 * Charter schools must comply with the California Building Standards Code (Part 2 (commencing with Section 101) of Title 24 of the California Code of Regulations)
 Do public school districts have to comply? What happens if the district facilities used by the charter schools don't comply?
+
 * Be careful to not appear prejudiced; be neutral.
+
 * Give a context:
 - 7000 charter schools
 - save bymaster story for acknowledgements
@@ -685,6 +715,7 @@ Do public school districts have to comply? What happens if the district faciliti
 - "data are"
   
 <2021-04-27 Tue>
+
 * Charter Fund
 – dba Charter School Growth Fund
 - EIN: 84-1049083
