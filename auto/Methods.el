@@ -3,13 +3,13 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
@@ -110,6 +110,33 @@
     "charter schools!facilities!options for|("
     "charter schools!facilities!options for|)"
     "charter schools!real estate documents|("
-    "charter schools!real estate documents|)"))
+    "charter schools!real estate documents|)"
+    "charter schools!facilities!co-location|("
+    "charter schools!facilities!co-location|)"
+    "charter schools!facilities!leasing|("
+    "charter schools!facilities!leasing|)"
+    "charter schools!facilities!owning|("
+    "charter schools!facilities!financing of|("
+    "charter schools!facilities!financing of|)"
+    "data sets|("
+    "California!Department of Education"
+    "California!State Board of Education"
+    "Santa Clara County!Office of Education"
+    "California!Open Data Portal"
+    "Institute for Education Sciences (IES)!Nation Center for Education Statistics (NCES)"
+    "Stanford Educational Data Archive (SEDA)"
+    "School Finance Indicators Database"
+    "EdSource"
+    "Ed-Data"
+    "data sets|)"
+    "California!FPPC Form 700, Statement of Economic Interests|("
+    "California!FPPC Form 700, Statement of Economic Interests|)"
+    "Internal Revenue Service Form 990|("
+    "Internal Revenue Service Form 990|)"
+    "social media|("
+    "social media|)"
+    "gaps and anomalies|("
+    "gaps and anomalies|)"
+    "triangulation|("))
  :latex)
 
