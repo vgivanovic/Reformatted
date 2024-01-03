@@ -3,13 +3,13 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
@@ -40,6 +40,94 @@
     "sec:gaps"
     "sec:anomalies"
     "sec:discrepancies"
-    "sec:issues_equality_equity"))
+    "sec:issues_equality_equity")
+   (LaTeX-add-index-entries
+    "Rocketship!corporate structure|("
+    "Rocketship!corporate structure|)"
+    "Rocketship!corporate structure!ownership details|("
+    "Rocketship!corporate structure!ownership details|)"
+    "Rocketship!corporate structure!Launchpad Development|("
+    "Rocketship!corporate structure!Launchpad Development|)"
+    "Rocketship!corporate structure!rationale|("
+    "Rocketship!corporate structure!rationale|)"
+    "Rocketship!facilities!requirements for|("
+    "Rocketship!facilities!requirements for|)"
+    "Rocketship!properties|("
+    "Rocketship!schools in Santa Clara County!Mateo Sheedy"
+    "Rocketship!schools in Santa Clara County!Sí Se Puede"
+    "Rocketship!schools in Santa Clara County!Los Sueños"
+    "Rocketship!schools in Santa Clara County!Discovery Prep"
+    "Rocketship!schools in Santa Clara County!Mosaic"
+    "Rocketship!schools in Santa Clara County!Brilliant Minds"
+    "Rocketship!schools in Santa Clara County!Alma Academy"
+    "Rocketship!schools in Santa Clara County!Spark Academy"
+    "Rocketship!schools in Santa Clara County!Fuerza"
+    "Rocketship!schools in Santa Clara County!Rising Stars"
+    "Rocketship!properties|)"
+    "Rocketship!financial statements!financial position"
+    "Rocketship!financial statements!activities"
+    "Rocketship!financial statements!cash flows"
+    "Rocketship!financial statements!functional expenses"
+    "Rocketship!financial statements|("
+    "Rocketship!financial statements|)"
+    "Rocketship!financing charter schools|("
+    "Rocketship!financing charter schools|)"
+    "Rocketship!financial model and forecast|("
+    "Rocketship!financial model and forecast|)"
+    "Rocketship!financial model!school parameters|("
+    "Internal Revenue Service Form 990|("
+    "Internal Revenue Service Form 990|)"
+    "charter schools!facilities!financing of|("
+    "LCFF"
+    "charter schools!facilities!financing of|)"
+    "LCFF|("
+    "LCFF|)"
+    "California!property taxes|("
+    "California!property taxes|)"
+    "California!parceltaxes|("
+    "California!parceltaxes|)"
+    "bonds!types of|("
+    "bonds!types of|)"
+    "Rocketship!bonds issued|("
+    "Rocketship!bonds issued|)"
+    "Rocketship!private grants|("
+    "Rocketship!private grants|)"
+    "Rocketship!rent subsidies|("
+    "Rocketship!debt|("
+    "Rocketship!debt|)"
+    "New Markets Tax Credit Program|("
+    "New Markets Tax Credit Program!example|("
+    "New Markets Tax Credit Program!example|)"
+    "New Markets Tax Credit Program|)"
+    "Rocketship!net worth|("
+    "Rocketship!net worth|)"
+    "Rocketship!anomalies|("
+    "Rocketship!anomalies!check review"
+    "Rocketship!anomalies!level of materiality"
+    "Rocketship!anomalies!administrative expenses"
+    "Rocketship!anomalies!differing functional expenses"
+    "Rocketship!anomalies!large swings in accounting expenses"
+    "Rocketship!anomalies!travel expenses"
+    "Rocketship!anomalies!per pupil expenditure"
+    "Rocketship!anomalies|)"
+    "Rocketship!discrepancies|("
+    "Rocketship!discrepancies!Form 990 vs financial statements"
+    "Rocketship!discrepancies!Form 990 vs audited salaries"
+    "Rocketship!discrepancies!audited contributions vs object code sums"
+    "Rocketship!discrepancies!object code sums vs financial statements"
+    "Rocketship!discrepancies!unclear reporting"
+    "Rocketship!discrepancies|)"
+    "Rocketship!vision and goals|("
+    "Rocketship!vision and goals|)"
+    "Rocketship!per-pupil spending|("
+    "Rocketship!per-pupil spending|)"
+    "Rocketship!claims of academic performance|("
+    "Rocketship!claims of academic performance|)"
+    "Rocketship!teacher|("
+    "Rocketship!teacher!experience"
+    "Rocketship!teacher!salaries"
+    "Rocketship!teacher!turnover"
+    "Rocketship!teachers|)"
+    "Rocketship!annual academic growth|("))
  :latex)
 
