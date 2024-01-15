@@ -1,10 +1,43 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2023-12-31 09:43:22 vladimir> 325056577123
+# Time-stamp: <2024-01-14 22:32:45 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
-# Copyright (C) 2019-2023 Vladimir G. Ivanović121000358
+# Copyright (C) 2019-2024 Vladimir G. Ivanović121000358
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
 
+* <2024-01-11> With Roxana
+# - Cite glossary entries
+# - remove basic aid
+# - remove school choice
+# - reword socio-economic status, proxy for
+# - remove theory of action, trailer bill, neuro-typical
+– Chapter 1 run-on heading 1.3.1
+- Fix 1.3.2 and finish previous sentence.
+- Quotations: quotation mark, spacing & page numbers
+- shorten coleman quote?
+- B. Baker ? start and later
+- turning a profit: provide a description rather than a list
+- Rocketship is part of a larger context: charter schools
+- Jennifer Andaluz,  founder of Rocketship: find citation
+- 2.6: make observation vs opinion
+- 2.7.1
+- 2.7.2 check duplication
+- No one sentence paragraph
+- p. 41 Over xxx years
+- 2.8.3 Add some more commentary: funding is flexible based on the students
+- p.48 exetensive: citation
+- p.49 citation needed
+- p.59 LCAP/something about process/ possible later comment
+- p.71 list only datasets which I actually pull from
+- p.75 Remove title leaving just citation
+- p.75 RSED liability: clarify
+- look for toxins @ Tamien: put the brown kids there, whatever
+- 4.2: check for citations
+- clarify board offsite
+- p.78 NMTC process is complicated
+- p.81 990 instructions run 300 pages: explain
+- Analyze conflict of interest by board members
+- Give example of per-pupil spending for 500 student school of X% unduplicated and Y% concentrated
 * Things to do whenever creating a release
 ** On a work machine (curretly only 'prokofiev' and 'mozart'0 do the following when making a release or ending a day's work.
 1. [ ] Make sure everything builds on the current system without errors or warnings.
