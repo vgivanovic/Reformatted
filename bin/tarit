@@ -1,4 +1,7 @@
 #! /usr/bin/bash
 #
+set -Eeufo pipefail		# Exit on failure, pipe failure
+
 # assert PWD="~/Dissertation/Chapter_5"
-tar -cvI'zstd -8 --rsyncable' -f /zbackups/tarfiles/$(basename "${PWD}")-${HOST}-$(cat version.dat| tr ';' '.').tar.zstd .
+git clean -ffdx
+tar -cvI'zstd -8 --rsyncable' -f /zbackups/tarfiles/$(basename "$(pwd)")-"$(hostname)"-$(cat version.dat| tr ';' '.').tar.zstd .
