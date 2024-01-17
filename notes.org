@@ -1,18 +1,18 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2024-01-14 22:32:45 vladimir> 325056577123
+# Time-stamp: <2024-01-16 15:55:54 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2024 Vladimir G. Ivanović121000358
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
 
-* <2024-01-11> With Roxana
+* <2024-01-11> Doctoral Consultation Meeting with Roxana
 # - Cite glossary entries
 # - remove basic aid
 # - remove school choice
 # - reword socio-economic status, proxy for
 # - remove theory of action, trailer bill, neuro-typical
-– Chapter 1 run-on heading 1.3.1
-- Fix 1.3.2 and finish previous sentence.
+# – Chapter 1 run-on heading 1.3.1
+# - Fix 1.3.2 and finish previous sentence.
 - Quotations: quotation mark, spacing & page numbers
 - shorten coleman quote?
 - B. Baker ? start and later
@@ -39,16 +39,16 @@
 - Analyze conflict of interest by board members
 - Give example of per-pupil spending for 500 student school of X% unduplicated and Y% concentrated
 * Things to do whenever creating a release
-** On a work machine (curretly only 'prokofiev' and 'mozart'0 do the following when making a release or ending a day's work.
+** On a work machine (curretly 'prokofiev', 'mozart', and 'hildegard'), in the directory of interest, do the following when making a release or ending a day's work.
 1. [ ] Make sure everything builds on the current system without errors or warnings.
 2. [ ] Run 'git clean -ffdx' (or use the Emacs menu item "Commands:Clean All") to remove all files not needed to build or build and release.
-3. [ ] Copy the dissertation PDF to "Versioned PDFs/Rocketship....pdf\" using
+3. [ ] Copy the dissertation PDF to "Versioned PDFs/Rocketship....pdfs" using
    #+begin_src  bash
-   cp Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.pdf Versioned\ PDFs/Rocketship_Education-An_Exploratory_Public_Policy_Case_Study-$(cat version.dat| tr ';' '.').pdf
+     cp Rocketship_Education-An_Exploratory_Public_Policy_Case_Study.pdf Versioned\ PDFs/Rocketship_Education-An_Exploratory_Public_Policy_Case_Study-$(cat version.dat| tr ';' '.').pdf
    #+end_src
 4. [ ] Archive and move the versioned PDF to "/zbackups/tarfiles" using
    #+begin_src bash
-   tar -cvI'zstd -8 --rsyncable' -f /zbackups/tarfiles/Chapter_4-${HOST}-`cat version.dat | tr ';' '.'.tar.zstd` .
+     tar -cvI'zstd -8 --rsyncable' -f /zbackups/tarfiles/Chapter_5-${HOST}-`cat version.dat | tr ';' '.'.tar.zstd` Chapter_5
    #+end_src
 5. [ ] Check all files into Git with a useful commit message.
 6. [ ] Push using git to parent repository (~/Dropbox/EdD/Dissertation/Chapter_4) [git is already on branch dummy]
@@ -435,114 +435,6 @@ Thomas Bjorkman: tbjorkman@cde.ca.gov, 916-327-0193
 
 * Common Core of Data (IES:NCES:CCD)
 https://nces.ed.gov/ccd/aboutccd.asp
-
-* Snippets
-** Comparisons
-\section{How Does Rocketship Compare?}\label{sec:comparisons}
-\subsection{Demographic Data}
-When searching for anomalous data, Rocketship schools, individually and collectively, need to be compared to traditional public schools and districts, but only after making any needed adjustments to account for the demographic contexts in which the schools operate. It makes no sense to compare the finances of, say, Rocketship Mateo Sheedy in San José with the finances of the Westside Union Elementary School in Los Baños, less than 65 miles away. One is a medium-sized charter school in a large urban school district, the other is a much larger public school in a rural public district. This means that demographic data must be used along with financial data to obtain valid and useful comparisons.
-
-Raw demographic data is hard to use and impossible to visualize. In 1983, Edward Tufte self-published \citetitle{Tufte1983}, which revolutionized how we present data, especially quantitative data. Since then, not only have there been five other Tufte books, but there has been an explosion of high quality books on data visualization. Currently, the most useful guide to presenting data is \citeauthor{Schwabish2021}'s \citetitle{Schwabish2021}.  In it he offers more than 50 different kinds of charts and graphs, all with the goal of helping the reader make sense of the raw data. The chapters \textit{\titleref{ch:findings}} and \textit{\titleref{ch:discussion}} will make extensive use of these data visualization tools. The data demographic data itself will come from the following datasets that specialize in education:
-
-\begin{itemize}
-  \item Data from the United States Department of Education, primarily the National Center for Education Statistics (NCES). These datasets (~500) are searchable online using the Open Data Platform \url{http://nces.ed.gov/}. Of particular interest is the massive Digest of Education Statistics, produced annually from 1990 onwards. The Digest for 2019 runs to 651 pages.
-  \item The NCES Open Data Platform can analyze over 15,000 data sets in its collection.
-  \item The Institute of Education Sciences, which is part of the NCES, maintains DataLab, a tool to analyze a very large number datasets, some of which span years, thus enabling longitudional studies to be undertaken
-  \item The Stanford Educational Data Archive (SEDA) is a carefully cleaned and curated dataset that includes
-
-  \begin{quotation}\noindent\OnehalfSpacing%
-    \ldots~a range of detailed data on educational conditions, contexts, and outcomes in schools and school districts across the United States. It includes data at a range of institutional and geographic levels of aggregation, including schools, districts, counties, commuting zones, metropolitan areas, and states. It includes measures of academic achievement, achievement gaps, school and neighborhood racial and socioeconomic composition, school and neighborhood racial and socioeconomic segregation patterns, and other features of the schooling system. \sourceatright{\parencite{Reardon.etal2021}}
-  \end{quotation}
-  
-  \item The National Assessment of Educational Progress (NAEP), both the current results and the long-term trend results.
-  \item The Early Childhood Longitudinal Studies (ECLS), kindergarten cohorts of 1998 \& 2011.
-\end{itemize}
-
-** Comparisons
-A comparison of Rocketship schools with public schools will require more than just financial statements. For example, answering a question like, ``Do Rocketship schools have higher administrative costs compared to nearby public schools?'' requires not only financial data, but also knowledge of student demographics to ensure that a like comparison is being made. For example, one district may send its special needs children to an adjacent district that is known to serve special needs children particularly well. The sending district will spend less on administrators and the receiving district more, skewing a straight up comparison.
-** Themes
-Several themes run through this study. The first is Rocketship's relationship to the privatization movement in education. The second is how Rocketship's finances drive its need to expand. The third is how Rocketship needs continued marketing and public relations to survive.
-** Rent & sale price
-because the sale price of commercial property is mostly the present value of an income stream (the gross rent) whereas the cost is the present value of the stream of net rent. I.e. the charter needs to borrow (or forgo investing) the net rent, and the interest paid or foregone represent the cost of borrowing the net rent. Since the net rent is much lower than the market rate, the owner makes a tidy profit. In addition, the risk associated with the purchase is significantly lower than usual.
-** Dreambox
-For example, Rocketship bought from Dreambox the software it uses in blended learning. Creating software for blended learning is not hard. In fact, there are a half-dozen or more free, open-source learning platforms that can be re-skinned (i.e. given a new look-and-feel). Some of these platforms have been around for decades and are therefore quite robust. They are also extensible, either with plugins or via an API, and at worst, the source code itself can be modified. So, the per-pupil cost of blended learning software should be low compared to bespoke software. If this is not the case, then Rocketship would be overpaying and the amount of overpayment is profit which accrues to the software vendor, not Rocketship.
-
-** Discussion
-#+BEGIN_SRC latex
-\subsection{Construct Validity}
-\textit{Construct validity} is the extent to which a case study's choice of what to measure actually measure what it claims to measure. Our intent is to measure how much profit Rocketship produces. If we choose to use the financial statements of Rocketship Education and associated entities, will they provide a comprehensive enough of a picture of Rocketship's finances to measure how much profit Rocketship generates? Here we are actually asking two questions:
-
-\begin{enumerate}
-  \item Are the financial statements which exist trustworthy?
-  \item Do financial statements provide a complete view into Rocketship's finances?
-\end{enumerate}
-
-An answer to the first question can be provided by remembering Enron and noting that it fooled all of the people for quite some time. For charter schools, we note that there is a constant stream of charter school fraud that's being uncovered, despite requirements for annual audits. Even worse, in some cases, there is a complete absence of financial statements because many charter school chains are operated by and perhaps owned by a private entity. As private entities, these charter school operators are entitled to keep their finances secret. So, unfortunately, the answer to the first question must be, no, the financial statements which do exist, if they exist, are not necessarily trustworthy. We can use triangulation to fill in gaps and to cross-reference. It is very hard to cover all of one's tracks.
-
-One is tempted to infer that whenever a private, for-profit charter school chain refuses to open its books to public inspection, there is likely something of material significance it wishes to hide. This, however many times it proves to be correct, is still an unwarranted generalization.
-
-The answer to the second question above is: perhaps. If one assumes that there are annual, certified audits, then at least part of a charter school's finances are visible and add up. But, what's not accounted for are transactions that are not arm's length, i.e.~they are self-dealing. Yes, the books are available for inspection, and they balance, but the probity of the transactions is questionable at best and fraudulent at worst.
-
-In the end, we are left with some doubt and suspicion, even if everything adds up. We do find unexplained anomalies, books which don't balance, or money which has simply disappeared and no explanation is forthcoming, we can be confident that we have uncovered something illegal.
-
-\subsection{Internal Validity}
-\textit{Internal validity} concerns the completeness and appropriateness of any proposed cause for a set of phenomena. \citeauthor{Yin2018} says,
-\begin{quotation}\noindent\OnehalfSpacing%
-  [T]he concern over internal validity, for case study research, extends to the broader problem of making inferences. Basically, a case study involves an inference every time an event cannot be directly observed. An investigator will “infer” that a particular event resulted from some earlier occurrence, based on interview and documentary evidence collected as part of the case study. Is the inference correct? Have all the rival explanations and possibilities been considered? Is the evidence convergent? Does the evidence appear to be airtight? \parencite{Yin2018}
-\end{quotation}
-
-This dissertation depends the internal validity of documentary evidence, namely, Rocketship's financial statements. These are declared to be true and accurate, to the best of the preparer's knowledge, under penalty of perjury, a strong but not absolute guarantee of their truthfulness and accuracy.
-
-\subsection{External Validity}
-\textit{External validity} is the extent to which a study's finding can be applied to other events or situations. Can the explanations given be applied to other charter school chains? If the purpose of this study is to change public policy to better serve kids, then the phenomena examined, described, and explored should be useful in more than just Rocketship's case.
-
-\subsection{Reliability}
-A case study is said to be \textit{reliable} when similar findings obtain from similar data. Would another researcher come to the same conclusions when presented with Rocketship's financial data? If the answer is yes, then the case study may be said to be reliable.
-
-\subsection{Rival Explanations}
-\textit{Rival explanations} are alternative ways of looking at the data and drawing alternative conclusions. The following sections look at Rocketship from the point of view of political economy, <stuff>.
-
-\subsubsection{\textit{The Political Economy of Public Policy}}
-\citefirstlastauthor{BuenoDeMesquita2016} in \citetitle{BuenoDeMesquita2016} proposes that we should evaluate public policy issues using \textit{models} which are then themselves evaluated using different \textit{normative} lenses. \textcite[13–47]{BuenoDeMesquita2016} offers three normative frameworks for us to consider:
-\begin{itemize}[nosep]\OnehalfSpacing%
-  \item \textbf{Utilitarianism} A public policy is right or wrong, good or bad, valuable or not based on the policy's consequences. Right and wrong, good and bad, valuable and not valuable are collapsed into the notion of \textit{utility}. Policies with greater aggregate utility should be pursued; those with less utility should not.
-  \item \textbf{Egalitarianism} Public policy should be evaluated using the notion of \textit{equality}. One might consider equality of \textit{outcomes} or of \textit{opportunity}.
-  \item \textbf{Kantian Deontology} The worth of a policy is to be judged by its conformance to some moral norm or duty. These norms are frequently expressed as \textit{rights}, which, in turn, imply a \textit{duty} to others to honor those rights.
-\end{itemize}
-
-These three normative lenses allow us to evaluate Rocketship's worth. Does it increase society's utility? And, does it do so without making others worse off (a \textit{Pareto improvement}). Does it create equality of outcomes or of opportunity? Finally, does it honor some rights that people claim they have?
-
-\section{Limitations}
-It is always fair to ask what the limitations of a study or research are, and how valid are its conclusions. High quality studies make an effort to address legitimate objections that might be raised. In addition, social science studies often have policy implications: ``How should public policy change to advance the common good in light of the study's finding?''
-
-Unfortunately, in general, there are more ways that a study could be limited than there are ways of producing a robust study. A single omission or error can doom a study, but to be valuable and to be able to withstand objections, a study has to get everything right. These issues are not as acute for case studies, like this dissertation, because no data amenable to statistical analysis is being collected or analyzed. Instead, the question is, ``Has the study captured everything of relevance?'' In this dissertation, since I'm examing Rocketship's finances, I need to asssure myself that I have gathered \emph{enough} relevant financial data to draw sound conclusions. In principle, independent auditor's annual reports would be sufficient because the purpose of an independent annual [financial] audit is to present all of the material and financial information needed by regulators, investors, employees, and other stakeholders. Fortunately, there are supplemental data that have the same coverage: the annual budget, and the first and second interim reports. All four should match pretty closely when they are compared.
-
-Since Rocketship schools are charter schools, there additional sources of financial data are available. Charter schools, to be approved, must submit a petition, one of whose required elements is a description of ``financial statements that include a proposed first-year operational budget, including startup costs, and cashflow and financial projections for the first three years of operation.'' (CA Ed. Code §47605(h)). Similarly, charter school renewals have a financial component. Finally, if a charter school is a nonprofit public benefit corportation as Rocketship Education is, there are additional federal financial reporting requirements (IRS Form 990). Again, the data in these documents should tell roughly the same story.
-
-To sum up the limitations of this dissertation, the financial reporting net around Rocketship is comprehensive. However, there is a big loophole: charter schools in California are allowed to contract out all of their operations to a for profit corporation which may keep its finances secret. Effectively, these charter schools can evade most but not all of the financial reporting requirements that apply to nonprofit public benefit charter schools. Rocketship is, however, a nonprofit corporation, so it must expose all of its finances, and anything which is not reported may be obtained using a CPRA (California Public Records Act) request.
-
-One may argue that charter schools were born out of racism and continue to perpetuate that racism. They are merely the educational version of privatization, a movement driven by a search for profit, not educational excellence. They appear to be the social project plaything of billionaires.
-
-\section{Future Research}
-One of the realizations that comes from researching charter schools is exactly how massive the marketing of charter schools is. Not only are there think tanks that churn out reports extolling every possible benefit of charter schools, but there are many advocacy organizations whose only purpose is to advocate, advocate, advocate. And behind these think tanks, advocacy organizations, and charter schools, funding them, are a network of right-wing, secretive donors, captains of industry.
-
-Some questions which could be asked are:
-\begin{itemize}[nosep]\OnehalfSpacing%
-  \item Is there a relationship between LCFF supplemental and concentration grants and Rocketship locations?
-  \item How many charter school facilities bonds have defaulted?
-  \item What factors make a location desirable to a charter school?
-  \item What is the IRR (internal rate of return) of charter school venture funds?
-  \item Is there competition among charter schools within a district? If competition among charter schools isn't present, is there a tacit agreement not to poach students?
-\end{itemize}
-\end{comment}
-#+END_SRC
-
-* Whom did it benefit? (Cui Bono Fuerit)
-– Longinus Cassius
-
-* Lucius Cassius ille quem populus Romanus verissimum et sapientissimum iudicem putabat identidem in causis quaerere solebat 'cui bono' fuisset.
-The famous Lucius Cassius, whom the Roman people used to regard as a very honest and wise judge, was in the habit of asking, time and again, 'To whose benefit? - Marcus Tullius Cicero
-
 
 * Copyrights
 - See [[https://copyright.lib.harvard.edu][Copyright at Harvard Library, State Copyright Resource Center]]

@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# To rebuild everything: bin/build -c -l -b -l -l
+#
 
 while [ "$#" -gt 0 ]; do
     case "$1" in
