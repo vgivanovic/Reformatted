@@ -14,8 +14,6 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:discussion"
-    "sec:research-question"
-    "sec:summary-key-findings"
     "sec:appr-answ-rese-quest"
     "sec:rappaports-rules"
     "sec:toulmin-arguments"
@@ -34,10 +32,8 @@
     "sec:areas-future-rese"
     "sec:conclusion")
    (LaTeX-add-index-entries
-    "research question"
-    "research question!redux"
-    "key finding|("
-    "key finding|)"
+    "key findings|("
+    "key findings|)"
     "Rappaport-style arguments|("
     "Rappaport-style arguments|)"
     "Toulmin-style arguments|("
