@@ -55,6 +55,7 @@
     "2018a"
     "2018b"
     "2018c"
+    "2018d"
     "2018e"
     "2019"
     "2019a"
@@ -791,7 +792,6 @@
     "Blum:2001:P"
     "Blum:2008:LCL"
     "Blum:2011:LCL"
-    "Bluman2009"
-    "Blume.etal2015"))
+    "Bluman2009"))
  '(or :bibtex :latex))
 

@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-01-27 13:52:02 vladimir>
+%%% Time-stamp: <2024-01-28 20:42:00 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -6,13 +6,10 @@
 % !TEX TS-program = lualatex
 % arara: lualatex
 
-% \DocumentMetadata{pdfstandard=A-4}
 \nonstopmode\synctex=1
-%\RequirePackage[l2tabu, orthodox]{nag}
 
 \documentclass[letterpaper,oneside,article,12pt,oldfontcommands]{memoir} % SJSU EDD Guidelines Checklist #18
 
-% \tracinglostchars=3
 \usepackage{adforn}
 \usepackage{array}
 \usepackage{authblk}
@@ -25,7 +22,6 @@
 \usepackage[thresholdtype=words,threshold=40]{csquotes}
 \usepackage{datetime2}
 \usepackage[shortlabels]{enumitem}
-% \usepackage[draft,inline,margin=false]{fixme}
 \usepackage{flafter}
 \usepackage{fontspec}
 \usepackage[ragged]{footmisc}
@@ -55,11 +51,7 @@
 \setlength\tymin{0.5in}
 \usepackage[normalem]{ulem}
 \usepackage{tikz}
-% \usetikzlibrary{graphdrawing.trees}
-% \tikzstyle{every node}=[draw=black,thick,rectangle]
 \usepackage{url}
-% \def\UrlFont{\small\tt}
-% \usepackage[nospace]{varioref}
 \usepackage{widows-and-orphans}
 \usepackage{xcolor}
 
@@ -71,13 +63,11 @@
 \setmainfont[Ligatures=TeX,Numbers=OldStyle,Numbers=Monospaced]{Alegreya}
 \setsansfont[Ligatures=TeX,Numbers=OldStyle,Numbers=Monospaced]{Alegreya Sans}
 \setmonofont[Scale=0.8]{Fira Mono}
-% \setmathtt[Scale=MatchLowercase]{Fira Math}
 
 \pagestyle{plain}               % SJSU EDD Guidelines Checklist #10
 
-\raggedright%                    % SJSU EDD Guidelines Checklist #2, #4
+\raggedright                    % SJSU EDD Guidelines Checklist #2, #4
 
-% % See memman.pdf p.52
 \clubpenalty=10000
 \widowpenalty=10000
 \raggedbottom%
@@ -95,17 +85,6 @@
 \DoubleSpacing%
 
 \tightlists%
-% \setlist[1]{labelindent=\parindent}
-% \setlist[itemize]{leftmargin=*}
-% \setlist[enumerate]{leftmargin=*}
-% \setlist[description]{leftmargin=2\parindent}
-
-\setsecnumdepth{subsubsection}
-\maxsecnumdepth{subsubsection}
-\settocdepth{subsubsection}
-
-% % \citeauthor prints only the last name. This command prints the author(s) first and last name.
-% \newrobustcmd*{\citefirstlastauthor}{\AtNextCite{\DeclareNameAlias{labelname}{given-family}}\citeauthor}
 
 \makechapterstyle{sjsu}{%
   \chapterstyle{article}
@@ -153,8 +132,6 @@
 \renewcommand{\abstractnamefont}{\normalfont\centering}
 
 \captionsetup{singlelinecheck=false,justification=raggedright,labelfont={bf,footnotesize},labelsep=newline}
-
-%setlength{\bibitemsep}{\onelineskip}
 
 \indexsetup{level=\chapter,toclevel=chapter}
 \makeindex
