@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-01-28 20:42:00 vladimir>
+%%% Time-stamp: <2024-01-30 18:05:17 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -26,7 +26,27 @@
 \usepackage{fontspec}
 \usepackage[ragged]{footmisc}
 \usepackage[edges]{forest}
-\usepackage[left=1.5in, right=1.0in, top=1.25in, bottom=1.25in]{geometry} % 72bp = 72.27pt = 1 inch
+\usepackage{geometry} % 72bp = 72.27pt = 1 inch
+\setlrmarginsandblock{1.5in}{1.0in}{*}
+\setulmarginsandblock{1.25in}{1.25in}{*}
+% ******************************************************
+% Stock height and width:         11.00215in by 8.50166in
+% Top and edge trims:              0.0in and 0in
+% Page height and width:          11.00215in by 8.50166in
+% Text height and width:           8.46902in by 5.9926in
+% Spine and edge margins:          1.50029in and 1.00018in
+% Upper and lower margins:         1.25024in and 1.28287in
+% Headheight and headsep:          0.20067in and 0.27504in
+% Footskip:                        0.20067in
+% Columnsep and columnseprule:     0.1384in and  0.0in
+% Marginparsep and marginparwidth: 0.09688in and 0.80643in
+% Sidecapsep and sidecapwidth:     0.09688in and 0.69199in
+% Sidebarhsep and sidebarwidth:    0.09688in and 0.69199in
+% Sidebarvsep and sidebartopsep:   0.20067in and 0.0in
+% Sidebarheight:                   7.56548in
+% Sidefoothsep and sidefootwidth:  0.09688in and 0.69199in
+% Sidefootvsep and sidefootheight: 0.20067in and 7.56548in
+% ******************************************************
 \usepackage{graphicx}
 \usepackage{imakeidx}
 \usepackage[pagewise]{lineno}
@@ -136,8 +156,8 @@
 \indexsetup{level=\chapter,toclevel=chapter}
 \makeindex
 
-% \settypeoutlayoutunit{in}
-% \checkandfixthelayout
+\settypeoutlayoutunit{in}
+\checkandfixthelayout
 
 %%% Local Variables:
 %%% mode: latex
