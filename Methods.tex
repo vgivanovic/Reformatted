@@ -1,5 +1,5 @@
 %%% -*- mode: LaTeX/P; flyspell-mode: 1; -*-
-%%% Time-stamp: <2024-02-08 21:49:11 vladimir>
+%%% Time-stamp: <2024-02-10 14:24:40 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -19,7 +19,7 @@ This chapter contains six sections. The first, \prettyref{sec:process-overview},
 The fourth section, \prettyref{sec:real-estate}, covers the varieties of real estate transactions that charter schools might be involved in. The fifth section, \prettyref{sec:gaps-anomalies}, discusses how potential gaps or anomalies in the financial data might be discovered. 
 
 \index{school funding!example of|(}
-In order to make what's being analyzed more concrete, \prettyref{appx:ca-school-financing} on p.~\pageref{appx:ca-school-financing}, contains some example tables drawn from the Los Altos School District (LASD) for the 2019–20 school year. These are based on standard financial reports taken from LASD's Standardized Account Code Structure (SACS) data, but presented in a way that is both visually appealing and informative, unlike the SACS data.\footnote{LASD's annual budgets have won the Meritorious Budget Award for Excellence from the Association of School Business Officials International for the quality and comprehensiveness of its financial statements sixteen times. Both LASD's annual budget and its CAFR exceed 100 pages. That information and data, although available elsewhere, is truly informative and serves as a record, a history if you will, of LASD's past, its actions, and the data which guided those actions.} The high level view is given in \prettyref{fig:LASD_All_Funds_Summary} on p.~\pageref{fig:LASD_All_Funds_Summary}. That view is further broken down in five more tables. The sixthe and final table is a projection of LASD's finances for the current year (2018–19), the year whose budget is being presented (2019–20), and five years into the future. The first half of the table contains the assumptions used when generating the second half.
+In order to make what's being analyzed more concrete, \prettyref{appx:ca-school-financing} on p.~\pageref{appx:ca-school-financing}, contains some example tables drawn from the Los Altos School District (LASD) for the 2019–20 school year. These are based on standard financial reports taken from LASD's Standardized Account Code Structure (SACS) data, but presented in a way that is both visually appealing and informative, unlike the SACS data.\footnote{LASD's annual budgets have won the Meritorious Budget Award for Excellence from the Association of School Business Officials International for the quality and comprehensiveness of its financial statements sixteen times. They are a good model for what information an annal budget should contain. That information and data, although available elsewhere, is truly informative and serves as a record, a history if you will, of LASD's past, its actions, and the data which guided those actions.} The high level view is given in \prettyref{fig:LASD_All_Funds_Summary} on p.~\pageref{fig:LASD_All_Funds_Summary}. That view is further broken down in five more tables. The sixthe and final table is a projection of LASD's finances for the current year (2018–19), the year whose budget is being presented (2019–20), and five years into the future. The first half of the table contains the assumptions used when generating the second half.
 \index{school funding!example of|)}
 
 \section{Process Overview}\label{sec:process-overview}\indent%
@@ -40,13 +40,29 @@ Analyzing the finances of Rocketship Education means, for example, determining t
 
 \section{Financing Schools in California}\label{sec:financing-ca-overview}\indent%
 
-\index{budgets|(}
+\index{budgets, types of|(}
+\subsection{Budgets}
 In California, primary and secondary schools (grades TK–12), community colleges (grades 13-14), and charter schools (TK-12) are financed with a combination of federal, state, and local funds as seen in \prettyref{fig:2019–20_K–12_Funding}.\footnote{Since federal funds account for only 8\% of total funding for California's elementary school children \parencite{LAO2021}, the federal contribution will not be considered further. Note that federal facilities grants to charter schools are not part of this 8\%.} From the point of view of the current fiscal year, there are three budgets: The prior year's budget, the current year's budget (the enacted and approved budget), and next year's budget (the budget under consideration). The prior year's budget is often amended to account for errors, changes in revenues or expenses, etc. For example, the State of California often shifts funding from one year to another in order to make the state budget balance.
-\index{budgets|)}
+\index{budgets, types of|)}
 
-\index{budget cycle|(}
-In June of every year, the California Legislature passes a budget for the next fiscal year which runs from (July 1\textsuperscript{st} – June 30\textsuperscript{th}). The Governor signs this budget into law and it is then called the enacted budget. This version of the budget describes the \textit{intent} of the Governor and the Legislature, but might not provide any actual money. Often funds for programs authorized by the enacted budget are appropriated in \textit{trailer bills} that are passed piecemeal in the months following the adoption of the budget. Starting July 1\textsuperscript{st}, the enacted state budget becomes the current budget. During the course of the fiscal year, revisions are made to the current budget, either because circumstances or priorities have changed. At the end of the fiscal year, this current and possibly modified budget becomes the revised budget, and during the following year, technical adjustments can be made. Exactly how much money was spent, or what was misclassified and improperly allocated will change the prior year's budget. This modified and corrected budget becomes the final budget. The upshot of this is that there are actually multiple versions of California's budget and one should be precise when one refers to ``the budget''. Usually, one means the current budget, except during ``budget season'' which starts when the Governor releases a budget proposal in January, continues through May when the Governor revises that proposal, and ends in June when it is enacted into law. Once the Governor and the Legislature have negotiated their differences, and a budget has been passed by the Legislature and signed by the Governor, it becomes the enacted budget. Starting July 1\textsuperscript{st} the enacted budget becomes the current budget.
-\index{budget cycle|)}
+\index{budgets, budget cycle|(}
+In June of every year, the California Legislature passes a budget for the next fiscal year which runs from July 1\textsuperscript{st} to June 30\textsuperscript{th}. The Governor signs this budget into law and it is then called the enacted budget. This version of the budget describes the \textit{intent} of the Governor and the Legislature, but might not provide any actual money. Often funds for programs authorized by the enacted budget are appropriated in \textit{trailer bills} that are passed piecemeal in the months following the adoption of the budget. Starting July 1\textsuperscript{st}, the enacted state budget becomes the current budget. During the course of the fiscal year, revisions are made to the current budget, either because circumstances or priorities have changed. At the end of the fiscal year, this current and possibly modified budget becomes the revised budget, and during the following year, technical adjustments can be made. Exactly how much money was spent, or what was misclassified and improperly allocated will change the prior year's budget. This modified and corrected budget becomes the final independently audited budget. The upshot of this is that there are actually multiple versions of California's budget and one should be precise when one refers to ``the budget''. Usually, one means the current budget, except during ``budget season'' which starts when the Governor releases a budget proposal in January, continues through May when the Governor revises that proposal, and ends in June when it is enacted into law. Once the Governor and the Legislature have negotiated their differences, and a budget has been passed by the Legislature and signed by the Governor, it becomes the enacted budget. Starting July 1\textsuperscript{st} the enacted budget becomes the current budget.
+
+\begin{table}[ht]
+  \label{tab:july_1_budgets}%
+  \OnehalfSpacing%
+  \caption{Budgets as of July 1\textsuperscript{st}}%
+  \begin{tabularx}{\linewidth}{lll}
+    \toprule
+    \textbf{Budget Name} & \textbf{Fiscal Year} & \textbf{Notes}\\
+    \midrule
+      revised  & previous & may be modifed for technical reasons\\
+      enacted  & current  & can be modified if circumstances or priorities change\\
+      proposed & next     & is under discussion by governor \& legislature\\
+  \bottomrule
+\end{tabularx}
+\end{table}
+\index{budgets, budget cycle|)}
 
 \begin{figure}
   \centering
@@ -56,7 +72,10 @@ In June of every year, the California Legislature passes a budget for the next f
 \end{figure}
 
 \index{LCFF|(}
-\prettyref{fig:2019–20_K–12_Funding} shows what money California uses to fund its primary and secondary educational system, i.e.~grades K–12.\footnote{Transitional Kindergarten (TK) did not exist in 2019, so funding is shown only for Kindergarten through high school (K-12).} This money is then allocated to local educational agencies (LEAs), through a formula known as the Local Control Funding Formula (LCFF).\footnote{Currently, the LCFF funds transitional kindergarten and community colleges as well as public primary and secondary educational institutions, so it ought to be known as funding grades TK-14. Appoximately 89\% of LCFF funding goes to grades TK-12.} LEAs include individual charter schools, county offices of education, and local public school districts. The total amount of money for K–12 funding is allocated using a formula enacted by voters in 1988 as Proposition 98 passed as a response to the notorious Proposition 13, passed a decade earlier, which decimated school funding. Prop. 98 was originally meant to be a minimum guaranteed funding level, but has evolved into a ceiling. The Legislative Analyst's Office (LAO), which serves as an independent, non-partisan research arm of the California Legislature in much the same way that the Congressional Research Service serves the U.S. Congress, calls Prop. 98 ``A Tale of Complexity''  and says that ``A Plethora Tests and Rules Govern the Minimum Guarantee'', and that ``State Has Made Myriad Adjustments to the Proposition 98 Calculations'' \parencite[5]{LAO2017} . Undoubtedly LCFF is complex, but LCFF is more transparent, has fewer rules, is more equitable, and is more responsive to the needs of public school districts that have a high proportion of under-served students than the Revenue Limit System that came before it. The Revenue Limit System was also complex, but in a completely difference way; it had many separately funded programs, called categorical programs, each with their own set of requirements, rules, durations, and funding levels. Each passing year saw more programs being added to the set of categorical programs until the entire collection became both unwieldy and inequitable.
+\index{Proposition 98|(}
+\prettyref{fig:2019–20_K–12_Funding} shows what money California uses to fund its primary and secondary educational system, i.e.~grades K–12.\footnote{Transitional Kindergarten (TK) did not exist in 2019, so \prettyref{fig:2019–20_K–12_Funding} only shows funding  for Kindergarten through high school, i.e.~K-12.} The amount of the state budget that is allocated to K-12 is governed by Proposition 98. How Proposition 98 money is allocated to local educational agencies (LEAs) is calculated using a formula known as the Local Control Funding Formula (LCFF).\footnote{Currently, the LCFF funds transitional kindergarten and community colleges as well as public primary and secondary schools, so it ought to be known as funding grades TK-14. Appoximately 89\% of LCFF funding goes to grades TK-12.} LEAs include individual charter schools, county offices of education, and local public school districts. The total amount of funding for TK–14 is calculated using a formula enacted by voters in 1988, since modified, called Proposition 98. That proposition passed as a response to the notorious Proposition 13, which was enacted a decade earlier, and which decimated school funding. Prop. 98 was originally meant to be a minimum guaranteed funding level, but has evolved into a ceiling. The Legislative Analyst's Office (LAO), which serves as an independent, non-partisan research arm of the California Legislature in much the same way that the Congressional Research Service serves the U.S. Congress, calls Prop. 98 ``A Tale of Complexity''  and says that ``A Plethora Tests and Rules Govern the Minimum Guarantee'', and that ``State Has Made Myriad Adjustments to the Proposition 98 Calculations'' \parencite[5]{LAO2017}.
+\index{Proposition 98|)}
+Undoubtedly LCFF is complex, but LCFF is more transparent, has fewer rules, is more equitable, and is more responsive to the needs of public school districts that have a high proportion of under-served students than its predecessor, the Revenue Limit System. The Revenue Limit System was also complex, but in a completely difference way; it had many separately funded programs, called categorical programs, each with their own set of requirements, rules, durations, and funding levels. Each passing year saw more programs being added to the set of categorical programs until the entire collection became so unwieldy and so inequitable that LCFF was able to replace it completely.
 
 The most succinct summary of how LCFF amounts are calculated is provided by the \textcite{CDE2023a}:
 \begin{quotation}
@@ -72,45 +91,55 @@ The most succinct summary of how LCFF amounts are calculated is provided by the 
   \end{enumerate}
 \end{quotation}
 
-For the 2022-23 school year, a school\footnote{Loosely based on Discovery Prep which has only 428 students.} with 543 pupils total (181 TK–5 pupils per strand and 3 strands), of which 70\% are unduplicate pupils, and assuming the maximum size for a classroom with one teacher, the core (adjusted grade-span base + supplemental + concentration) LCFF calculation is as follows:\\
-\noindent{}\textbf{Adjusted (one-time adjustment + COLA + grade-span) grade-span grant}
-\noindent{}\begin{verbatim}
-TK–3: $10,119 × 127 pupils × 3 strands        = $3,855,339
- 4–5: $ 9,304 ×  54 pupils × 3 strands        = $1,507,248
-\end{verbatim}
+For the 2022-23 school year, a school\footnote{Loosely based on Discovery Prep which has only 428 students.} with 543 pupils total (181 TK–5 pupils per strand and 3 strands), of which 70\% are unduplicate pupils, and assuming the maximum size for a classroom with one teacher, the core (adjusted grade-span base + supplemental + concentration) LCFF calculation is as follows:\\\bigskip
 
-\noindent{}\textbf{Supplemental grant}
-\noindent{}\begin{verbatim}
-TK–3: 20% × $10,119 × (70% × 127 × 3)         = $  538,330
- 4–5: 20% × $ 9,304 × (70% ×  54 × 3)         = $  210,270
+\noindent\textbf{Adjusted base grant} \hfill{}(one-time adjustment + COLA + grade-span) \texttt{x} unduplicated count
+\OnehalfSpacing%
+\begin{verbatim}
+TK–3: $10,119 × (127 pupils × 3 strands)        = $3,855,339
+ 4–5: $ 9,304 ×  (54 pupils × 3 strands)        = $1,507,248
 \end{verbatim}
-
-\noindent{}\textbf{Concentration grant}
-\noindent{}\begin{verbatim}
-TK–3: (70% - 55%) × (65% × $10,119) × 127 × 3 = $  375,895
- 4–5: (70% - 55%) × (65% × $ 9,304) ×  54 × 3 = $  159,829
+\noindent\textbf{Supplemental grant} \hfill(20\% of adjusted base grant) \texttt{x} unduplicated count
+\OnehalfSpacing%
+\begin{verbatim}
+TK–3: 20% × $10,119 × (70% × 127 × 3)           = $  538,330
+ 4–5: 20% × $ 9,304 × (70% ×  54 × 3)           = $  210,270
+\end{verbatim}
+\noindent\textbf{Concentration grant} \hfill{}((\% over 55\%) \texttt{x} 65\% of adjusted base grant) \texttt{x} unduplicated count
+\OnehalfSpacing%
+\begin{verbatim}
+TK–3: (70% - 55%) × (65% × $10,119) × 127 × 3   = $  375,895
+ 4–5: (70% - 55%) × (65% × $ 9,304) ×  54 × 3   = $  159,829
                                                   ==========
                                            total  $6,271,016
 \end{verbatim}
+\DoubleSpacing
 
-The intricacies of LCFF funding are covered in more detail in Chapter 3 of \textcite[35–58]{Aguinaldo.etal2022}.
+\begin{figure}[ht]
+  \noindent%
+  \caption[LCFF Components]{\textit{LCFF Components}}\label{fig:lcff_components}%
+  \copyrightbox[b] {\includegraphics[width=\textwidth] {LCFF_Components}}%
+  {Adapted from ``Local Control Funding Formula Resources for School Districts and Charter Schools'' at  \url{https://www.fcmat.org/PublicationsReports/LCFF-Calculator.xlsx}}
+\end{figure}
+
+\prettyref{fig:lcff_components} on p.\pageref{fig:lcff_components} diagrams just the major components of the LCFF. It takes the Fiscal Crisis and Management Team's spreadsheet of 45 individual sheets to specify completely how the LCFF for a particular school or district is calculated \parencite{FCMAT2024}. The intricacies of LCFF funding are also covered in Chapter 3 of \textcite[35–58]{Aguinaldo.etal2022}.
 \index{LCFF|)}
 
 \index{Proposition 98|(}
-As seen in \prettyref{fig:2019–20_K–12_Funding}, Proposition 98 funding accounts for nearly 70\% of California's K–12 funding, with the remainder coming from local property taxes and fees, and from various other federal and state sources. This money is distributed to county offices of education which then distribute it to public school districts. Districts then distribute funds to charter schools.
+As seen in \prettyref{fig:2019–20_K–12_Funding}, Proposition 98 funding accounts for nearly 70\% of California's K–12 funding, with the remainder coming from local property taxes and fees, and from various federal and state sources. This money is distributed to local educationa agencies (LEAs) which then distribute it to public school districts. Public school districts then distribute LCFF funds to charter schools located within their district. For community-funded districts (see below), charter schools represent a significan drain on their revenues.\footnote{For example, LASD sends \$10M to the Bullis Charter School (BCS) annually, equivalent to roughly 10\% of revenue.}
 \index{Proposition 98|)}
 
 Some districts are funded outside the LCFF system. These used to be called ``basic aid'' districts, but since the term is confusing, they are now called ``community funded'' districts. These are districts where their share of their county's annual property tax revenue is greater than their annual LCFF entitlement.\index{basic aid}\index{comunity funded} They get only ``basic aid'', i.e.~the constitutionally required minimum funding (the greater of \$120 per pupil or \$2,400 per district) from the state. For districts which are not community funded, the state contribution is the difference between a district's LCFF entitlement and its share of district property taxes. In other words, the state ensures that each district gets at least its LCFF entitlement, the total amount which is determined by Prop. 98.\footnote{An invaluable and comprehensive description of K-12 funding in California, for both public school districts and charter schools, can be found in \textcite{Aguinaldo.etal2022}, an annual publication.}\index{K-12 funding!comprehensive description of (fn)}
 
 \subsection{Budgets \& Interim Reports}\label{sec:budgets}\indent%
 
-For a given fiscal year, the annual budget\index{budgets!annual} is the first of four important financial documents produced. Since budgets must be approved before the start of a fiscal year, budgets are actually produced and approved in the prior fiscal year.\footnote{Since a school's budget must be approved before the state budget is finalized, it is nearly certain that a school's budget will need to be modified after it has been approved.} The next two financial documents are two (unaudited) interim reports,\index{budgets!interim reports} one in December, and another in March,  which track how well the school or district is adhering to the approved annual budget, and finally, after a certified public accountant has audited the school or district, a comprehensive annual financial report (CAFR)\index{budgets, audited} is produced in the fiscal year following the period it covers. State law requires that an independent auditor certify this retrospective account of the school or district's financial activity as being an accurate representation of the school's finances for the previous fiscal year.
+For a given fiscal year, the annual budget\index{budgets!annual} is the first of four important financial documents produced. Since budgets must be approved before the start of a fiscal year, budgets are actually produced and approved in the prior fiscal year.\footnote{Since a school's budget must be approved before the state budget is finalized, it is nearly certain that a school's budget will need to be modified after it has been approved.} The next two financial documents are two (unaudited) interim reports,\index{budgets!interim reports} one in December, and another in March, which track how well the school or district is adhering to the approved annual budget with adjustments, and finally, after a certified public accountant has audited the school or district, a comprehensive annual financial report (CAFR)\index{budgets, audited} is produced in the fiscal year following the period it covers. State law requires that an independent auditor certify this retrospective account of the school or district's financial activity as being an accurate representation of the school's finances for the previous fiscal year.
 
 \subsection{Local Control Accountability Plans (LCAPs)}\label{sec:lcaps}\indent%
 
 \index{LCAP|(}
 An important, recurring, non-financial report of schools is the Local Control Accountability Plan (LCAP).
-\index{Local Control Accountability Plan (LCAP)} Although the LCAP is a three-year plan, it is updated annually. The focus of an LCAP is on the programs that a school (public or charter) is going to implement, finance, and monitor that will allow it meet the goals that the state has set. These are goals that the California Department of Education sets periodically, primarily to ensure that students with the greatest needs are in fact served and are in addition to the seven goals that the Legislature set for charter schools in general.
+\index{Local Control Accountability Plan (LCAP)} Although the LCAP is a three-year plan, it is updated annually. The focus of an LCAP is on the programs that a school district or charter school is going to implement, finance, and monitor that will allow the district or school to meet state goals. These goals are set periodically by the California Department of Education to ensure that students with the greatest needs are in fact served, and are in addition to the seven goals that the Legislature has set for charter schools in general.
 
 Typically, LCAP goals remain the same over their three year lifespan, but their financing may change if the metrics used to measure progress toward achieving those goals are not showing progress. In unusual circumstances, how the goals are to be achieved might change. LCAPs are California's way of ensuring that all public schools, including charter schools, meet the same set of priorities or goals. Apparently, some LCAPs have been on the order of 500 pages long, although the norm is much less.
 
@@ -122,7 +151,7 @@ Unlike budgets and CAFRs, LCAPs do not have to ``add up'', nor do they have to o
 \subsection{Comprehensive Annual Financial Reports}\label{sec:CAFRs}\indent%
 
 \index{Comprehensive Annual Financial Reports (CAFRs)|(}
-The final major source of financial data from charter schools is an annual, independently audited, financial statement called the Comprehensive Annual Financial Reports (CAFRs). These are sent to the California Department of Education (CDE) and to a charter's County Office of Education (COE) annually. They cover the previous fiscal year and are similar to annual budgets because they report the same information, perhaps in a different format. CAFRs are retrospective whereas budgets are prospective. The major difference between budget and CAFRs is that CAFRs are independently audited and budgets are not. 
+The final major source of financial data from charter schools is an annual, independently audited, financial statement called the Comprehensive Annual Financial Report (CAFR). These are sent to the California Department of Education (CDE) and to a charter's County Office of Education (COE) annually. They cover the previous fiscal year and are similar to annual budgets because they report the same information, but in a format suitable for computer processing. CAFRs are retrospective whereas budgets are prospective. The major difference between budget and CAFRs is that CAFRs are independently audited and budgets are not. 
 \index{Comprehensive Annual Financial Reports (CAFRs)|)}
 
 Similarly to bond underwriters, financial auditors are liable\index{financial liability!auditors} for ``omitting, misstating, or obscuring [items which] could reasonably be expected to influence decisions that the primary users make on the basis of those financial statements'' \parencite{Cayamanda2020}, and this requirement tends to increase the diligence of the auditors. However, potential liability does not always result in truly comprehensive financial statements; sometimes the lure of accounting fees overwhelms any misgivings, as was the case with Enron and Arthur Andersen in 2001. Errors and sloppiness may exist, but in general, fraud is thankfully rare, in part because fraud on the part of auditors would likely result in the loss of the auditor's license, effectively ending their business. 
@@ -130,7 +159,7 @@ Similarly to bond underwriters, financial auditors are liable\index{financial li
 \section{Charter School Financing}\label{sec:charter-school-financing}\indent%
 
 \index{charter schools!financing of|(}
-In California, charter schools are financed the same way as public schools are, from the same pot of money, using the same set of rules, except for one significant difference: how they finance facilities. Unlike public schools, charter schools have no taxing authority, so they cannot pass bond measures or parcel taxes. This lack of a taxing authority means that charter schools must either occupy existing public school facilities (potentially displacing existing public school students) or seek grants and donations to fund non-district facilities, either leased or purchased. The federal government provides significant amounts of facilities grant money and delegates to the states the administration of the program and the disbursement of the actual grants. 
+In California, charter schools are financed the same way as public schools are, from the same pot of money, using the same set of rules, except for one significant difference: how they finance facilities. Unlike public schools, charter schools have no taxing authority, so they cannot pass bond measures or parcel taxes. This lack of a taxing authority means that charter schools must either occupy existing public school facilities (potentially even displacing existing public school students) or seek grants and donations to fund non-district facilities, either leased or purchased. The federal government provides significant amounts of money for facilities grant through the Charter School Program \parencite[0–10]{NCSRC2020}. Likewise, the state of California provides support for charter school facilities \parencite[114]{Aguinaldo2023}.
 
 An in-depth analysis of charter school finances requires a broader lens than one used for public schools because, in addition to all of the financial dealings of traditional public schools, almost all of which also apply to charter schools, charter schools have large and immediate needs for facilities that traditional public schools do not have. This brings into the picture bonds, loans, grants, leases, construction, and the purchase and sale of real estate. Traditional public schools do issue several kinds of bonds, levy parcel taxes, and buy real estate on which they build schools, but they do so infrequently.Usually public schools have done this years ago, but charter schools have an immediately and reoccurring need for facilities. They face these needs once when they start up, and whenever they outgrow their facilities because of increased enrollment. The needs of charter schools for facilities and the financing associated with obtaining those facilities is more pressing, more immediate, and more common than the corresponding needs of traditional public schools whose enrollment doesn't fluctuate as much.\footnote{Usually a public school district sees a change in enrollment because of significant demographic changes like immigration or emigration, birth rate increases or declines. Charter schools can see large enrollment changes absent any demographic change, even if the total number of students residing in a district stays the same. In some instances, increased enrollment in charter schools comes from public school students switching from the public school system to charter schools. This is what is happening to Oakland, CA and it produces simultaneous but opposite changes in enrollment.}
 \index{charter schools!financing of|)}
