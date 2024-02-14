@@ -1,9 +1,12 @@
  # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2024-01-30 11:45:08 vladimir> 325056577123
+# Time-stamp: <2024-02-13 16:38:34 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2024 Vladimir G. Ivanović121000358
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
+
+* Still to do
+- Create diagram of inflows and outflows of Rocketship money.
 
 * Rate BCS according to the FCMAT /Charter Petition Evaluation Matrix/.
    - Is there an equivalent for renewals?
@@ -48,6 +51,7 @@
 - p.81 990 instructions run 300 pages: explain
 - Analyze conflict of interest by board members
 - Give example of per-pupil spending for 500 student school of X% unduplicated and Y% concentrated
+
 * Things to do whenever creating a release
 ** On a work machine (curretly 'prokofiev', 'mozart', and 'hildegard'), in the directory of interest, do the following when making a release or ending a day's work.
 1. [ ] Make sure everything builds on the current system without errors or warnings.

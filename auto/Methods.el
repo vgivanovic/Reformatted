@@ -3,13 +3,13 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
@@ -36,7 +36,6 @@
     "sec:co-locating"
     "sec:leasing"
     "sec:owning"
-    "sec:funding-facilities"
     "tab:paying-for-facilities"
     "sec:private-funding"
     "sec:venture-funds"
@@ -70,11 +69,12 @@
     "budgets!annual"
     "budgets!interim reports"
     "budgets, audited"
+    "Comprehensive Annual Financial Report (CAFR)"
     "LCAP|("
     "Local Control Accountability Plan (LCAP)"
     "LCAP|)"
-    "Comprehensive Annual Financial Reports (CAFRs)|("
-    "Comprehensive Annual Financial Reports (CAFRs)|)"
+    "Comprehensive Annual Financial Report (CAFR)|("
+    "Comprehensive Annual Financial Reports (CAFR)|)"
     "financial liability!auditors"
     "charter schools!financing of|("
     "charter schools!financing of|)"
@@ -103,6 +103,7 @@
     "charter schools!interim reports|("
     "charter schools!interim reports|)"
     "charter schools!CAFR|("
+    "Comprehensive Annual Financial Report. (CAFR)"
     "charter schools!CAFR|)"
     "charter schools!LCAP|("
     "charter schools!LCAP|)"
