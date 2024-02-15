@@ -18,6 +18,7 @@
     "sec:financing-ca-overview"
     "tab:july_1_budgets"
     "fig:2019–20_K–12_Funding"
+    "example_LCFF_calculation"
     "fig:lcff_components"
     "sec:budgets"
     "sec:lcaps"
