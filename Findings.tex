@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-02-14 22:00:04 vladimir>
+%%% Time-stamp: <2024-02-15 21:48:26 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -19,12 +19,12 @@ Note that Rocketship financial data are not available for all years, and startin
 \index{Rocketship!corporate structure|(}
 One of the original four members of Rocketship's board of directors was Eric Resnick, a specialist in real estate finance \parencite{MarketScreener2024}. He was expected to ``provid[e] a deep understanding of financial management and real estate transactions'' \parencite[13]{Danner2006}, so it appears that Rocketship's corporate structure was designed with real estate transactions in mind. From the start, Rocketship has kept schools and their facilities separate. This structure is diagrammed in \prettyref{fig:corporate-structure} on p.\pageref{fig:corporate-structure} for Rocketship facilities in Santa Clara County.
 
-\begin{figure}[htbp]
+\begin{figure}[ht]
   \centering\scriptsize
   \caption[Rocketship's Corporate Structure for Santa Clara County Facilities]{\emph{Rocketship's Corporate Structure for Santa Clara County Facilities}}\label{fig:corporate-structure}
   \sffamily
   \begin{forest}
-    for tree={grow'=east, folder, draw, align=left}
+    for tree={grow'=east, folder, draw, align=left} % single quote is apparently necessary (?)
     [ \textbf{Rocketship Education (RSEA)}, baseline
     [ Launchpad Development Company (LDC), xshift=2em
     [ \textit{Launchpad (LP)}, xshift=4em ]
@@ -85,7 +85,7 @@ According to \textcite[7]{RSED2009c}, before Launchpad was formed, the Rocketshi
 A list of Rocketship schools is listed in \prettyref{tab:locations} with details of each property given in  \prettyref{appx:rocketship-property-info} starting on p.\pageref{appx:rocketship-property-info}.
 
 \index{Rocketship!properties|(}
-\begin{table}[hbt]
+\begin{table}[ht]
   \caption[Rocketship Property Information]{\textit{Rocketship Property Information}}%
   \label{tab:locations}\SingleSpacing%
   \begin{tabular}{lll}
@@ -219,14 +219,14 @@ Rocketship reports LCFF money as ``LCFF State Aid \& Property Tax Revenue'' or `
 \label{sec:property-taxes}\indent%
 
 \index{California!property taxes|(}
-In California, commercial and privately owned properties are taxed, unless exempt, typically because they are religious organizations or are charities. School districts receive about 40\% of the property tax collected from properties in their home district and this tax replaces an equal portion of LCFF revenue. (If a district's property tax revenue exceeds what they would have gotten in LCFF funding, they receive no LCFF funding. These districts are called \textit{community-funded districts}, previously known as \textit{basic aid districts}.) Note that the amount that districts pass through from their LCFF allotment to charter schools is independent of how much property tax is collected; charter schools always receive the full LCFF amount. The Data Dashboard sheet ``Consolidated Activities'' lists the property tax revenue that Rocketship received from each school's home district.
+In California, commercial and privately owned properties are taxed, unless exempt, typically because they are religious organizations or are charities. School districts receive about 40\% of the property tax collected from properties in their home district and this tax replaces an equal portion of LCFF revenue. (If a district's property tax revenue exceeds what they would have gotten in LCFF funding, they receive no LCFF funding. These districts are called \textit{community-funded districts}, previously known as \textit{basic aid districts}.) Note that the amount that districts pass through from their LCFF allotment to charter schools is independent of whether a charter school is in a community-funded district or not; charter schools always receive the full LCFF amount. The Data Dashboard sheet ``Consolidated Activities'' lists the property tax revenue that Rocketship received from each school's home district.
 \index{California!property taxes|)}
 
 \subsubsection{Local Parcel Taxes}%
 \label{sec:parcel-taxes}\indent%
 
 \index{California!parcel taxes|(}
-Traditional public school district may assess a non-\textit{ad valorem} tax, usually a per parcel tax\footnote{A 2023 court decision allowed a tax based on square footage because it is also a non-\textit{ad valorem} tax.} if voters approve. Charter schools do not have taxing authority, so they may not assess parcel taxes. However, Public school districts may agree to share some portion of their parcel tax revenue with charter schools within their boundaries, but are not required to do so. Rocketship has no parcel tax revenue.
+Traditional public school district may assess a non-\textit{ad valorem} tax, usually a per parcel tax\footnote{A 2023 court decision allowed a tax based on square footage because it is also a non-\textit{ad valorem} tax.} if voters approve. Charter schools do not have taxing authority, so they may not assess parcel taxes. However, public school districts may agree to share some portion of their parcel tax revenue with charter schools within their boundaries, but are not required to do so. Rocketship has no parcel tax revenue.
 \index{California!parcel taxes|)}
 
 \subsubsection{Bonds}%
@@ -242,21 +242,22 @@ Bonds, as far as educational institutions are concerned, come in just a few form
 
   \item Tax and Revenue Anticipation Notes (TRANs) and Revenue Anticipation Notes (RANs) are backed by specific forms of revenue. These bonds are normally issued to smooth out state and local revenue streams and are of short duration.
   
-  \item Conduit Bonds are a type of tax-exempt municipal bond issued by  a government agency (the conduit lender) that is neither the borrower nor the purchaser. The government entity or agency functions merely as a conduit between a borrower (often called the conduit borrower) and the purchaser of the bond (i.e.\ the lender). The conduit lender administers an offering by loaning to the borrower money it has received from issuing the bond. Often the funds come from a government agency (e.g. California Municipal Finance Authority, California School Finance Authority). The bond is an obligation of the borrower, not the conduit lender. The borrower's payments to the conduit lender are sized to meet the payments that the conduit needs to repay the purchaser(s) of the debt. The IRS publication \citetitle{IRS2019} details has some helpful information on conduit bonds and tax compliance.
+\index{bonds!conduit|(}
+  \item Conduit Bonds are a type of tax-exempt municipal bond issued by a government agency (the conduit lender) that is neither the borrower nor the purchaser. This entity or agency serves merely as a conduit between a borrower (often called the conduit borrower) and the purchaser of the bond (i.e.~the lender). The conduit lender administers an offering by loaning to the borrower money it has received by issuing a bond which was bought by the lender. Often the funds come from a government agency, e.g.~the California Municipal Finance Authority or the California School Finance Authority. The bond is an obligation of the conduit borrower, not the conduit lender, even though the conduit lender issued the bond. The conduit borrower's payments to the conduit lender are sized to meet the payments that the conduit lender needs to repay the purchaser(s) of the debt. The IRS publication \citetitle{IRS2019} details has some helpful information on conduit bonds and tax compliance.
 
-\begin{comment}
-  For example, in 2014, the California Municipal Finance Authority issued bonds (2014A:tax-exempt and 2014B:taxable) for \$32,915,000. These bonds were bought by Approved Institutional Buyers, and the proceeds were loaned to Launchpad Development Company which used them for public benefit. The borrower is Launchpad Development Company, and the conduit borrower is the California Municipal Finance Authority.
-\end{comment}
+For example, in 2014, the California Municipal Finance Authority issued Series 2014 A \& B bonds for \$32,915,000. These bonds were bought by Approved Institutional Buyers, and the proceeds were loaned to Launchpad Development Company which used them for public benefit. The borrower is Launchpad Development Company, and the conduit borrower is the California Municipal Finance Authority. The lenders are Approved Institutional Buyers, and the conduit borrower, Launchpad Development, pays principal in interest to the conduit lender, the California Municipal Finance Authority, the conduit borrower which passes the payments on to the lender, Approved Institutional Buyers.
+\index{bonds!conduit|)}
 \end{itemize}
 \index{bonds!types of|)}
 
 \index{Rocketship!bonds issued|(}
-This dissertation's Data Dashboard shows that Rocketship issued bonds totaling over \$200M from 2011 to 2022. In the years ending 2008 through 2011, Rocketship borrowed at least fifteen times before actually issuing a bond. \prettyref{tab:rocketship_bonds} on p.\pageref{tab:rocketship_bonds} lists all the bonds issued by Rocketship or Launchpad from 2011 through 2022.
+This dissertation's Data Dashboard\footnote{\url{https://docs.google.com/spreadsheets/d/1bnBIUkx7EPZU2UEUxi5M4BwkSgVjmKYVaZTnBZgIq8I}} shows that Rocketship issued bonds totaling over \$200M from 2011 to 2022. In addition, in the years ending 2008 through 2011, Rocketship borrowed at least fifteen times before issuing a bond. \prettyref{tab:rocketship_bonds} on p. \pageref{tab:rocketship_bonds} lists all the bonds issued by Rocketship or Launchpad from 2011 through 2022.
 
 \begin{table}[ht]
   \SingleSpacing
-  \caption{Rocketship Bonds}\label{tab:rocketship_bonds}%
-  \begin{tabular}{llll}
+  \caption[Rocketship Bonds]{\textit{Rocketship Bonds}}%
+  \label{tab:rocketship_bonds}
+  \begin{tabularx}{\textwidth}{lrll}
     \toprule
     Name             & Amount    & Interest Rate  & Due Date       \\
     \midrule
@@ -291,32 +292,33 @@ This dissertation's Data Dashboard shows that Rocketship issued bonds totaling o
     Series OG2021A   & \$14.780M & 4.0\%          & 2022–2035      \\
     Series OG2021B   & \$0.465M  & 4.0\%          & Jun 2022       \\
                                                                    \\
-    Series OG2022A,B & \$27.990M & 4\%–4.5\%      & Jun 2022–2042  \\
+    Series OG2022A   & \$27.195M & 4\%–4.375\%    & Jun 2022–2042  \\
+    Series OG2022B   & \$0.795M  & 4\%–4.375\%    & Jun 2023–2024  \\
     \midrule
-    Total 2010-2011  & \$218.053M                                  \\
+    Total 2010-2022  & \$218.053M                                  \\
     \bottomrule
-  \end{tabular}
+  \end{tabularx}
 \end{table}
 \index{Rocketship!bonds issued|)}
 
-Lines 64-86 of this dissertation's Data Dashboard\footnote{ (\url{https://docs.google.com/spreadsheets/d/1bnBIUkx7EPZU2UEUxi5M4BwkSgVjmKYVaZTnBZgIq8I})} show that as of June 30, 2022, the total that Rocketship Education and Affiliates owed was \$186,550,566, or just over \$32K per child.
+Lines 64-86 of this dissertation's Data Dashboard\footnote{ \url{https://docs.google.com/spreadsheets/d/1bnBIUkx7EPZU2UEUxi5M4BwkSgVjmKYVaZTnBZgIq8I}} show that as of June 30, 2022, the total that Rocketship Education and Affiliates owed was \$186,550,566, or just over \$32K per child.
 
 \subsubsection{Private Grants}%
 \label{sec:private-grants}\indent%
 
 \index{Rocketship!private grants|(}
-Rocketship lists a total of \$78,387,835 as ``Contributions'' from 2010 through 2022 (see line 11 of \prettyref{tab:consolidated_activities} in Appended E on p.\pageref{tab:consolidated_activities}). Unfortunately, the details of what those contributions actually consist of are mostly not available. It is difficult to tease out what is an unrestricted grant, what is a restricted grant, what is a forgiven loan, and what has been rolled over or consolidated given what data is publicly available. But, what is known is that Reed Hastings and the Walton Family Foundation each promised \$250K per school for schools two through seven. An additional \$600K, again per school, of federal funding through Title V was available. Each school thus gets \$1.1M in startup grants.
+Rocketship lists a total of \$78,387,835 as ``Contributions'' from 2010 through 2022 (see line 11 of \prettyref{tab:consolidated_activities} in Appendix E on p.\pageref{tab:consolidated_activities}). Unfortunately, the terms of those contributions are not available. It is difficult to tease out what is an unrestricted grant, what is a restricted grant, what is a forgiven loan, and what has been rolled over or consolidated given what data is publicly available. But, what is known is that Reed Hastings and the Walton Family Foundation each promised \$250K per school for schools two through seven. An additional \$600K, again per school, of federal funding through Title V was available. Each school thus gets \$1.1M in startup grants.
 \index{Rocketship!private grants|(}
 
 \subsubsection{Venture Capital Funding}%
 \label{sec:venture-capital_funding}\indent%
 
 \index{Rocketship!private grants|(}
-Rocketship has made extensive use of loans and grants from venture capital funds. Most of these loans were forgiven, in one way or another, turning them into grants. To be forgiven, some benchmarks related to student outcomes need to have been met and almost always were. The details are available in Rocketship's annual audited financial statements and are summarized in this dissertation's Data Dashboard.\footnote{See previous footnote.}
+Rocketship has made extensive use of loans and grants from venture capital funds. Most of these loans were forgiven, in one way or another, turning them into grants. To be forgiven, some benchmarks related to student outcomes need to have been met and almost always were. The details are available in Rocketship's annual audited financial statements and are summarized in this dissertation's Data Dashboard.
 
 \begin{table}[ht]
   \SingleSpacing
-  \caption{Venture Capital Funding}%
+  \caption[Venture Capital Funding]{\textit{Venture Capital Funding}}%
   \label{tab:venture_captial_funding}
   \begin{tabular}{llll}
     \toprule
@@ -334,7 +336,7 @@ Rocketship has made extensive use of loans and grants from venture capital funds
     2017 & Charter School Growth Fund     & \$1.000M & 1.00\%        \\
     2019 & Charter Impact Fund            & \$7.300M & 4.40\%        \\
     \midrule
-         & Total                          & \$23.95M &               \\
+    2010–2019 & Total                     & \$23.95M &               \\
     \bottomrule
   \end{tabular}
 \end{table}
@@ -344,38 +346,36 @@ Rocketship has made extensive use of loans and grants from venture capital funds
 \label{sec:rent-subsidies}\indent%
 
 \index{Rocketship!rent subsidies|(}
-The last big source of revenue for Rocketship are the rent subsidies that the State of California offers through SB740. Lines 113–232 of this dissertation's Data Dashboard list 12 years (2011–2022) of subsidy that total over \$43M. In recent years, SB740 adds over \$5M annually to Rocketship's revenue stream. Note that SB740 subsidies continue until either the law is changed or Rocketship goes out of business; subsidies do not stop when a facility is fully paid off.
+The last big source of revenue for Rocketship are the rent subsidies that the State of California offers through SB740. Lines 113–232 of this dissertation's Data Dashboard list 12 years (2011–2022) of subsidy that total over \$43M. In recent years, SB740 adds over \$5M annually to Rocketship's revenue stream regardless of whether the facilities have been fully paid off or not. Note also that SB740 subsidies will continue until either the law is changed or Rocketship goes out of business.
 \index{Rocketship!rent subsidies|(}
 
 \subsection{Debt}%
 \label{sec:debt}\indent%
 
 \index{Rocketship!debt|(}
-Rocketship has borrowed over 50 times since its founding in 2006\footnote{Full details of Rocketship's borrowings are in this dissertation's Google spreadsheet in the tab \textit{Dashboard} starting on lines 10–63.} and their annual, consolidated financial statements provide debt summaries starting in 2012. The totals are shown in \prettyref{tab:total_debt} on p.\pageref{tab:total_debt} below.
-
-The annual increase (or decrease) in debt year-over-year is shown in \prettyref{tab:total_debt}. One can immediately observe that the changes in debt year-over-year are quite pronounced. The annual changes range from a low of 86\% to a high of 155\% with an average of just over 100\% per year. (An increase of 86\% means that the absolute amount of debt decreased. An increase of 155\% means that debt increased one and a half times the previous year.)
+Rocketship has borrowed over 50 times since its founding in 2006\footnote{Full details of Rocketship's borrowings are in this dissertation's Data Dashboard in the tab \textit{Dashboard} starting on lines 10–63.} and their annual, consolidated financial statements provide debt summaries starting in 2012. The total debt at year end (June 30\textsuperscript{th})  is shown in \prettyref{tab:total_debt} on p.~\pageref{tab:total_debt}. Overall, debt increased by an average 15.71\% per year since 2012 for an overall increase of nearly 400\%.
 
 \begin{table}[ht]
   \caption[Total Debt, 2012-2022]{\textit{Total Debt, 2012-2022}}%
   \label{tab:total_debt}
-  \begin{tabular}{rrr}
+  \begin{tabularx}{\textwidth}{rrrr}
     \toprule
-    \textbf{Year} & \textbf{Total Debt} & \multirow[t]{2}{1.1in}{\textbf{Year-Over-Year\\Increase}}\\
-    \\
+    \textbf{Year} & \textbf{Total Debt} & \multicolumn{2}{c}{\textbf{Increase}} \\
+                  &                     & \textbf{Year-over-Year} & \textbf{Cumulative} \\
     \midrule
-    2012 & \$47,046,048 & \\
-    2013 & \$57,078,166 & 121.32\% \\
-    2014 & \$88,383,082 & 154.85\% \\
-    2015 & \$75,904,098 &  85.88\% \\
-    2016 & \$104,857,696 & 138.14\% \\
-    2017 & \$136,652,562 & 130.32\% \\
-    2018 & \$129,391,897 &  94.69\% \\
-    2019 & \$163,598,844 & 126.44\% \\
-    2020 & \$168,701,124 & 103.12\% \\ 
-    2021 & \$196,416,045 & 116.43\% \\
-    2022 & \$186,550,566 &  85.89\% \\
+    2012 & \$47,046,048  &         - &        - \\
+    2013 & \$57,078,166  &   21.32\% & 121.32\% \\
+    2014 & \$88,383,082  &   54.85\% & 187.87\% \\
+    2015 & \$75,904,098  &  -14.12\% & 161.34\% \\
+    2016 & \$104,857,696 &   38.14\% & 222.88\% \\
+    2017 & \$136,652,562 &   30.32\% & 290.47\% \\
+    2018 & \$129,391,897 &   -5.31\% & 275.03\% \\
+    2019 & \$163,598,844 &   26.44\% & 347.74\% \\
+    2020 & \$168,701,124 &    3.12\% & 347.74\% \\ 
+    2021 & \$196,416,045 &   16.43\% & 417.50\% \\
+    2022 & \$186,550,566 &   -5.02\% & 396.53\% \\
     \bottomrule
-  \end{tabular}
+  \end{tabularx}
 \end{table}
 \index{Rocketship!debt|)}
 
@@ -383,20 +383,25 @@ The annual increase (or decrease) in debt year-over-year is shown in \prettyref{
 \label{sec:NMTC}\indent%
 
 \index{New Markets Tax Credit Program|(}
-One form of debt that Rocketship has used numerous times is the New Markets Tax Credit (NMTC) program. This is one of six programs offered by the Community Development Financial Institutions Fund (CDFI Fund) of the U.S. Department of the Treasury. In essence, the NMTC program offers a 39\% tax credit on qualified investments in ``Low-Income Communities''. The credits are spread out over 7 years: 5\% of the amount invested for the first 3 years, and 6\% for the remaining 4 years. These credits can be applied to federal income taxes due from other investments. 
+One form of debt that Rocketship has used numerous times is the New Markets Tax Credit (NMTC) program. This is one of six programs offered by the Community Development Financial Institutions Fund (CDFI Fund) of the U.S. Department of the Treasury. In essence, the NMTC program offers a 39\% tax credit on qualified investments in ``Low-Income Communities''. The credits are spread out over 7 years: 5\% of the amount invested for the first 3 years, and 6\% for the remaining 4 years. These credits can be applied to federal income taxes due, typically from other investments.
 
-Charter schools operating in economically depressed areas qualify for tax credits. 
+\subsubsection{The Benefits of the NMTC}
+\label{sec:nmtc-benefits}\indent%
 
-It is incentives like these that make the NMTC popular, coupled with reduced risk. The tax credit investment is nearly without risk because the tax credit is guaranteed as long as the charter school remains open. If the school stays open for seven years, the risk is nearly zero.
+The NMTC offers three benefits for investors in charter schools operating in economically depressed areas. First, there is the tax credit of 39\% of the investment. Second, the investment itself offers a return, and thirdly, NMTC investments have lower risk than regular investments.
+
+\subsubsection{How NMTC Works}
+\label{sec:how-nmtc-works}\indent%
 
 \index{New Markets Tax Credit Program!example|(}
 An example will help make it clear how the NMTC works. Suppose we have a high wealth individual with a marginal tax rate of 37\% (the highest bracket), and suppose that this high wealth individual gets a 10\% return per year on their investments. Further, suppose this individual has \$2,351,000 to invest. The investor could divide that amount into a \$1,000,000 NMTC investment and \$1,351,000 investment in something other than a qualified NMTC investment.
 
-In the NMTC case, every year for the first three years, the investor has \$1,000,000 $\times$ a 10\% return $\times$ 37\% income tax = \$37,000 tax due on \$100,000 profit, The investor gets back their original amount plus profit on the original amount minus taxes on the profit or (\$1,000,000 + (\$1,000,000 × 10\%) - (\$1,000,000 × 0.37) = \$1,063,000 after taxes, in addition to a \$1,000,000 × 5\% = \$50,000 tax credit. The last four years, the tax credit rises to \$60,000.
-  
-In the non-qualifying investment, the investor has \$1,351,000 $\times$ 10\% return $\times$ 37\% income tax = \$50,000 tax due, which is exactly equal to the tax credit of the NMTC case. The investor also has the return on the investment whose tax due was equal to the NMTC tax credit: \$1,351,000 + (\$1,351,000 $\times$ 10\%) = \$1,486,000. In years 4–7, the investor can invest \$1,622,000 which generates a \$60,000 tax due.
+In the NMTC-qualifying case, every year for the first three years, the investor has a profit of \$1,000,000 $\times$ 10\% = \$100,000, and this generates an income tax due of \$100,000 $\times$ 37\% = \$37,000 income tax due. The investor's net profit is then \$100,000 - \$37,000 = \$63,000 per year or \$63,000/yr $\times$ 7 years = \$441,000 total net of taxes on a \$1,000,000 investment. But the investor also has yet to use the NMTC of 39\% on the \$1,000,000 investment which is \$50,000 for the first three years and \$60,000 for the remaining four years. 
 
-Combining the returns from the NMTC case with those from the non-NMTC case, the investor gets back \$1,063,000 + \$1,486,000 = \$2,549,000 for an investment of \$2,351,000, a 8.47\% net return after taxes. In years 1–3, the after tax return to the high wealth individual is 6.3\%, ((\$2,549,000 $÷$ \$2,351,000) $×$ 100) so the NMTC after tax return is 33.3\% higher than investing \$2,351,000, but at much lower risk. In years 4–7, the net return is slightly less (7.3\%) and the investment needed slightly higher (\$2,622,622).
+In the non-qualifying investment, the investor has \$1,351,000 $\times$ 10\% return $\times$ 37\% income tax = \$50,000 tax due, which is equal to the tax credit of the NMTC case. The investor also has the return on the investment used to generate the tax due: \$1,351,000 $\times$ 10\% = \$135,100 for each of the first three years. If the high wealth individual then invests an additional \$271,000, bringing the total investment to \$1,622,000 in years 4–7, this will generate a tax due of \$60,000/yr which will be offset by the NMTC. The high wealth individual would get a total return net of taxes of (\$135,000 $\times$ 3) + (\$162,000 $\times$ 4) = \$1,054,100 on an investment of \$1,000,000 + \$1,351,00 + \$271,000 = \$2,622,000. This is a total, tax free return of 40.202\% over 7 years. This is equivalent to a taxable return of 40.202\% ÷ 0.63 = 63.81\% over 7 years. Annually, in simple interest, this is 9.12\% per year, up from 6.3\% (10\% - 3.7\%) the investor would have otherwise gotten, a 44¾\% increase in return.\footnote{This analysis does not take into account the time value of money. If it did, the analysis would be more complicated, and the calculated returns would be higher.}
+
+With incentives like these that make the NMTC popular. The tax credit investment is nearly without risk because the tax credit is guaranteed as long as the charter school remains open. If the school stays open for seven years, the risk is nearly zero.
+
 \index{New Markets Tax Credit Program!example|)}
 \index{New Markets Tax Credit Program|)}
 
@@ -404,7 +409,7 @@ Combining the returns from the NMTC case with those from the non-NMTC case, the 
 \label{sec:rocketship-worth}\indent%
 
 \index{Rocketship!net worth|(}
-Rocketship's net worth has changed over the years. It has always been positive as seen in \prettyref{tab:net_assets_annual_change} on p.\pageref{tab:net_assets_annual_change}, although it has risen in some years and fallen in others, sometimes considerably so. Rocketship's Compound Annual Growth Rate (CAGR) started with a stratospheric 300+\% and then gradually fell to a merely excellent 25–30\% starting in 2017, a rate of return that would matches the rate of return expected by venture funds or private equity firms \parencite[87]{Lord.Mirabile2018}. This CAGR has been obtained with very little funding from the founders according to annual financial audits, and very little might actually be zero. That would make the rate of return of the founders on their investment theoretically infinite. However, private individuals are barred from receiving distributions from the assets of non-profit corporations\footnote{See \prettyref{sec:answ-rese-quest} on p.\pageref{sec:answ-rese-quest} for a discussion of this issue.}, so the founder's actual rate of return would be zero dollars.
+Rocketship's net worth has changed over the years. It has always been positive as seen in \prettyref{tab:net_assets_annual_change} on p.\pageref{tab:net_assets_annual_change}, although it has risen in some years and fallen in others, sometimes considerably so. Rocketship's Compound Annual Growth Rate (CAGR) started with a stratospheric 300+\% and then gradually fell to a merely excellent 25–30\% starting in 2017, a rate of return that would matches the rate of return expected by venture funds or private equity firms \parencite[87]{Lord.Mirabile2018}. This CAGR has been obtained with very little funding from the founders according to annual financial audits, where very little might actually be zero. 
 
 \begin{table}[ht]
   \caption[Net Assets, 2010–2022]{\textit{Net Assets, 2010–2022}}%
@@ -437,12 +442,7 @@ Rocketship's net worth has changed over the years. It has always been positive a
 
 This section is concerned with what wasn't found during this dissertation's investigation. Gaps are where data were expected, but none were found. Anomalies are where data were found, but differed from what were expected, and discrepancies are where data were found but conflicted with other data.
 
-In an enterprise as large as Rocketship is now (with a \$190M+ budget in 2022), there are bound to be unintentional gaps, anomalies, and discrepancies without any implication of nefarious intent. Further, as Berman and Knight emphasize, accounting involves making assumptions, estimates, and judgment calls; it is not an exact science.
-\begin{displayquote}%[\parencite[4-5]{Berman.Knight2013}]
-The art of accounting and finance is the art of using limited data to come as close as possible to an accurate description of how well a company is performing.
-\end{displayquote}
-
-So, the mere existence of gaps, anomalies, and discrepancies is not an indication of fraud. Fraud is deliberate, but gaps, anomalies, and discrepancies occur because of differing assumptions, simple oversight, recording errors, or (unfortunately)  incompetence.
+In an enterprise as large as Rocketship is now (with a \$190M+ budget in 2022), there are bound to be unintentional gaps, anomalies, and discrepancies without any implication of nefarious intent. Further, as \citeauthor{Berman.Knight2013} emphasize, accounting involves making assumptions, estimates, and judgment calls; it is not an exact science. They say, ``The art of accounting and finance is the art of using limited data to come as close as possible to an accurate description of how well a company is performing.'' \parencite[4-5]{Berman.Knight2013}. So, the mere existence of gaps, anomalies, and discrepancies is not an indication of fraud. Fraud is deliberate, but gaps, anomalies, and discrepancies occur because of differing assumptions, simple oversight, recording errors, or (unfortunately)  incompetence.
 
 \subsection{Gaps}%
 \label{sec:gaps}\indent%
@@ -456,20 +456,24 @@ Anomalies are where data were found, but were not what was expected. Several ano
 
 \index{Rocketship!anomalies|(}
 \begin{itemize}
-  \item It appears that the Rocketship Business Committee only reviews and approves already signed checks in excess of \$100,000 rather than reviewing and approving purchase orders (i.e.\ before signature). It is not known if those checks have been sent to their respective payees.\index{Rocketship!anomalies!check review}
+  \item It appears that the Rocketship Business Committee only reviews and approves already signed checks in excess of \$100,000 rather than reviewing and approving purchase orders (i.e.~before approval and signature). It is not known if those checks have already been sent to their respective payees when they are reviewed and approved by the Business Committee.\index{Rocketship!anomalies!check review}
 
-  \item The audited financial statements use a level of materiality (\$300K) that is three times higher than that used by a public school district (LASD) whose budget is half the size of Rocketship's, i.e. Rocketship's level of materiality is 50\% higher than expected when compared to LASD's level. The level of materiality is set by the auditor based on the auditor's experience and is a reflection of the amount below which the auditor feels is not worthwhile to examine.
+  \item The audited financial statements use a level of materiality (\$300K) that is three times higher than that used by a public school district (LASD) whose budget is half the size of Rocketship's, i.e. Rocketship's level of materiality is 50\% higher than expected when compared to LASD's level if one assumes that the level of materiality is proportional to expenses. The level of materiality is set by the auditor based on the auditor's experience and is a reflection of the amount below which the auditor feels is not worthwhile to examine.
 \index{Rocketship!anomalies!level of materiality}
 
   \item Administrative expenses, compared to total expenses, seem unusually high. Using functional expenses from the 2021-2022 school year as an example, Rocketship spent \$151,416,849 on educational programs, \$33,683,700 on program support, and \$46,401,574 on management and general expenses.  The management and general expenses are thus approximately 30\% of what was spent on educational programs. In a Business Committee presentation, \textcite[28]{Mukhopadhyay2013}, Rocketship says that the fees they charge individual schools are 35\% of revenue, consisting of a 15\% management fee and a 20\% facility fee, so 30\% is in line with what the Business Committee expects.\index{Rocketship!anomalies!administrative expenses}
 
   \item The functional expenses that Rocketship has chosen to use in their financial statements differ from the list used in IRS Form 990, Part IX\@. This makes it nearly impossible to cross check (triangulate) data from Form 900 and the audited annual financial statements.\index{Rocketship!anomalies!differing functional expenses}
 
-  \item  For the years ended 2019–2022, accounting expenses were \$166,059 in 2019, more than doubling to \$423,683 in 2020, roughly halving to \$264,784 in 2021, before more than tripling to \$848,221 in 2022. No mention is made of these substantial swings in accounting expenses in the \textit{Notes to Consolidated Financial Statements} for 2022.\index{Rocketship!anomalies!large swings in accounting expenses}
+  \item  For the years ended 2019–2022, accounting expenses were \$166,059 in 2019, more than doubling to \$423,683 in 2020, roughly halving to \$264,784 in 2021, before more than tripling to \$848,221 in 2022. No mention is made of these large swings totaling about \$1.6M over four years in accounting expenses in the \textit{Notes to Consolidated Financial Statements}. The concern is not so much the amount as the variance, although the imputed hours is large: Over the four year period, they average from over 1,000 hrs/year at \$350/hr to over 10,000 hrs/year at \$150/hr.
+  \index{Rocketship!anomalies!large swings in accounting expenses}
 
-  \item In 2022, a total of \$2,635,011 was spent on travel which is over \$200,000 per month. This represents perhaps 50 cross-country business class flights per month (\$1500 flight with a five day stay at a five-star hotel at \$500/night).  More modest flights and hotel (\$500 + 5×\$300) allow 100 trips per month.  No explanation either for the need for this much travel nor its cost was provided in the \textit{Notes to Consolidated Financial Statements}, especially given the now normal use of Internet-based video conferencing software. An argument could be made that swings this large are material and so must be explained.\index{Rocketship!anomalies!travel expenses}
+  \item In 2022, a total of \$2,635,011 was spent on travel which is over \$200,000 per month. This represents perhaps 50 cross-country business class flights per month (\$1500/flight with a five day stay at a five-star hotel at \$500/night).  More modest flights and hotel (\$500 + 5×\$300) allow 100 trips per month.  No explanation either for the need for this much travel or its cost was provided in the \textit{Notes to Consolidated Financial Statements}, especially given the now normal use of Internet-based video conferencing software. An argument could be made that swings this large are material and so must be explained.\index{Rocketship!anomalies!travel expenses}
   
-  \item In general, Rocketship spents more per student than their comparable home public school district in Santa Clara County does. This is unusual because, again in general, Rocketship schools have a higher student-to-teacher ratio than surrounding districts. Further unexplained is why Rocketship has a higher cost per student than public schools in the charter's home district. (See the data for the years 2014-2023 in \textcite{SCCOE14-23}.) Charter schools were supposed to be more efficient than public schools because they did not have to adhere to costly regulations required of public schools.\index{Rocketship!anomalies!per pupil expenditure}
+  \item In general, Rocketship spents more per student than their comparable home public school district in Santa Clara County does. This is unusual because, again in general, Rocketship schools have a higher student-to-teacher ratio than surrounding districts. Further unexplained is why Rocketship has a higher cost per student than public schools in the charter's home district. (See the data for the years 2014-2023 in \textcite{SCCOE14-23}.) Charter schools were supposed to be more efficient than public schools because they did not have to adhere to costly regulations required of public schools. Further investigation is warranted.\index{Rocketship!anomalies!per pupil expenditure}
+
+  \item Venture capital funds are supposed to earn a return for investors in the fund. Yet all? most? many? of the venture funds listed in \prettyref{tab:venture_captial_funding} on p.~\pageref{tab:venture_captial_funding} foregave the loans if certain conditions were met, making those investments a total loss for the venture fund investors. None of the \textit{Notes to Consolidated Financial Statements} comment on this anomaly. Perhaps the financial statements of those venture funds have an explanation that a future investigation could uncover.
+
 \end{itemize}
 \index{Rocketship!anomalies|)}
 
@@ -485,13 +489,13 @@ The following discrepancies were found:
   The annual audited financial statements have several entries which also appear in the IRS Form 990, the federal tax return for organizations exempt from income tax, i.e.\ charities, religious organizations, private foundations, some political organizations, and other non-profits. For example, on June 30, 2015, the Consolidated Statement of Financial Position for 2014-2015 shows net assets to be \$10,562,747 (p.3) whereas the Form 990 (2014) show them to be \$13,968,882, a 32\% difference. Analysis of this discrepancy is limited and is insufficient to determine if the difference is the result of differing accounting practices or is a reflection of a more serious underlying problem.\index{Rocketship!discrepancies!Form 990 vs financial statements}
 
   Similar discrepancies also exist for functional expenses, among other categories.
- \item For year 2018–2019, salaries are shown as \$54,294,263 on the audited statement of functional expenses. Yet, adding lines 5 (executive compensation), 7 (other salaries), 8 (pension plan), and 9 (other employee benefits) from Form 990 (2018–2019) yields \$54,516,782 which is close, but not quite the same as the amount shown in the audited statements. Further, it is not even clear that those lines and only those should sum to the same amount as ``Salaries'' in the audited statement of functional expenses.  For example, should pension obligations be counted as part of salaries? In public school districts, pension obligations are recorded separately as OPEB (Other Post-Employment Benefits) although they are often characterized as deferred salary \parencite{Kagan2022}. \index{Rocketship!discrepancies!Form 990 vs audited salaries}
+ \item For year 2018–2019, salaries are shown as \$54,294,263 on the audited statement of functional expenses. Yet, adding lines 5 (executive compensation), 7 (other salaries), 8 (pension plan), and 9 (other employee benefits) from Form 990 (2018–2019) yields \$54,516,782 which is close, but not quite the same as the amount shown in the audited statements. Further, it is not even clear that those lines and only those should sum to the same amount as ``Salaries'' in the audited statement of functional expenses.  For example, should pension obligations be counted as part of salaries? In public school districts, pension obligations are recorded separately although they are often characterized as deferred salary \parencite{Kagan2022}. \index{Rocketship!discrepancies!Form 990 vs audited salaries}
 
   \item The total contributions (i.e.\ donations, grants) for all Rocketship schools in 2021-2022 is listed as \$7,075,182. The sum total of Object Codes 8980-8999 (Contributions) for all ten Santa Clara County Rocketship Schools is \$3,326,893. These two numbers are clearly not the same, but neither are the schools covered. The first consists of all 23 Rocketship schools in the U.S.; the latter consist only of ten schools in Santa Clara County. Considerable work beyond the scope of this investigation would be needed to determine if all the reported contributions agree.\index{Rocketship!discrepancies!audited contributions vs object code sums}
 
   The SACS Object Codes 8980-8999 are where contributions are recorded in Rocketship's unaudited actuals (and reported to the California Department of Education). The Department of Education makes available a Microsoft Access database with data for specific object codes or groups of object codes for every charter school in California. Summing each school's Object Code 8980-8999 for a test year (YE2020) does not agree with what's is reported on line 11 of Rocketship's Consolidated Statement of Activities for that year, nor does it agree with what was reported on Rocketship's IRS Form 990 that year.\index{Rocketship!discrepancies!object code sums vs financial statements}
 
-  Several questions remain: Are the differences merely the result of variations in accounting standards of the California Department of Education and the IRS\@? Or, are the differences choices that Rocketship has made? And if so, why? One final question: the entries for Object Codes 8980-8999 are the only entries which have the form of a positive number under ``restricted'' and an identical number, but negative, under ``unrestricted''. The total is naturally zero, which begs the question of what exactly is being reported.\index{Rocketship!discrepancies!unclear reporting}
+  Several questions remain: Are the differences merely the result of variations in accounting practices of the California Department of Education and the IRS\@? Or, are the differences choices that Rocketship has made? And if so, why? One final question: the entries for Object Codes 8980-8999 are the only entries which have the form of a positive number under ``restricted'' and an identical number, but negative, under ``unrestricted''. The total is naturally zero, which begs the question of what exactly is being reported.\index{Rocketship!discrepancies!unclear reporting}
 
 \end{itemize}
 \index{Rocketship!discrepancies|)}
@@ -500,7 +504,8 @@ The following discrepancies were found:
 \label{sec:issues_equality_equity}\indent%
 
 \index{Rocketship!vision and goals|(}
-Ostensibly, equality and equity are at the heart of why Rocketship exists. Their vision is to ``eliminate the achievement gap in our lifetime'' \parencite{RSE2017}.\footnote{Uncharitably, depending on whose lifetime Rocketship is referring to, the elimination of the achievement gap could be 30–60 years out. Included in this span of years is at least one pandemic, one major earthquake, several depressions or recessions, several wars, and numerous government shutdowns.} Their mission is to ``catalyze transformative change in low-income communities through a scalable and sustainable public school model that propels student achievement, develops exceptional educators, and partners with parents who enable high-quality public schools to thrive in their community.'' \parencite{RSE2017} These are laudable goals, but not unique to Rocketship. Other charter schools, and even public schools have similar goals.
+Ostensibly, equality and equity are at the heart of why Rocketship exists. Their vision is to ``eliminate the achievement gap in our lifetime'' \parencite{RSE2017}.\footnote{Uncharitably, depending on whose lifetime Rocketship is referring to, the elimination of the achievement gap could be 30–60 years out. Included in this span of years is at least one pandemic, one major earthquake, several depressions or recessions, several wars, and numerous government shutdowns.} Their mission is to ``catalyze transformative change in low-income communities through a scalable and sustainable public school model that propels student achievement, develops exceptional educators, and partners with parents who enable high-quality public schools to thrive in their community.'' \parencite{RSE2017} These are laudable goals, but not unique to Rocketship. Other charter schools and other public schools have similar goals.
+% \footnote{The phrase ''catalyze transformative change'' is extremely rare. Google only counts 13,400 instances of it in the entire web. } 
 \index{Rocketship!vision and goals|)}
 
 \index{Rocketship!per-pupil spending|(}
@@ -508,20 +513,20 @@ At a high level, Rocketship spent in 2021-22 (based on the \textit{Santa Clara C
 \index{Rocketship!per-pupil spending|)}
 
 \index{Rocketship!claims of academic performance|(}
-Rocketship locates all of its schools in high poverty areas\footnote{High poverty areas are defined as areas where 20\% live in poverty or where the median family income less than 80\% of the area median family income\parencite[13-14]{CDFI2020}} where chronically underfunded public schools struggle to provide a quality education to all. Had they not done so, investors would not have been able to take advantage of the NMTC program. Despite being located in high poverty areas, Rocketship claims that its elementary schools are among the best in the nation \parencite{Abousalem2021} because their API or CAASPP test scores are higher than their surrounding district and higher than the California average. However, an argument can be made that all Rocketship can actually claim is that their students are among the best standardized test takers in the nation; there is no evidence that Rocketship students who continue their education (middle school, high school, college, university) do any better than public schools students. As previously mentioned, \textcite{Lubienski.Lubienski2014} have shown that the NAEP test results of public schools are higher than those of charter schools, all things considered. Of course this does not mean that Rocketship couldn't be an outlier whose students do better in the long run than those of other public or charter schools, but the only evidence that has been presented is \textcite{Raymond.etal2023}. Like other CREDO publications, the findings of \textcite{Raymond.etal2023} have been disputed.\footnote{Stanford University's CREDO (Center for Research on Education Outcomes) makes the case that ``from 2015 to 2019, the typical charter school student in our national sample had reading and math gains that outpaced their peers in the traditional public schools (TPS) they otherwise would have attended''. Reviewing the lastest CREDO report for the NEPC, Joseph Ferrare said, ``[This] CREDO report compares charter school students’ learning in reading and math to students in traditional public schools. The report should be approached with caution by policymakers given the nonexperimental design that renders it unable to fully account for the factors that drive families to choose charter schools. In addition, the report presents its findings using an unconventional metric that makes it difficult to understand the policy implications, potentially misleading policymakers. The magnitude of the main findings fails to meet the minimum threshold experts consider to be a meaningful educational intervention.'' \parencite{Ferrare2023}}
+Rocketship locates all of its schools in high poverty areas\footnote{High poverty areas are defined as areas where 20\% live in poverty or where the median family income less than 80\% of the area median family income\parencite[13-14]{CDFI2020}} where chronically underfunded public schools struggle to provide a quality education to all. Had Rocketship schools no been located in a high poverty area, investors would not have been able to take advantage of the NMTC program. Despite being located in high poverty areas, Rocketship claims that its elementary schools are among the best in the nation \parencite{Abousalem2021} because their API or CAASPP test scores are higher than their surrounding district and higher than the California average. However, an argument can be made that all Rocketship can actually claim is that their students are among the best standardized test takers in the nation; there is no evidence that Rocketship students who continue their education (middle school, high school, college, university) do any better than public schools students. As previously mentioned, \textcite{Lubienski.Lubienski2014} have shown that the NAEP test results of public schools are higher than those of charter schools, all things considered. Of course this does not mean that Rocketship couldn't be an outlier whose students do better in the long run than those of other public or charter schools, but the only evidence that has been presented is \textcite{Raymond.etal2023}. Like other CREDO publications, the findings of \textcite{Raymond.etal2023} have been disputed.\footnote{Stanford University's CREDO (Center for Research on Education Outcomes) makes the case that ``from 2015 to 2019, the typical charter school student in our national sample had reading and math gains that outpaced their peers in the traditional public schools (TPS) they otherwise would have attended''. Reviewing the lastest CREDO report for the NEPC, Joseph Ferrare said, ``[This] CREDO report compares charter school students’ learning in reading and math to students in traditional public schools. The report should be approached with caution by policymakers given the nonexperimental design that renders it unable to fully account for the factors that drive families to choose charter schools. In addition, the report presents its findings using an unconventional metric that makes it difficult to understand the policy implications, potentially misleading policymakers. The magnitude of the main findings fails to meet the minimum threshold experts consider to be a meaningful educational intervention.'' \parencite{Ferrare2023}}
 
-The evidence that children learn more when in front of computers is decidedly mixed. Some meta-analyses report positive outcomes, but small effect sizes. It has, however, been known for years that virtual charter schools (100\% computerized) almost universally fail to perform better than schools using a blended approach or those with 100\% teacher-led instruction. These issue were discussed in \prettyref{sec:types-instruction} on p.\pageref{sec:types-instruction}.
+The evidence that children learn more when in front of computers is decidedly mixed. Some meta-analyses report positive outcomes, but small effect sizes. It has, however, been known for years that virtual charter schools (100\% computerized) almost universally fail to perform better than schools using a blended approach or those with 100\% teacher-led instruction. These issue were discussed in \prettyref{sec:types-instruction} on p.~\pageref{sec:types-instruction}.
 \index{Rocketship!claims of academic performance|)}
 
 
 \index{Rocketship!teacher|(}
-In 2023, Rocketship teachers, on average, have barely more than three years of teaching experience \parencite{SCCOE14-23}. In comparison, San José Unified School District (SJUSD) has 81.1\% of its teachers with more than three years of experience \parencite{USNews2023}.\index{Rocketship!teacher!experience} Further, no Rocketship school authorized by the Santa Clara County Board of Education (SCCBOE) has an average teacher salary that exceeds \$70,000, whereas SJUSD's average salary is just shy of \$90,000. SCCBOE-authorized schools have on average a 30\% annual teacher attrition rate \parencite{SCCOE14-23}.\index{Rocketship!teacher!salaries} In 2014–2015 and 2015-2016, Rocketship reported in a bond prospectus that roughly one-third of its teachers didn't return the following years \parencite{CSFA2017}.\index{Rocketship!teacher!turnover} Given these figures, it would indeed be extraordinary if Rocketship schools did substantially better than their home district. A more likely reason for their (initial) successes is that the early cohorts at a school have the most engaged and supportive parents who have high expectations for their children's academic achievement. One would expect that over time that both scores and enrollment would regress to the mean, and that's exactly what appears to have happened \parencite{SCCOE14-23}. 
+In 2023, Rocketship teachers, on average, have barely more than three years of teaching experience \parencite{SCCOE14-23}. In comparison, San José Unified School District (SJUSD) has 81.1\% of its teachers with more than three years of experience \parencite{USNews2023}.\index{Rocketship!teacher!experience} Further, no Rocketship school authorized by the Santa Clara County Board of Education (SCCBOE) has an average teacher salary that exceeds \$70,000, whereas SJUSD's average salary is just shy of \$90,000. SCCBOE-authorized schools have on average a 30\% annual teacher attrition rate \parencite{SCCOE14-23}, a phenominally high rate.\index{Rocketship!teacher!salaries} In 2014–2015 and 2015-2016, Rocketship reported in a bond prospectus that roughly one-third of its teachers didn't return the following years \parencite{CSFA2017}.\index{Rocketship!teacher!turnover} Given these figures, it would indeed be extraordinary if Rocketship schools did substantially better than their home district. A more likely reason for their (initial) successes is that the early cohorts at a school have the most engaged and supportive parents who have high expectations for their children's academic achievement. One would expect that over time that both scores and enrollment would regress to the mean, and that's exactly what appears to have happened \parencite{SCCOE14-23}. 
 \index{Rocketship!teachers|)}
 
 \index{Rocketship!annual academic growth|(}
 Rocketship, whose explicit goal is to close the achievement gap, claims on their web site, that their students ``\ldots{} receive 5-7 Additional \textit{Months} of Learning'' [emphasis added] \parencite{RSED2023}, but this is not what is reported in \textcite{Raymond.etal2023}. \textit{Appendix A: Average Annual Academic Growth of CMOs and Networks, Reading and Math} \textcite[132]{Raymond.etal2023} shows Rocketship's estimated annual growth in reading and math to be 0.166 and 0.239 respectively. For a standard 180 day year (in California), this is just under 30 days growth in reading and just over 43 days in math, neither are anywhere near the 5 to 7 months as claimed.
 
-The CREDO report also claims that Rocketship is a ``Gap Buster'' CMO, where ``Gap Buster'' is defined as ``moved their achievement ahead of their respective state’s average performance.'' \parencite[14]{Raymond.etal2023}. The report claims that ``\ldots{} more than 1,000 schools [in the U.S.] have eliminated learning disparities for their students'' \parencite[14]{Raymond.etal2023} which may or may not be true because the comparison is not an all-else-equal comparison, i.e.\ it is not commensurable. As \textcite[16]{Ashworth.etal2021} say, ``Failure to respect all-else-equal conditions is the most important source of incommensurability.'' The claim is only true if the demographics of a charter school and its home district are the same, and there are valid reasons to believe they aren't (citation)
+The CREDO report also claims that Rocketship is a ``Gap Buster'' CMO, where ``Gap Buster'' is defined as ``moved their achievement ahead of their respective state’s average performance.'' \parencite[14]{Raymond.etal2023}. The report claims that ``\ldots{} more than 1,000 schools [in the U.S.] have eliminated learning disparities for their students'' \parencite[14]{Raymond.etal2023} which may or may not be true because the comparison is not an all-else-equal comparison, i.e.\ it is not commensurable. As \textcite[16]{Ashworth.etal2021} say, ``Failure to respect all-else-equal conditions is the most important source of incommensurability.'' The claim is only true if the demographics of a charter school and its home district are the same, and there are valid reasons to believe they are not: Rocketship schools are deliberately located in areas where poverty is higher than the district average.
 \index{Rocketship!annual academic growth|(}
 
 %%% Local Variables:
