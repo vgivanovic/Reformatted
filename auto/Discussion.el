@@ -3,23 +3,21 @@
  (lambda ()
    (setq TeX-command-extra-options
          "-recorder")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
-   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "nolinkurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperbaseurl")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperimage")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "href")
+   (add-to-list 'LaTeX-verbatim-macros-with-braces-local "hyperref")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "url")
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (LaTeX-add-labels
     "ch:discussion"
-    "sec:appr-answ-rese-quest"
-    "sec:rappaports-rules"
+    "sec:answ-rese-quest"
     "sec:toulmin-arguments"
     "fig:toulmin-arg"
     "p:claim"
-    "sec:answ-rese-quest"
     "tab:types_conversion"
     "sec:publ-policy-chang"
     "sec:fraud"
@@ -34,12 +32,8 @@
     "sec:conclusion")
    (LaTeX-add-index-entries
     "key findings|("
-    "key findings|)"
-    "Rappaport-style arguments|("
-    "Rappaport-style arguments|)"
     "Toulmin-style arguments|("
     "Toulmin-style arguments|)"
-    "research question!answer to"
     "conversion, types of|("
     "conversion, types of|)"
     "non-profit!private gain|("
