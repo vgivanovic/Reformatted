@@ -26,6 +26,7 @@
 Unused_PDFs_to_be_deleted
 \#.*
 arara.log
+.new
 test.*
 tmp
 tmp.*
