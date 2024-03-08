@@ -1,9 +1,11 @@
- # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2024-02-24 12:29:27 vladimir> 325056577123
+# *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
+# Time-stamp: <2024-03-06 13:49:58 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2024 Vladimir G. Ivanović121000358
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
+
+* <2024-03-05 Tue 15:28> Doctoral Consultation
 
 * Still to do
 - Create diagram of inflows and outflows of Rocketship money.
@@ -85,6 +87,8 @@
 - Make sure the PDFs, LibreOffice spreadsheets, and Google spreadsheets are saved and are the same.
 - Make sure the target of all URLs exist and are correct.
 - Review compliance with "Four principles of high quality case studies" (see below).
+- Make sure that any Zoom chats have been included if they needed to be included.
+- Make sure there are no orphans or widows.
 
 * TODO Less important, but needed before publication.
 - Make sure all quotes have page numbers.

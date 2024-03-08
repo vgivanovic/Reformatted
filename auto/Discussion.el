@@ -15,8 +15,6 @@
    (LaTeX-add-labels
     "ch:discussion"
     "sec:answ-rese-quest"
-    "sec:toulmin-arguments"
-    "fig:toulmin-arg"
     "p:claim"
     "tab:types_conversion"
     "sec:publ-policy-chang"
@@ -33,8 +31,6 @@
    (LaTeX-add-index-entries
     "key findings|("
     "key findings|)"
-    "Toulmin-style arguments|("
-    "Toulmin-style arguments|)"
     "conversion, types of|("
     "conversion, types of|)"
     "non-profit!private gain|("

@@ -55,7 +55,6 @@
     "ulem"
     "tikz"
     "url"
-    "widows-and-orphans"
     "xcolor"
     "hyperref")
    (TeX-add-symbols

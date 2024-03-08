@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-02-17 20:48:38 vladimir>
+%%% Time-stamp: <2024-03-07 22:14:34 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -68,7 +68,7 @@
 \newrefformat{sec}{Section \ref{#1},   \textit{\titleref{#1}}}
 \newrefformat{tab}{Table \ref{#1},     \textit{\titleref{#1}}}
 \newrefformat{fig} {Figure \ref{#1},   \textit{\titleref{#1}}}
-\newrefformat{figp}{Figure \ref{#1},   \textit{\titleref{#1}} on p.\pageref{#1}}
+% \newrefformat{figp}{Figure \ref{#1},   \textit{\titleref{#1}} on p.\pageref{#1}}
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
 \usepackage[figureleft]{rotating}
 \usepackage{tabulary}
@@ -76,7 +76,7 @@
 \usepackage[normalem]{ulem}
 \usepackage{tikz}
 \usepackage{url}
-\usepackage{widows-and-orphans}
+% \usepackage{widows-and-orphans}
 \usepackage{xcolor}
 
 \usepackage{hyperref}           % Should be last
@@ -95,10 +95,6 @@
 \pagestyle{plain}               % SJSU EDD Guidelines Checklist #10
 
 \raggedright                    % SJSU EDD Guidelines Checklist #2, #4
-
-\clubpenalty=10000
-\widowpenalty=10000
-\raggedbottom%
 
 \setlength{\footskip}{\onelineskip}
 \setlength{\footnotesep}{\onelineskip}
@@ -133,9 +129,9 @@
   \renewcommand*{\chapnamefont}{\normalfont\bfseries}
   \renewcommand*{\chapnumfont}{\normalfont\bfseries}
   \renewcommand*{\chaptitlefont}{\normalfont\bfseries}
-  \renewcommand*{\printchaptername}{Appendix }
+  \renewcommand*{\printchaptername}{}
   \renewcommand*{\printchapternum}{}
-  \renewcommand*{\printchaptertitle}[1]{\SingleSpacing\centering{\textbf\chaptitlefont{}##1}}
+  \renewcommand*{\printchaptertitle}[1]{\SingleSpacing\centering{\bfseries\chaptitlefont{}##1}}
 }
 
 \indentafterchapter%

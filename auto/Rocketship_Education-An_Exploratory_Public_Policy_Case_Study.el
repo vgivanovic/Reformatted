@@ -14,6 +14,7 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "preamble"
+    "Title"
     "Copyright"
     "Signature"
     "Abstract"
