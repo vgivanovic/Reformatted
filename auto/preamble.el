@@ -55,7 +55,6 @@
     "ulem"
     "tikz"
     "url"
-    "xcolor"
     "xspace"
     "hyperref")
    (TeX-add-symbols

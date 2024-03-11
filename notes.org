@@ -1,5 +1,5 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2024-03-06 13:49:58 vladimir> 325056577123
+# Time-stamp: <2024-03-10 21:11:50 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2024 Vladimir G. Ivanović121000358
 # Author: Vladimir G. Ivanović <vladimir@acm.org>
@@ -9,8 +9,9 @@
 
 * Still to do
 - Create diagram of inflows and outflows of Rocketship money.
-- Rework the "more research is needed sentences"!
-- Add the name of my 4th committee member to the signature page and to the acknowledgements.
+- [DONE] Rework the "more research is needed sentences"!
+- [DONE] Add the name of my 4th committee member to the signature page and to the acknowledgements.
+- Rocketship claims to be more efficicent than public schools, yet Rocketship deliberately locates in high poverty areas where schools get supplemental and concentration grants.
 
 * Rate BCS according to the FCMAT /Charter Petition Evaluation Matrix/.
    - Is there an equivalent for renewals?
