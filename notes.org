@@ -1,17 +1,19 @@
 # *- Mode:org; coding:utf-8-auto-unix; lexical-binding:t;-*-
-# Time-stamp: <2024-03-10 21:11:50 vladimir> 325056577123
+# Time-stamp: <2024-04-17 14:47:00 vladimir> 325056577123
 # Time-stamp: <2023-08-13 12:39:07 vladimir>
 # Copyright (C) 2019-2024 Vladimir G. Ivanović121000358
-# Author: Vladimir G. Ivanović <vladimir@acm.org>
+#+author: Vladimir G. Ivanović <vladimir@acm.org>
 #+title: Notes and To Dos
 
-* <2024-03-05 Tue 15:28> Doctoral Consultation
+* <2024-04-16 Tue 16:30> Final(?) Doctoral Consultation
 
+
+* <2024-03-05 Tue 15:28> Doctoral Consultation
 * Still to do
-- Create diagram of inflows and outflows of Rocketship money.
+- [CANCELED] Create diagram of inflows and outflows of Rocketship money.
 - [DONE] Rework the "more research is needed sentences"!
 - [DONE] Add the name of my 4th committee member to the signature page and to the acknowledgements.
-- Rocketship claims to be more efficicent than public schools, yet Rocketship deliberately locates in high poverty areas where schools get supplemental and concentration grants.
+- [CANCELED] Rocketship claims to be more efficicent than public schools, yet Rocketship deliberately locates in high poverty areas where schools get supplemental and concentration grants.
 
 * Rate BCS according to the FCMAT /Charter Petition Evaluation Matrix/.
    - Is there an equivalent for renewals?
@@ -102,6 +104,7 @@
 - On-demand printed (not yet received) a PDF on school district finances. I'll read it in the evenings when I'm in Yosemite.
 - Discussion based on findings, and then go wild with speculation.
   - teachers have sign-on bonuses, but no protection from layoffs; churn is huge.
+
 
 * <2023-09-22 Fri> Doctoral Consultation Meeting with Roxana
 - Explain the data tables to some extent. Elaborate.
