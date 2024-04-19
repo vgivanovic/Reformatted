@@ -1,5 +1,5 @@
 %%% -*- mode: LaTeX/P; flyspell-mode: 1; -*-
-%%% Time-stamp: <2024-04-17 14:53:38 vladimir>
+%%% Time-stamp: <2024-04-19 14:48:06 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -41,12 +41,12 @@ In California, primary and secondary schools (grades TK–12), community college
 \index{budgets, types of|)}
 
 \index{budgets, budget cycle|(}
-In June of every year, the California Legislature passes a budget for the next fiscal year which runs from July 1\textsuperscript{st} of the current year to June 30\textsuperscript{th} of next year. The Governor signs this budget into law and it is then called the enacted budget. This version of the budget describes the \textit{intent} of the Governor and the Legislature, but might not provide any actual money for a particular program. Often funds for programs authorized by the enacted budget are appropriated in \textit{trailer bills} that are passed piecemeal in the months following the adoption of the budget. Starting July 1\textsuperscript{st}, the enacted state budget becomes the current budget. During the course of the fiscal year, revisions are made to the current budget, either because circumstances or priorities have changed. At the end of the fiscal year, this current and possibly modified budget becomes the prior year's budget, and during the following year, technical adjustments can be made. Exactly how much money was spent, or what was misclassified and improperly allocated will change the prior year's budget. This modified and corrected budget becomes the final independently audited budget. The upshot of this is that there are actually multiple versions of California's budget and one should know which budget is being referred to when one uses the phrase ``the budget''. Most often, one means the current budget, except during ``budget season'' which starts when the Governor releases a budget proposal in January, continues through May when the Governor revises that proposal, and ends in June when it is enacted into law. Once the Governor and the Legislature have negotiated their differences, and a budget has been passed by the Legislature and signed by the Governor, it becomes the enacted budget. Starting July 1\textsuperscript{st} the enacted budget becomes the current budget.
+In June of every year, the California Legislature passes a budget for the next fiscal year which runs from July 1\textsuperscript{st} of the current year to June 30\textsuperscript{th} of next year. The Governor signs this budget into law and it is then called the enacted budget. This version of the budget describes the \textit{intent} of the Governor and the Legislature, but might not provide any actual money for a particular program. Often funds for programs authorized by the enacted budget are appropriated in \textit{trailer bills} that are passed piecemeal in the months following the adoption of the budget. Starting July 1\textsuperscript{st}, the enacted state budget becomes the current budget. During the course of the fiscal year, revisions are made to the current budget, either because circumstances or priorities have changed. At the end of the fiscal year, this current and possibly modified budget becomes the prior year's budget, and during the following year, technical adjustments can be made. Exactly how much money was spent, or what was misclassified and improperly allocated will change the prior year's budget. This modified and corrected budget becomes the final independently audited budget. The upshot of this is that there are actually multiple versions of California's budget and one should know which budget is being referred to when one uses the phrase ``the budget''. Most often, one means the current budget, except during ``budget season'' which starts when the Governor releases a budget proposal in January, continues through May when the Governor revises that proposal, and ends in June when it is enacted into law. \prettyref{tab:july_1_budgets} lists the different budgets as of July 1\textsuperscript{st}. Once the Governor and the Legislature have negotiated their differences, and a budget has been passed by the Legislature and signed by the Governor, it becomes the enacted budget. Starting July 1\textsuperscript{st} the enacted budget becomes the current budget.
 
-\begin{table}[htp]
-  \label{tab:july_1_budgets}%
+\begin{table}[ht]
   \OnehalfSpacing%
-  \caption{Budgets as of July 1\textsuperscript{st}}%
+  \caption[Budgets as of July 1\textsuperscript{st}]{\textit{Budgets as of July 1\textsuperscript{st}}}%
+  \label{tab:july_1_budgets}%
   \begin{tabularx}{\linewidth}{lll}
     \toprule
     \textbf{Budget Name} & \textbf{Fiscal Year} & \textbf{Notes}\\
@@ -59,16 +59,16 @@ In June of every year, the California Legislature passes a budget for the next f
 \end{table}
 \index{budgets, budget cycle|)}
 
-\begin{figure}[htp]
-  \centering
-  \caption[California 2019–20 K–12 Funding by Source]{\textit{California 2019–20 K–12 Funding by Source}}\label{fig:2019–20_K–12_Funding}
-  \includegraphics[width=\textwidth]{2019-20_K-12_Funding_by_Source.pdf}\\ %chktex 8
-  \footnotesize\raggedright\textcite{LAO2021}.
-\end{figure}
-
 \index{LCFF|(}
 \index{Proposition 98|(}
-\prettyref{fig:2019–20_K–12_Funding} shows what money California uses to fund its primary and secondary educational system, i.e.~grades K–12.\footnote{Transitional Kindergarten (TK) did not exist in 2019, so \prettyref{fig:2019–20_K–12_Funding} only shows funding  for Kindergarten through high school, i.e.~K-12.} The amount of the state budget that is allocated to K-12 is governed by Proposition 98. How Proposition 98 money is allocated to local educational agencies (LEAs) is calculated using a formula known as the Local Control Funding Formula (LCFF).\footnote{Currently, the LCFF funds transitional kindergarten and community colleges as well as public primary and secondary schools, so it ought to be known as funding grades TK-14. Appoximately 89\% of LCFF funding goes to grades TK-12.} LEAs include individual charter schools, county offices of education, and local public school districts. The total amount of funding for TK–14 is calculated using a formula enacted by voters in 1988, since modified, called Proposition 98. That proposition passed as a response to the notorious Proposition 13, which was enacted a decade earlier, and which decimated school funding. Prop. 98 was originally meant to be a minimum guaranteed funding level, but has evolved into a target to be met, i.e.~both a floor and a ceiling. The Legislative Analyst's Office (LAO), which serves as an independent, non-partisan research arm of the California Legislature in much the same way that the Congressional Research Service serves the U.S. Congress, calls Prop. 98 ``A Tale of Complexity''  and says that ``A Plethora Tests and Rules Govern the Minimum Guarantee'', and that ```[The] State Has Made Myriad Adjustments to the Proposition 98 Calculations'' \parencite[5]{LAO2017}.
+\prettyref{fig:2019–20_K–12_Funding} shows what money California uses to fund its primary and secondary educational system, i.e.~grades K–12.\footnote{Transitional Kindergarten (TK) did not exist in 2019, so \prettyref{fig:2019–20_K–12_Funding} only shows funding  for Kindergarten through high school, i.e.~K-12.}
+\begin{figure}[hbt]
+  \centering
+  \caption[California 2019–20 K–12 Funding by Source]{\textit{California 2019–20 K–12 Funding by Source}}\label{fig:2019–20_K–12_Funding}
+  \includegraphics[width=0.9\textwidth]{2019-20_K-12_Funding_by_Source.pdf}\\ %chktex 8
+  \footnotesize\raggedright\textcite{LAO2021}.
+\end{figure}
+The amount of the state budget that is allocated to K-12 is governed by Proposition 98. How Proposition 98 money is allocated to local educational agencies (LEAs) is calculated using a formula known as the Local Control Funding Formula (LCFF).\footnote{Currently, the LCFF funds transitional kindergarten and community colleges as well as public primary and secondary schools, so it ought to be known as funding grades TK-14. Appoximately 89\% of LCFF funding goes to grades TK-12.} LEAs include individual charter schools, county offices of education, and local public school districts. The total amount of funding for TK–14 is calculated using a formula enacted by voters in 1988, since modified, called Proposition 98. That proposition passed as a response to the notorious Proposition 13, which was enacted a decade earlier, and which decimated school funding. Prop. 98 was originally meant to be a minimum guaranteed funding level, but has evolved into a target to be met, i.e.~both a floor and a ceiling. The Legislative Analyst's Office (LAO), which serves as an independent, non-partisan research arm of the California Legislature in much the same way that the Congressional Research Service serves the U.S. Congress, calls Prop. 98 ``A Tale of Complexity''  and says that ``A Plethora Tests and Rules Govern the Minimum Guarantee'', and that ```[The] State Has Made Myriad Adjustments to the Proposition 98 Calculations'' \parencite[5]{LAO2017}.
 \index{Proposition 98|)}
 Undoubtedly LCFF is complex, but LCFF is more transparent, has fewer rules, is more equitable, and is more responsive to the needs of public school districts that have a high proportion of under-served students than its predecessor, the Revenue Limit System. The Revenue Limit System was also complex, but in a completely difference way because it had many separately funded programs, called categorical programs, each with their own set of requirements, rules, durations, and funding levels. Each passing year saw more programs being added to the set of categorical programs until the entire collection became so unwieldy and so inequitable that the need to replace it was felt by everyone.
 
@@ -86,7 +86,7 @@ The most succinct summary of how LCFF amounts are calculated is provided by the 
   \end{enumerate}
 \end{quotation}
 
-For the 2022-23 school year, a school\footnote{Loosely based on Discovery Prep which has only 428 students.} with 543 pupils total (181 TK–5 pupils per strand and 3 strands), of which 70\% are unduplicate pupils, and assuming the maximum size for a classroom with one teacher, the core (adjusted grade-span base + supplemental + concentration) LCFF calculation is as follows:\label{example_LCFF_calculation}\\\bigskip
+For the 2022-23 school year, a school\footnote{Loosely based on Discovery Prep which has only 428 students.} with 543 pupils total (181 TK–5 pupils per strand and 3 strands), of which 70\% are unduplicate pupils, and assuming the maximum size for a classroom with one teacher, the core LCFF calculation (adjusted grade-span base + supplemental + concentration) is as follows:\label{example_LCFF_calculation}\\\bigskip
 
 \noindent\textbf{Adjusted base grant} \hfill{}(one-time adjustment + COLA + grade-span) \texttt{x} unduplicated count
 \OnehalfSpacing%
@@ -110,13 +110,13 @@ TK–3: (70% - 55%) × (65% × $10,119) × 127 × 3   = $  375,895
 \end{verbatim}
 \DoubleSpacing
 
-\begin{figure}[htbp]
+\prettyref{fig:lcff_components} diagrams just the major components of the LCFF. It takes the Fiscal Crisis and Management Team's (FCMAT's) spreadsheet of 45 individual sheets to specify completely how the LCFF for a particular school or district is calculated \parencite{FCMAT2024}. The intricacies of LCFF funding are also covered in Chapter 3 of \textcite[35–58]{Aguinaldo.etal2022}.
+
+\begin{figure}[htb]
   \caption[LCFF Components]{\textit{LCFF Components}}\label{fig:lcff_components}%
-  \copyrightbox[b] {\includegraphics[scale=0.5] {LCFF_Components}}%
+  \copyrightbox[b] {\includegraphics[scale=0.45] {LCFF_Components}}%
   {Adapted from ``Local Control Funding Formula Resources for School Districts and Charter Schools'' at \url{https://www.fcmat.org/PublicationsReports/LCFF-Calculator.xlsx}}
 \end{figure}
-
-\prettyref{fig:lcff_components} on p.\pageref{fig:lcff_components} diagrams just the major components of the LCFF. It takes the Fiscal Crisis and Management Team's (FCMAT's) spreadsheet of 45 individual sheets to specify completely how the LCFF for a particular school or district is calculated \parencite{FCMAT2024}. The intricacies of LCFF funding are also covered in Chapter 3 of \textcite[35–58]{Aguinaldo.etal2022}.
 \index{LCFF|)}
 
 \index{Proposition 98|(}
@@ -191,8 +191,9 @@ The challenge for this inquiry will be to organize the financial documents and d
 The first financial statement from a charter school is contained in their initial petition. The purpose of the initial petition is to provide an authorizer with data on the charter school's educational program, pupil outcomes, methods to measure these outcomes, the charter school's governance structure, methods of racial and ethnic balancing, teacher and student health and safety, and among other measures.\footnote{Ed. Code §47605 (c)(5)(A–O)} Subsequent charter school data makes their apprearance during the school year, and then finally when a certified audit is completed.
 \index{charter schools!initial petition|)}
 
-All of Rocketship's schools have both initial and renewal petitions. These are voluminous, but fortunately the financial part is only a small portion of the total number of pages. In addition, each petition (usually) has a corresponding staff report prepared by authorizers which evaluates the petition. These six kinds of documents are reviewed in the sections which follow.
+All of Rocketship's schools have both initial and renewal petitions. These are voluminous, but fortunately the financial part is only a small portion of the total number of pages. In addition, a petition may have a corresponding staff report prepared by authorizers which evaluates the petition. These documents, and the others mentioned above are reviewed in the sections which follow.
 
+\newpage
 \subsubsection{Petitions \& Renewals}\label{sec:cs-petitions-renewals}\indent%
 
 \index{charter schools!initial petition!required elements|(}
@@ -218,7 +219,6 @@ Since Rocketship schools are all operated by a single entity, (currently) Rocket
 Another set of documents that are related to initial and renewal petitions are the staff reports which usually accompany the agenda item which evaluates the charter school's petition in view of approval. In these reports, the authorizer's staff presents the findings and rationale for their recommendation to approve or not the petition of the charter school.
 \index{charter schools!petitions!staff reports|)}
 
-\newpage
 \subsubsection{Budgets,  Interim Reports, and CAFRs}\label{sec:budgets-etc}\indent%
 
 \index{charter schools!annual filing requirement|(}
@@ -230,7 +230,7 @@ Interim reports detail the differences between a school's budgeted revenue and e
 \index{charter schools!interim reports|)}
 
 \index{charter schools!CAFR|(}
-An independent public accounting firm audits the previous year's revenues and expenses and this becomes the definitive record of actual revenues and expenses. The report is called the Comprehensive Annual Financial Report (CAFR)\index{Comprehensive Annual Financial Report. (CAFR)}  CAFRs are submitted to the school's County Office of Education (COE) to be forwarded to the California Department of Education.
+An independent public accounting firm audits the previous year's revenues and expenses and this becomes the definitive record of actual revenues and expenses. The textual version of their report is a consolitdated financial statement; the database on which it is based is a SACS (Standardized Account Code Structure) form and, when printed, is called the Comprehensive Annual Financial Report (CAFR)\index{Comprehensive Annual Financial Report. (CAFR)}  CAFRs are submitted to the school's County Office of Education (COE) to be forwarded to the California Department of Education. 
 \index{charter schools!CAFR|)}
 
 \subsubsection{LCAPs}\label{sec:cs-lcaps}\indent%
@@ -285,7 +285,6 @@ The least costly option for charter schools is to co-locate in an existing schoo
 In theory co-locating is the least costly and most timely option for charter schools to obtain facilities, but often there is litigation over the extent or appropriateness of the facilities that the district provides. Sometimes these lawsuits drag on for years, often at a considerable expense for both the charter school and the public school district.
 \index{charter schools!facilities!co-location|)}
 
-\newpage
 \subsubsection{Leasing}\label{sec:leasing}\indent%
 
 \index{charter schools!facilities!leasing|(}
@@ -300,7 +299,7 @@ If the charter school is leasing from a related party, usually SB740 grants are 
 The third way of obtaining facilities is to own the needed facilities, or to have a related party own the facilities. These might be purchased, or the land purchased and facilities constructed. Most public school districts own their own facilities, but since these were likely bought and built using bond money derived from taxes, charter schools, lacking taxing authority, are unable to pay for their facilities this way.
 \index{charter schools!facilities!owning|)}
 \index{charter schools!facilities!financing of|(}
-If a charter school's leadership decides they should own their own facilities, there are a number of ways they can go about this, as shown in \prettyref{tab:paying-for-facilities} below.
+If a charter school's leadership decides they should own their own facilities, there are a number of ways they can go about this, as shown in \prettyref{tab:paying-for-facilities}.
 
 \begin{table}[ht]
   \caption[Charter School Options for Paying for Facilities]{\textit{Charter School Options for Paying for Facilities}}%
@@ -359,9 +358,10 @@ The federal Internal Revenue Service grants income tax exemptions to organizatio
 \subsection{Curated Social Media}\label{sec:curated-social-media}\indent%
 
 \index{social media|(}
-Some web sites maintain data related to Rocketship. For example, the Scoop.It topic, `Charter Schools \& ``Choice'': A closer look'\footnote{\url{https://www.scoop.it/topic/charter-choice-closer-look}} is devoted to charter schools in general, but also has material specifically on Rocketship. The now extinct web site, ``Stop Rocketship Education Now!''\footnote{\url{http://www.stoprocketship.com}} was created and maintained by community volunteers. Web scrapes of both of these sites were obtained in case they were deleted (which in fact was the case with ``Stop Rocketship Education Now!'').
+Some web sites maintain data related to Rocketship. For example, the \textit{Scoop.It!} topic, `Charter Schools \& ``Choice'': A closer look'\footnote{\url{https://www.scoop.it/topic/charter-choice-closer-look}} is devoted to charter schools in general, but also has material specifically on Rocketship. The now extinct web site, ``Stop Rocketship Education Now!''\footnote{\url{http://www.stoprocketship.com}} was created and maintained by community volunteers. Web scrapes of both of these sites were obtained in case they were deleted (which in fact was the case with ``Stop Rocketship Education Now!'').
 \index{social media|)}
 
+\newpage
 \section{Gaps and Anomalies}\label{sec:gaps-anomalies}\indent%
 
 \index{gaps and anomalies|(}
