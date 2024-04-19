@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-04-17 12:05:26 vladimir>
+%%% Time-stamp: <2024-04-18 21:17:49 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -20,7 +20,7 @@
 \usepackage[labelfont=rm]{caption}
 \usepackage{copyrightbox}
 \makeatletter
-\renewcommand{\CRB@setcopyrightfont}{\scriptsize\color{gray}}
+\renewcommand{\CRB@setcopyrightfont}{\scriptsize\color{black}}
 \makeatother
 \usepackage[threshold=40,thresholdtype=words]{csquotes}
 \usepackage{datetime2}
@@ -68,7 +68,6 @@
 \newrefformat{sec}{Section \ref{#1},   \textit{\titleref{#1}}}
 \newrefformat{tab}{Table \ref{#1},     \textit{\titleref{#1}}}
 \newrefformat{fig} {Figure \ref{#1},   \textit{\titleref{#1}}}
-% \newrefformat{figp}{Figure \ref{#1},   \textit{\titleref{#1}} on p.\pageref{#1}}
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
 \usepackage[figureleft]{rotating}
 \usepackage{tabulary}
@@ -76,7 +75,6 @@
 \usepackage[normalem]{ulem}
 \usepackage{tikz}
 \usepackage{url}
-%\usepackage{xcolor}
 \usepackage{xspace}
 
 \usepackage{hyperref}           % Should be last
@@ -112,6 +110,7 @@
 
 \makechapterstyle{sjsu}{%
   \chapterstyle{article}
+  \settocdepth{subsubsection}
   \setlength{\afterchapskip}{0in}
   \renewcommand{\chapnamefont}{\normalfont\bfseries}
   \renewcommand{\chapnumfont}{\normalfont\bfseries}
@@ -123,9 +122,8 @@
 }
 
 \makechapterstyle{appdx_sjsu}{%
-  \settocdepth{subsection}
+  \settocdepth{subsubsection}
   \setlength{\afterchapskip}{0in}
-  % \renewcommand*{\chapterheadstart}{}
   \renewcommand*{\chapnamefont}{\normalfont\bfseries}
   \renewcommand*{\chapnumfont}{\normalfont\bfseries}
   \renewcommand*{\chaptitlefont}{\normalfont\bfseries}
@@ -152,7 +150,6 @@
 \renewcommand{\cftsectionfont}{\normalfont}
 \renewcommand{\cftsubsectionfont}{\normalfont}
 \renewcommand{\cftsubsubsectionfont}{\normalfont}
-
 \renewcommand{\abstractnamefont}{\normalfont\centering}
 
 \captionsetup{singlelinecheck=false,justification=raggedright,labelfont={bf,footnotesize},labelsep=newline}

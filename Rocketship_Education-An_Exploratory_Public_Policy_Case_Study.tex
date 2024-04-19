@@ -1,4 +1,4 @@
-% Time-stamp: <2024-04-17 11:19:19 vladimir>
+% Time-stamp: <2024-04-18 22:22:30 vladimir>
 % Copyright (C) 2019-2024 Vladimir G. Ivanović
 % Author: Vladimir G. Ivanović <vladimir@acm.org>
 % ORCID: https://orcid.org/0000-0002-7802-7970
@@ -26,24 +26,21 @@
 \input{Title}\clearpage
 \newpage\input{Copyright}\clearpage
 \newpage\input{Signature}\clearpage
-\mbox{}                         % Force an empty page
-\cleardoublepage%
-\input{Abstract}
+\newpage\input{Abstract}\clearpage
+
+\DoubleSpacing%
+\pagestyle{plain}               % start displaying folios, but using Roman numerals until the main matter.
+
+\newpage\input{Acknowledgments}
+\newpage\input{Epigraph}
 
 \OnehalfSpacing%
 \newpage{\tableofcontents*}
-\DoubleSpacing%
-
-\pagestyle{plain}               % start displaying folios, but using Roman numerals until the main matter.
-
-\OnehalfSpacing%
 \newpage\listoftables%
 \newpage\listoffigures%
-\DoubleSpacing%
-\newpage\input{Acknowledgments}
+\DoubleSpacing
 \newpage\input{Abbreviations}
-\clearforchapter\input{Glossary}
-\clearforchapter\input{Epigraph}
+\newpage\input{Glossary}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter{}
