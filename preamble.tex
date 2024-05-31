@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-04-20 10:48:39 vladimir>
+%%% Time-stamp: <2024-05-30 22:43:52 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -8,12 +8,12 @@
 
 \nonstopmode\synctex=1
 
-\documentclass[letterpaper,oneside,article,12pt,oldfontcommands]{memoir} % SJSU EDD Guidelines Checklist #18
+\documentclass[letterpaper,oneside,article,12pt]{memoir} % SJSU EDD Guidelines Checklist #18
 
 \usepackage{adforn}
 \usepackage{array}
 \usepackage{authblk}
-\usepackage[USenglish]{babel}
+\usepackage[american]{babel}
 \usepackage[style=apa,sortcites=false,sorting=nyt,backend=biber]{biblatex}
 \usepackage{booktabs}
 \usepackage{calc}
@@ -32,7 +32,7 @@
 \usepackage[edges]{forest}
 \usepackage{geometry} % 72bp = 72.27pt = 1 inch
 \setlrmarginsandblock{1.5in}{1.0in}{*}
-\setulmarginsandblock{1.0in}{1.25in}{*}
+\setulmarginsandblock{1.25in}{1.25in}{*}
 % ******************************************************
 % Stock height and width:         11.00215in by 8.50166in
 % Top and edge trims:              0.0in and 0in
@@ -117,20 +117,35 @@
 
 \tightlists%
 
+% \makechapterstyle{frontmatter_sjsu}{%
+%   \chapterstyle{article}
+%   \setcounter{secnumdepth}{2}
+%   \settocdepth{chapter}
+%   \setlength{\afterchapskip}{0in}
+%   \renewcommand{\chapnamefont}{\normalfont}
+%   \renewcommand{\chapnumfont}{\normalfont}
+%   \renewcommand{\chaptitlefont}{\normalfont}
+%   \renewcommand{\printchaptername}{}
+%   \renewcommand{\printchapternum}{}
+%   \renewcommand{\printchaptertitle}[1]{%          % APA Level 1 Front Matter Heading: upper case
+%     \SingleSpacing\centering\normalfont\MakeUppercase\chaptitlefont{}##1}
+% }
 
 \makechapterstyle{sjsu}{%
   \chapterstyle{article}
-  \setcounter{secnumdepth}{3}
-  \settocdepth{subsubsection}
+  \setsecnumdepth{part}
+  \settocdepth{subsection}
   \setlength{\afterchapskip}{0in}
+  \renewcommand{\afterchapternum}{}
   \renewcommand{\chapnamefont}{\normalfont\bfseries}
   \renewcommand{\chapnumfont}{\normalfont\bfseries}
   \renewcommand{\chaptitlefont}{\normalfont\bfseries}
-  \renewcommand{\printchaptername}{}
-  \renewcommand{\printchapternum}{}
-  \renewcommand{\printchaptertitle}[1]{%          % APA Level 1 Heading: centered, bold, title case
+  \renewcommand{\printchaptername}{\normalfont\bfseries}
+  \renewcommand{\printchapternum}{\normalfont\bfseries}
+  \renewcommand{\printchaptertitle}[1]{%
+    % APA Level 1 Heading: centered, bold, title case
     \SingleSpacing\centering\normalfont\bfseries\chaptitlefont{}##1}
-}
+  }
 
 \makechapterstyle{appdx_sjsu}{%
   \setcounter{secnumdepth}{3}
@@ -141,6 +156,8 @@
   \renewcommand*{\chaptitlefont}{\normalfont\bfseries}
   \renewcommand*{\printchaptername}{}
   \renewcommand*{\printchapternum}{}
+
+  % APA Level 1 Heading: centered, bold, title case
   \renewcommand*{\printchaptertitle}[1]{\SingleSpacing\centering{\bfseries\chaptitlefont{}##1}}
 }
 
@@ -163,7 +180,12 @@
 \setaftersubsecskip{0pt}
 \setaftersubsubsecskip{0pt}
 
-\renewcommand{\cftchapterfont}{\normalfont\bfseries}
+% Table of {Contents, Figures, Tables} formatting
+\renewcommand{\printtoctitle}[1]{\center\normalfont TABLE OF CONTENTS}
+\renewcommand{\printlottitle}[1]{\center\normalfont LIST OF TABLES}
+\renewcommand{\printloftitle}[1]{\center\normalfont LIST OF FIGURES}
+
+\renewcommand{\cftchapterfont}{\normalfont}
 \renewcommand{\cftsectionfont}{\normalfont}
 \renewcommand{\cftsubsectionfont}{\normalfont}
 \renewcommand{\cftsubsubsectionfont}{\normalfont}
