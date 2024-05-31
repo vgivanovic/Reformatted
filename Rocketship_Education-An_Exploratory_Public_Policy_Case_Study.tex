@@ -1,4 +1,4 @@
-% Time-stamp: <2024-05-30 22:13:35 vladimir>
+% Time-stamp: <2024-05-31 15:34:05 vladimir>
 % Copyright (C) 2019-2024 Vladimir G. Ivanović
 % Author: Vladimir G. Ivanović <vladimir@acm.org>
 % ORCID: https://orcid.org/0000-0002-7802-7970
@@ -70,9 +70,10 @@
   \end{center}
 \end{vplace}
 
-\chapterstyle{appdx_sjsu}
+% \chapterstyle{appdx_sjsu}
 
-\begin{appendices}
+\appendix
+\renewcommand*{\cftchaptername}{Appendix:\space}
 \clearforchapter\input{Note_on_Sources}
 \clearforchapter\input{School_Financing}
 \clearforchapter\input{Rocketship_Properties}
@@ -80,7 +81,6 @@
 \clearforchapter\input{Consolidated_Activities_2010-2022}
 \clearforchapter\input{Consolidated_Cash_Flows_2006-2022}
 \clearforchapter\input{Consolidated_Functional_Expenses_2019-2022}
-\end{appendices}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \backmatter%

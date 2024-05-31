@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-05-30 22:43:52 vladimir>
+%%% Time-stamp: <2024-05-31 15:17:34 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -72,6 +72,7 @@
 \usepackage[figureleft]{rotating}
 \usepackage{tabulary}
 \setlength\tymin{0.5in}
+\usepackage{tocloft}
 \usepackage[normalem]{ulem}
 \usepackage{tikz}
 \usepackage{url}
@@ -117,20 +118,6 @@
 
 \tightlists%
 
-% \makechapterstyle{frontmatter_sjsu}{%
-%   \chapterstyle{article}
-%   \setcounter{secnumdepth}{2}
-%   \settocdepth{chapter}
-%   \setlength{\afterchapskip}{0in}
-%   \renewcommand{\chapnamefont}{\normalfont}
-%   \renewcommand{\chapnumfont}{\normalfont}
-%   \renewcommand{\chaptitlefont}{\normalfont}
-%   \renewcommand{\printchaptername}{}
-%   \renewcommand{\printchapternum}{}
-%   \renewcommand{\printchaptertitle}[1]{%          % APA Level 1 Front Matter Heading: upper case
-%     \SingleSpacing\centering\normalfont\MakeUppercase\chaptitlefont{}##1}
-% }
-
 \makechapterstyle{sjsu}{%
   \chapterstyle{article}
   \setsecnumdepth{part}
@@ -147,19 +134,19 @@
     \SingleSpacing\centering\normalfont\bfseries\chaptitlefont{}##1}
   }
 
-\makechapterstyle{appdx_sjsu}{%
-  \setcounter{secnumdepth}{3}
-  \settocdepth{subsubsection}
-  \setlength{\afterchapskip}{0in}
-  \renewcommand*{\chapnamefont}{\normalfont\bfseries}
-  \renewcommand*{\chapnumfont}{\normalfont\bfseries}
-  \renewcommand*{\chaptitlefont}{\normalfont\bfseries}
-  \renewcommand*{\printchaptername}{}
-  \renewcommand*{\printchapternum}{}
-
-  % APA Level 1 Heading: centered, bold, title case
-  \renewcommand*{\printchaptertitle}[1]{\SingleSpacing\centering{\bfseries\chaptitlefont{}##1}}
-}
+% \makechapterstyle{appdx_sjsu}{%
+%   \setcounter{secnumdepth}{0in}
+%   \settocdepth{subsection}
+%   \setlength{\afterchapskip}{0in}
+%   \renewcommand*{\chapnamefont}{\normalfont\bfseries}
+%   \renewcommand*{\chapnumfont}{\normalfont\bfseries}
+%   \renewcommand*{\chaptitlefont}{\normalfont\bfseries}
+%   \renewcommand*{\printchaptername}{}
+%   \renewcommand*{\printchapternum}{}
+%   \renewcommand*{\printchaptertitle}[1]{%
+%     % APA Level 1 Heading: centered, bold, title case
+%     \SingleSpacing\centering{\bfseries\chaptitlefont{}##1}}
+% }
 
 \indentafterchapter%
 
@@ -185,7 +172,19 @@
 \renewcommand{\printlottitle}[1]{\center\normalfont LIST OF TABLES}
 \renewcommand{\printloftitle}[1]{\center\normalfont LIST OF FIGURES}
 
-\renewcommand{\cftchapterfont}{\normalfont}
+\renewcommand*{\cftchapterfont}{\normalfont}
+\renewcommand*{\cftchapterpagefont}{\normalfont}
+\renewcommand*{\cftchapterleader}{%
+  \cftchapterfont\cftdotfill{\cftchapterdotsep}}
+\renewcommand*{\cftchapterdotsep}{\cftdotsep}
+
+% \renewcommand{\cftchapterfont}{\normalfont}
+% \renewcommand{\cftchapterpagefont}{\normalfont}
+% \renewcommand{\cftchapterpresnum}{\normalfont}
+% \renewcommand{\cftchapterleader}{\cftdotsep}
+% \renewcommand{\cftchapterafterpnum}{\cftparfillskip}
+\renewcommand*{\cftchaptername}{Chapter:\space}
+
 \renewcommand{\cftsectionfont}{\normalfont}
 \renewcommand{\cftsubsectionfont}{\normalfont}
 \renewcommand{\cftsubsubsectionfont}{\normalfont}
