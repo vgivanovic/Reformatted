@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-06-02 14:17:05 vladimir>
+%%% Time-stamp: <2024-06-02 16:23:09 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -65,13 +65,14 @@
 \usepackage{pifont}
 \usepackage{prettyref}
 \newrefformat{ch}{Chapter \ref{#1},    \textit{\titleref{#1}}}
-\newrefformat{sec}{Section  \textit{\titleref{#1}}}
+\newrefformat{sec}{Section  \textit{\titleref{#1}}} % since there are no section numbers
 \newrefformat{tab}{Table \ref{#1},     \textit{\titleref{#1}}}
 \newrefformat{fig}{Figure \ref{#1},    \textit{\titleref{#1}}}
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
 \usepackage[figureleft]{rotating}
 \usepackage{tabulary}
 \setlength\tymin{0.5in}
+\usepackage{tocloft}
 \usepackage[normalem]{ulem}
 \usepackage{tikz}
 \usepackage{url}
@@ -154,11 +155,13 @@
 \renewcommand{\printlottitle}[1]{\center\normalfont LIST OF TABLES}
 \renewcommand{\printloftitle}[1]{\center\normalfont LIST OF FIGURES}
 
-\renewcommand*{\cftchaptername}{Chapter:\space}
+\renewcommand*{\cftchaptername}{Chapter\space}
 \renewcommand*{\cftchapterfont}{\normalfont}
 \renewcommand*{\cftchapterpagefont}{\normalfont}
 \renewcommand*{\cftchapterleader}{\cftchapterfont\cftdotfill{\cftchapterdotsep}}
 \renewcommand*{\cftchapterdotsep}{\cftdotsep}
+
+\renewcommand*{\cftappendixname}{Appendix\space}
 
 \renewcommand{\cftsectionfont}{\normalfont}
 \renewcommand{\cftsubsectionfont}{\normalfont}
