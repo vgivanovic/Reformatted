@@ -1,4 +1,4 @@
-% Time-stamp: <2024-06-29 12:27:53 vladimir>
+% Time-stamp: <2024-06-30 11:43:07 vladimir>
 % Copyright (C) 2019-2024 Vladimir G. Ivanović
 % Author: Vladimir G. Ivanović <vladimir@acm.org>
 % ORCID: https://orcid.org/0000-0002-7802-7970
@@ -35,12 +35,10 @@
 \newpage\input{Epigraph}
 
 \setulmarginsandblock{1.1in}{1.25in}{*}
-\checkandfixthelayout
 \newpage\tableofcontents*%
 \newpage\listoftables%
 \newpage\listoffigures%
 \setulmarginsandblock{1.25in}{1.25in}{*}
-\checkandfixthelayout
 
 \newpage\input{Abbreviations}
 \newpage\input{Glossary}
@@ -57,8 +55,6 @@
 \clearforchapter\input{Discussion}                    % Chapter 5
 
 \newpage%
-
-\setlength{\afterchapskip}{0.8\onelineskip}
 
 \OnehalfSpacing%
 \setlength{\bibitemsep}{\onelineskip} % SJSU #5
@@ -84,10 +80,9 @@
 \clearforchapter\input{Consolidated_Functional_Expenses_2019-2022}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\backmatter%
+\backmatter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\clearforchapter{\small\printindex}
-
+\small\printindex
 \clearforchapter\input{Colophon}
 
 \end{document}

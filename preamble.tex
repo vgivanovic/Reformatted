@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-06-29 12:13:30 vladimir>
+%%% Time-stamp: <2024-06-30 11:01:13 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -20,7 +20,7 @@
 \usepackage[labelfont=rm]{caption}
 \usepackage{copyrightbox}
 \makeatletter
-\renewcommand{\CRB@setcopyrightfont}{\scriptsize\color{black}}
+\renewcommand{\CRB@setcopyrightfont}{\normalsize\color{black}}
 \makeatother
 \usepackage[threshold=40,thresholdtype=words]{csquotes}
 \usepackage{datetime2}
@@ -51,7 +51,7 @@
 \newrefformat{tab}{Table \ref{#1},     \textit{\titleref{#1}}}
 \newrefformat{fig}{Figure \ref{#1},    \textit{\titleref{#1}}}
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
-\usepackage[figureleft]{rotating}
+\usepackage{rotating}
 \usepackage{tabulary}
 \setlength\tymin{0.5in}
 \usepackage{textcase}
@@ -86,7 +86,6 @@
 \postdisplaypenalty=1600
 \displaywidowpenalty=1600
 \raggedbottom
-%\sloppybottom
 
 \setlength{\footskip}{\onelineskip}
 \setlength{\footnotesep}{\onelineskip}
@@ -106,12 +105,13 @@
   \chapterstyle{article}
   \setsecnumdepth{subsubsection}
   \settocdepth{subsection}
-  \setlength{\beforechapskip}{-\baselineskip}
-  \setlength{\beforechapskip}{0in}
-  \setlength{\afterchapskip}{0in}
+
+  \setlength{\topskip}{0\onelineskip}
+  \setlength\beforechapskip{-1\onelineskip}
+  \setlength{\afterchapskip}{0.5\onelineskip}
+
   \renewcommand{\afterchapternum}{}
-  \renewcommand{\chapnamefont}{\normalfont}
-  \renewcommand{\chapnumfont}{\normalfont}
+  \renewcommand{\chapnamefont}{\normalfont}  \renewcommand{\chapnumfont}{\normalfont}
   \renewcommand{\printchaptername}{\normalfont}
   \renewcommand{\printchapternum}{\normalfont}
   \renewcommand{\printchaptertitle}[1]{\centering\normalfont\bfseries##1}
@@ -162,7 +162,7 @@
 \renewcommand{\cfttableaftersnum}{.}
 \renewcommand*{\cftfigurenumwidth}{1.4em}
 
-\captionsetup{singlelinecheck=false,justification=raggedright,labelfont={bf,footnotesize},labelsep=newline}
+\captionsetup{singlelinecheck=false,justification=raggedright,labelfont={bf,normalsize},labelsep=newline}
 
 \indexsetup{level=\chapter,toclevel=chapter}
 \makeindex
