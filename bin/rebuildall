@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+# Time-stamp: <2024-07-01 10:35:18 vladimir>
+# Copyright (C) 2019-2024 Vladimir G. Ivanović
+# Author: Vladimir G. Ivanović <vladimir@acm.org>
+
+# Do stuff safely.
+
+set -Eeufo pipefail		# Exit on failure, pipe failure
+trap exit_hook SIGINT SIGTERM ERR
+
+# Clean up if we are killed.
+# If killed by systemd, like $(systemctl stop <program>), then it kills the whole cgroup and all it's subprocesses.
+# However if we kill this script ourselves, we need this trap that kills all subprocesses manually.
+exit_hook() {
+    trap - SIGINT SIGTERM ERR EXIT
+    echo "In exit_hook(), being killed" >&2
+    jobs -p | xargs kill
+}
+
+git clean -ffdx
+for program in lualatex biber lualatex lualatex
+do
+    ${program} Rocketship_Education-An_Exploratory_Public_Policy_Case_Study
+done
+
+exit 0

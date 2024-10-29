@@ -1,4 +1,4 @@
-%%% Time-stamp: <2024-06-30 11:01:13 vladimir>
+%%% Time-stamp: <2024-10-29 14:53:41 vladimir>
 %%% Copyright (C) 2019-2024 Vladimir G. Ivanović
 %%% Author: Vladimir G. Ivanović <vladimir@acm.org>
 %%% ORCID: https://orcid.org/0000-0002-7802-7970
@@ -8,7 +8,7 @@
 
 % \nonstopmode\synctex=1
 
-\documentclass[letterpaper,oneside,article,12pt]{memoir} % SJSU EDD Guidelines Checklist #18
+\documentclass[smallroyalvopaper,11pt]{memoir}
 
 \usepackage{adforn}
 \usepackage{array}
@@ -20,7 +20,7 @@
 \usepackage[labelfont=rm]{caption}
 \usepackage{copyrightbox}
 \makeatletter
-\renewcommand{\CRB@setcopyrightfont}{\normalsize\color{black}}
+\renewcommand{\CRB@setcopyrightfont}{\footnotesize\color{gray}}
 \makeatother
 \usepackage[threshold=40,thresholdtype=words]{csquotes}
 \usepackage{datetime2}
@@ -31,8 +31,8 @@
 \usepackage[ragged]{footmisc}
 \usepackage[edges]{forest}
 % \usepackage[left=1.25in,right=1.0in,top=1.25in,bottom=1.25in]{geometry} % 72bp = 72.27pt = 1 inch
-\setlrmarginsandblock{1.25in}{1.0in}{*}
-\setulmarginsandblock{1.25in}{1.25in}{*}
+% \setlrmarginsandblock{1.25in}{1.0in}{*}
+% \setulmarginsandblock{1.25in}{1.25in}{*}
 \usepackage{graphicx}
 \usepackage{imakeidx}
 \usepackage[pagewise]{lineno}
@@ -47,11 +47,13 @@
 \usepackage{pifont}
 \usepackage{prettyref}
 \newrefformat{ch}{Chapter \ref{#1},    \textit{\titleref{#1}}}
-\newrefformat{sec}{Section  \textit{\titleref{#1}}} % since there are no section numbers
+\newrefformat{sec}{Section \textit{\titleref{#1}}} % since there are no section numbers
 \newrefformat{tab}{Table \ref{#1},     \textit{\titleref{#1}}}
 \newrefformat{fig}{Figure \ref{#1},    \textit{\titleref{#1}}}
 \newrefformat{appx}{Appendix \ref{#1}, \textit{\titleref{#1}}}
 \usepackage{rotating}
+% \usepackage{showframe}
+% \renewcommand\ShowFrameLinethickness{0.25pt}
 \usepackage{tabulary}
 \setlength\tymin{0.5in}
 \usepackage{textcase}
@@ -74,19 +76,22 @@
 \setmathsf[Numbers=Monospaced]{Alegreya Sans}
 \setmathtt[Scale=0.8]{Fira Mono}
 
-\pagestyle{plain}               % SJSU EDD Guidelines Checklist #10
+\medievalpage[12]               % memoir, pp.29–32
+\renewcommand{\arraystretch}{0.5} % Tighten inter-line spacing in tables
+\linespread{1.25} % 13.25pts
 
-\raggedright                    % SJSU EDD Guidelines Checklist #2, #4
-
-% Widow and orphan control. See pp. 53-54 of "The Memoir Class".
-\clubpenalty=10000
-\widowpenalty=10000
-\brokenpenalty=5000
-\predisplaypenalty=10000
-\postdisplaypenalty=1600
-\displaywidowpenalty=1600
+% % Widow and orphan control. See pp. 53-54 of "The Memoir Class".
+% \clubpenalty=10000
+% \widowpenalty=10000
+% \brokenpenalty=5000
+% \predisplaypenalty=10000
+% \postdisplaypenalty=1600
+% \displaywidowpenalty=1600
 \raggedbottom
+\sloppy
+\checkandfixthelayout
 
+\setlength{\parindent}{1.5em}
 \setlength{\footskip}{\onelineskip}
 \setlength{\footnotesep}{\onelineskip}
 
@@ -95,80 +100,33 @@
 
 \pgfplotsset{compat=default}
 
-\setlength{\parindent}{0.25in}  % SJSU EDD Guidelines Checklist #3
-
-\DoubleSpacing%
-
 \tightlists%
 
-\makechapterstyle{sjsu}{%
-  \chapterstyle{article}
-  \setsecnumdepth{subsubsection}
-  \settocdepth{subsection}
+\setfloatadjustment{table}{\footnotesize}
 
-  \setlength{\topskip}{0\onelineskip}
-  \setlength\beforechapskip{-1\onelineskip}
-  \setlength{\afterchapskip}{0.5\onelineskip}
+% Headings and folios from the memoir manual, p.120
+\makepagestyle{ruled}
+% \makeevenfoot {ruled}{\thepage}{}{} % page numbers at the outside
+% \makeoddfoot {ruled}{}{}{\thepage}
+\makeheadrule {ruled}{\textwidth}{\normalrulethickness}
+\makeoddhead {ruled}{\rightmark}{}{\thepage} 
+\makeevenhead {ruled}{\thepage}{}{\scshape\leftmark}
 
-  \renewcommand{\afterchapternum}{}
-  \renewcommand{\chapnamefont}{\normalfont}  \renewcommand{\chapnumfont}{\normalfont}
-  \renewcommand{\printchaptername}{\normalfont}
-  \renewcommand{\printchapternum}{\normalfont}
-  \renewcommand{\printchaptertitle}[1]{\centering\normalfont\bfseries##1}
+\makepsmarks{ruled}{%
+\nouppercaseheads
+\createmark{chapter}{left}{shownumber}{}{. \space}
+\createmark{section}{right}{nonumber}{}{}
+\createplainmark{toc}{both}{\contentsname}
+\createplainmark{lof}{both}{\listfigurename}
+\createplainmark{lot}{both}{\listtablename}
+\createplainmark{bib}{both}{\bibname}
+\createplainmark{index}{both}{\indexname}
+\createplainmark{glossary}{both}{\glossaryname}
 }
 
-\indentafterchapter%
-
-% APA Level 2 Heading: flush left, bold, title case
-\setsecheadstyle{\noindent\normalfont\bfseries\raggedright} 
-
-% APA Level 3 Heading: flush left, bold italic, title case
-\setsubsecheadstyle{\noindent\normalfont\itshape\bfseries\raggedright}
-
-% APA Level 4 Heading: indented, bold, title cae,s end with '.'
-\setsubsubsecheadstyle{\noindent\normalfont\bfseries\raggedright}
-
-\setbeforesecskip{0pt}
-\setbeforesubsecskip{0pt}
-\setbeforesubsubsecskip{0pt}
-
-\setaftersecskip{0pt}
-\setaftersubsecskip{0pt}
-\setaftersubsubsecskip{0pt}
-
-% Table of {Contents, Figures, Tables} formatting
-\renewcommand{\printtoctitle}[1]{\center\normalfont TABLE OF CONTENTS}
-\renewcommand{\printlottitle}[1]{\center\normalfont LIST OF TABLES}
-\renewcommand{\printloftitle}[1]{\center\normalfont LIST OF FIGURES}
-
-\renewcommand*{\cftchaptername}{Chapter\space}
-\renewcommand*{\cftchapterfont}{\normalfont}
-\renewcommand*{\cftchapterpagefont}{\normalfont}
-\renewcommand*{\cftchapterleader}{\cftchapterfont\cftdotfill{\cftchapterdotsep}}
-\renewcommand*{\cftchapterdotsep}{\cftdotsep}
-
-\renewcommand*{\cftappendixname}{Appendix\space}
-
-\renewcommand{\cftsectionfont}{\normalfont}
-\renewcommand{\cftsubsectionfont}{\normalfont}
-\renewcommand{\cftsubsubsectionfont}{\normalfont}
-\renewcommand{\abstractnamefont}{\normalfont\centering}
-
-\renewcommand*{\cfttablename}{Table\space}
-\renewcommand{\cftfigureaftersnum}{.}
-\renewcommand*{\cfttablenumwidth}{1.4em}
-
-\renewcommand*{\cftfigurename}{Figure\space}
-\renewcommand{\cfttableaftersnum}{.}
-\renewcommand*{\cftfigurenumwidth}{1.4em}
-
-\captionsetup{singlelinecheck=false,justification=raggedright,labelfont={bf,normalsize},labelsep=newline}
 
 \indexsetup{level=\chapter,toclevel=chapter}
 \makeindex
-
-\settypeoutlayoutunit{in}
-\checkandfixthelayout
 
 %%% Local Variables:
 %%% mode: latex

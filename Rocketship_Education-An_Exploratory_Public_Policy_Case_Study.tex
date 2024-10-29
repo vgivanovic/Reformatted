@@ -1,4 +1,4 @@
-% Time-stamp: <2024-06-30 11:43:07 vladimir>
+% Time-stamp: <2024-10-29 14:52:51 vladimir>
 % Copyright (C) 2019-2024 Vladimir G. Ivanović
 % Author: Vladimir G. Ivanović <vladimir@acm.org>
 % ORCID: https://orcid.org/0000-0002-7802-7970
@@ -25,29 +25,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{Title}\clearpage
 \newpage\input{Copyright}\clearpage
-\newpage\input{Signature}\clearpage
+%\newpage\input{Signature}\clearpage
+
+\pagestyle{ruled}            % start displaying folios, but using Roman numerals until the main matter.
+
 \newpage\input{Abstract}\clearpage
-
-\DoubleSpacing%
-\pagestyle{plain}               % start displaying folios, but using Roman numerals until the main matter.
-
 \newpage\input{Acknowledgments}
 \newpage\input{Epigraph}
-
-\setulmarginsandblock{1.1in}{1.25in}{*}
 \newpage\tableofcontents*%
 \newpage\listoftables%
 \newpage\listoffigures%
-\setulmarginsandblock{1.25in}{1.25in}{*}
-
 \newpage\input{Abbreviations}
 \newpage\input{Glossary}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \mainmatter{}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapterstyle{sjsu}
-
 \clearforchapter\input{Introduction}                  % Chapter 1
 \clearforchapter\input{Literature_Review}             % Chapter 2
 \clearforchapter\input{Methods}                       % Chapter 3
@@ -56,18 +49,8 @@
 
 \newpage%
 
-\OnehalfSpacing%
-\setlength{\bibitemsep}{\onelineskip} % SJSU #5
-\printbibliography{}            % Bibliography
-\DoubleSpacing%
-
-\clearforchapter
-\begin{vplace}
-  \begin{center}
-    \textbf{Appendices}
-    \addcontentsline{toc}{chapter}{Appendicies}
-  \end{center}
-\end{vplace}
+\setSingleSpace{1.0}
+\printbibliography{}
 
 \appendix
 
@@ -82,7 +65,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \backmatter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\small\printindex
+\footnotesize
+\printindex
+\normalsize
 \clearforchapter\input{Colophon}
 
 \end{document}
